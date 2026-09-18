@@ -4,6 +4,14 @@ Research notes, experimental data and additional material on target-assisted las
 
 This private repository is a working archive for reconstructing the development of the research: historical context, shared experimental setups, practical details, selected original data, conference material, unsuccessful trials, later interpretation, and links to the peer-reviewed papers.
 
+## Authorship and scope
+
+The research collected here was collaborative. Ideas, experiments, implementation, calculations, interpretation, writing, and supervision were contributed by different members of the teams involved in the individual studies.
+
+This repository does not redefine authorship or assign individual credit beyond the published record. Formal attribution should be taken from the papers themselves and, where available, their author-contribution statements.
+
+My purpose here is narrower: to document parts of the research process that are usually not visible in a paper — experimental reasoning, practical decisions, unsuccessful directions, preliminary ideas, conference-stage material, and personal recollections of how particular experiments developed. These notes are therefore a retrospective research archive, not an alternative authorship record.
+
 ## Scientific notes
 
 0. [Historical context — how the approach emerged in 2013–2014](notes/00-historical-context-2013-2014.md)
