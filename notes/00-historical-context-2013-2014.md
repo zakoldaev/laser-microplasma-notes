@@ -12,6 +12,14 @@ The question will be:
 
 The review should use literature and technical information that was available at that time, so that the origin of the idea is described in its real historical context rather than with hindsight from later publications.
 
+## Authorship and perspective
+
+The work described here was developed within a research team. Different people contributed ideas, experimental implementation, calculations, interpretation, writing, supervision, and discussion at different stages.
+
+This note does not attempt to redistribute credit or reconstruct individual contributions person by person. Formal authorship and contribution information should be taken from the corresponding publications and their author-contribution statements where available.
+
+The purpose of this historical note is to document my own perspective on how the experimental approach emerged, especially details that were not published: practical constraints, discussions, intermediate ideas, failed attempts, and reasoning that remained outside the final papers.
+
 ## Why this note comes before the experiments
 
 The experimental method did not appear from a single paper or established recipe.
