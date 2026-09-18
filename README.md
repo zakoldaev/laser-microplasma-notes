@@ -1,19 +1,30 @@
 # laser-microplasma-notes
 
-Research notes, experimental data and additional material on laser microplasma processing of transparent materials.
+Research notes, experimental data and additional material on target-assisted laser processing of transparent materials.
 
-This private repository is a working archive for reconstructing the development of the research: shared experimental setups, practical details, selected original data, conference material, unsuccessful trials, later interpretation, and links to the peer-reviewed papers.
+This private repository is a working archive for reconstructing the development of the research: historical context, shared experimental setups, practical details, selected original data, conference material, unsuccessful trials, later interpretation, and links to the peer-reviewed papers.
 
 ## Scientific notes
 
-1. [From porous-glass passivation to LIBBH surface structuring](notes/01-origin-libbh-porous-glass.md)
-2. [Laser microplasma fabrication of a phase grating](notes/02-phase-grating.md)
+0. [Historical context — how the approach emerged in 2013–2014](notes/00-historical-context-2013-2014.md)
+1. [From nanoporous-glass passivation to surface structuring](notes/01-origin-libbh-porous-glass.md)
+2. [Phase-grating fabrication on fused silica](notes/02-phase-grating.md)
 
 ## Research trajectory
 
 The archive follows the development of the research approximately as:
 
-nanoporous glass → surface densification and passivation → LPM 2014 → LIBBH as a general glass-processing method → controlled surface microstructuring → phase optical elements → laser microplasma processing of glass and crystals → process physics and reproducibility.
+nanoporous glass → surface densification and passivation → LPM 2014 → broader target-assisted glass processing → controlled surface microstructuring → phase optical elements → processing of glass and crystals → process physics and reproducibility.
+
+## Terminology
+
+Different names were used for related versions and interpretations of this processing approach over time.
+
+For example, the 2015 JLMN paper introduced **laser-induced black-body heating (LIBBH)**, while later publications used terminology including **laser-induced microplasma processing (LIMP)**. Other groups have used different names for related techniques.
+
+For clarity, this repository will use descriptive language in note titles and navigation. Historical terminology and abbreviations will be introduced only where they are needed to discuss a specific publication, period, or comparison with earlier literature.
+
+The historical context note will later review the terminology and techniques that were available around 2013–2014, rather than interpreting the origin of the work using today's literature.
 
 ## Conference archive
 
@@ -25,7 +36,7 @@ Planned first entry:
   - poster
   - photographs
   - abstract/proceedings material
-  - early figures and data related to the porous-glass/LIBBH work
+  - early figures and data related to the porous-glass and glass-structuring work
 
 ## Planned topics
 
