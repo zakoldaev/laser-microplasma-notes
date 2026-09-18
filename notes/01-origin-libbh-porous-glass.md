@@ -1,4 +1,4 @@
-# Behind the experiment 01 — From porous-glass passivation to LIBBH surface structuring
+# Behind the experiment 01 — From nanoporous-glass passivation to surface structuring
 
 ## Why these papers belong together
 
@@ -6,12 +6,12 @@ These two 2015 papers come from the same experimental family and should be read 
 
 Historically, the work started from **nanoporous glass**. The first question was whether the surface of porous glass could be locally densified to protect the material from chemical degradation and aging while preserving the porous structure inside.
 
-The same experimental setup and physical idea were then developed into a broader glass-processing method: **laser-induced black-body heating (LIBBH)**.
+The same experimental setup and physical idea were then developed into a broader method for modifying and structuring transparent glass.
 
 The work was presented at **LPM 2014 in Vilnius** and then developed into two complementary 2015 publications:
 
 1. porous-glass passivation and stabilization;
-2. LIBBH as a general method for glass surface modification and microstructuring.
+2. a broader method for glass surface modification and microstructuring.
 
 Rather than repeating the same setup twice, this note keeps the experimental platform in one place and treats the two papers as two outcomes of the same research line.
 
@@ -36,7 +36,7 @@ M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev
 *Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434.  
 DOI: https://doi.org/10.1134/S207020511503020X
 
-### 2. LIBBH as a glass-processing method
+### 2. Generalization toward glass surface modification
 
 R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko  
 “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification”  
@@ -132,14 +132,14 @@ Once localized surface densification worked on porous glass, the same processing
 
 > If localized heating can densify porous glass, can the same interaction be controlled to shape and modify other transparent glasses?
 
-That led to the LIBBH framework.
+In the 2015 JLMN paper, this approach was described as **laser-induced black-body heating (LIBBH)**. Here that name is kept only as historical terminology associated with the paper.
 
 The research direction therefore evolved as:
 
 porous-glass aging problem  
 → local surface densification  
 → passivation  
-→ LIBBH as a general processing concept  
+→ broader target-assisted glass-processing concept  
 → controlled surface relief  
 → micro-optical structures
 
@@ -151,7 +151,7 @@ This transition is the main reason the two 2015 papers belong in one note.
 
 The porous-glass passivation work reports a ytterbium fiber laser around 1.06 µm with approximately 100 ns pulses and a repetition frequency in the tens of kilohertz.
 
-The later LIBBH paper used the same general class of pulsed near-infrared fiber-laser processing with graphite as the absorber.
+The later 2015 surface-modification paper used the same general class of pulsed near-infrared fiber-laser processing with graphite as the absorber.
 
 Exact parameter sets for each sample should be added from the original papers, notebooks, or data files rather than reconstructed from memory.
 
@@ -282,7 +282,7 @@ These details are likely to be more useful to new researchers than repeating the
 
 ## Connection to the next stage
 
-After the LIBBH concept had been established, the work moved toward more deliberate surface microstructuring and functional optical elements.
+After the broader processing concept had been established, the work moved toward more deliberate surface microstructuring and functional optical elements.
 
 An important next paper was:
 
