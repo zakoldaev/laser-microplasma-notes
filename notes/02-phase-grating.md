@@ -1,8 +1,8 @@
-# Behind the experiment 02 — Laser microplasma fabrication of a phase grating
+# Behind the experiment 02 — Phase-grating fabrication on fused silica
 
 ## Purpose of this note
 
-This is a working scientific note accompanying our earlier research on laser-induced microplasma processing of transparent materials.
+This is a working scientific note accompanying our earlier research on target-assisted laser processing of transparent materials.
 
 The journal article gives the final scientific result. This note is intended to preserve the experimental story around it: why we tried the experiment, which parameters mattered, what was difficult in practice, what data are still available, and what we would do differently today.
 
@@ -27,7 +27,7 @@ laser processing → surface relief → phase modulation → diffraction → bea
 
 ## Published experimental basis
 
-The published work reports fabrication of phase gratings on fused silica using laser-induced black-body heating (LIBBH) with an ytterbium fibre laser.
+The published work reports fabrication of phase gratings on fused silica using the same target-assisted laser-processing geometry developed in the earlier work. In publications from this period, the process was described using terms including **laser-induced black-body heating (LIBBH)** and later **laser-induced microplasma processing (LIMP)**; these labels are kept here only when discussing the terminology of the original papers.
 
 Published laser parameters:
 
