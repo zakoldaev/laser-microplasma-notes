@@ -7,7 +7,7 @@ This private repository is a working archive for reconstructing the development 
 ## Scientific notes
 
 0. [Historical context — how the approach emerged in 2013–2014](notes/00-historical-context-2013-2014.md)
-1. [From nanoporous-glass passivation to surface structuring](notes/01-origin-libbh-porous-glass.md)
+1. [From nanoporous-glass passivation to surface structuring](notes/01-porous-glass-to-surface-structuring.md)
 2. [Phase-grating fabrication on fused silica](notes/02-phase-grating.md)
 
 ## Research trajectory
