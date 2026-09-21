@@ -10,23 +10,19 @@ As an enthusiastic student, I was curious whether transparent dielectric materia
 
 That practical question became the starting point of this research direction.
 
+Research environment: this work started in the laser laboratory at ITMO University, now the [Institute of Laser Technologies at ITMO University](https://ilt.itmo.ru).
+
+For background on the porous-glass materials that motivated the first experiments, see the fundamental monograph [«Натриевоборосиликатные и пористые стекла»](https://books.google.no/books/about/%D0%9D%D0%B0%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%BD.html?id=lxRl0gEACAAJ&redir_esc=y).
+
 ## The first material: porous glass
 
-My personal route into the problem started with porous glass.
+My personal route into the problem started with porous glass. Its connected nanoscale pore network makes it useful as a host material, but also prone to aging because molecules from air can enter the pores and change the optical properties over time.
 
-Porous glass has a connected nanoscale pore network and a very large internal surface area. That makes it useful as a host material, but it also makes it sensitive to the surrounding atmosphere. Molecules from air can enter the pore network and, over time, change the optical properties of the material.
+The first practical question was:
 
-The first practical problem was therefore not yet “how do we fabricate a phase plate?” It was much simpler:
+> Can we seal only the outer surface while preserving the porous structure inside?
 
-> Can we seal only the outer surface of porous glass while keeping the porous structure inside intact?
-
-The approach was to place an absorbing target next to the transparent glass and focus the laser through the glass onto that interface. The target absorbed the nanosecond laser radiation and created a highly localized thermal/plasma interaction near the glass surface.
-
-For porous glass, this local interaction could collapse and densify the pores at the surface, forming a sealing layer while preserving the internal porous network.
-
-This first result suggested a broader possibility: if the same localized interaction can collapse pores and reshape a glass surface, perhaps it can also be controlled to structure dense transparent glass.
-
-That became the bridge from porous-glass stabilization to glass microstructuring.
+Using the target-assisted laser interaction, the surface pores could be locally collapsed and densified, forming a sealing layer while the internal porous network remained. That result became the bridge from porous-glass stabilization to the broader question of whether the same approach could structure dense transparent glass.
 
 ## Why an external absorber was attractive
 
