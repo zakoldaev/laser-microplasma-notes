@@ -16,13 +16,14 @@ My purpose here is narrower: to document parts of the research process that are 
 
 0. [Historical context — how the approach emerged in 2013–2014](notes/00-historical-context-2013-2014.md)
 1. [From nanoporous-glass passivation to surface structuring](notes/01-porous-glass-to-surface-structuring.md)
-2. [Phase-grating fabrication on fused silica](notes/02-phase-grating.md)
+2. [Master’s thesis — from one glass-processing setup to several optical functions](notes/02-master-thesis-summary.md)
+3. [Phase-grating fabrication on fused silica](notes/03-phase-grating.md)
 
 ## Research trajectory
 
 The archive follows the development of the research approximately as:
 
-nanoporous glass → surface densification and passivation → LPM 2014 → broader target-assisted glass processing → controlled surface microstructuring → phase optical elements → processing of glass and crystals → process physics and reproducibility.
+nanoporous glass → surface densification and passivation → LPM 2014 → 2015 publications → master’s thesis → broader target-assisted glass processing → controlled surface microstructuring → phase optical elements → processing of glass and crystals → process physics and reproducibility.
 
 ## Terminology
 
@@ -45,6 +46,14 @@ Planned first entry:
   - photographs
   - abstract/proceedings material
   - early figures and data related to the porous-glass and glass-structuring work
+
+## Raw data archive
+
+A placeholder is now reserved for original files connected to the master’s thesis:
+
+- [Master’s thesis raw data — files to add later](data/master-thesis/README.md)
+
+This will hold or point to profilometry, transmission spectra, microscopy, beam profiles, diffraction measurements, processing parameters, and unsuccessful trials when the original files are recovered.
 
 ## Planned topics
 
