@@ -16,7 +16,7 @@ My purpose here is narrower: to document parts of the research process that are 
 
 0. [Historical context — how the approach emerged in 2013–2014](notes/00-historical-context-2013-2014.md)
 1. [From nanoporous-glass passivation to surface structuring](notes/01-porous-glass-to-surface-structuring.md)
-2. [Master’s thesis — from one glass-processing setup to several optical functions](notes/02-master-thesis-summary.md)
+2. [Master’s thesis — from one glass-processing setup to several optical functions](notes/02-master-thesis-summary.md) — a retrospective hub linking selected 2014–2017 papers to the experiments collected in the thesis
 3. [Phase-grating fabrication on fused silica](notes/03-phase-grating.md)
 
 ## Research trajectory
