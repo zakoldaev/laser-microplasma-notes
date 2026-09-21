@@ -1,102 +1,87 @@
-# Context note 00 — How the glass-processing approach emerged (2013–2014)
+# Context note 00 — Why try to process transparent glass this way?
 
-## Purpose
+## The starting question
 
-This note will reconstruct the scientific and practical context in which the processing approach used in this repository was developed.
+> How can we microstructure transparent glass using the tools that are actually available in a conventional laser laboratory?
 
-It is intentionally a **historical review**, not a present-day review of the field.
+Around 2013–2014, our laboratory had several laser-processing techniques, laser sources and scanning systems, but we did not have an ultrashort-pulse system dedicated to glass processing. The tools I could work with most directly were nanosecond lasers and galvanometric scanners.
 
-The question will be:
+As an enthusiastic student, I was curious whether transparent dielectric materials could still be processed with such comparatively simple equipment — not only to make a mark on glass, but to create useful micro-optical and microfluidic structures in a way that could eventually be accessible without a long cleanroom fabrication chain.
 
-> What techniques, ideas, materials, discussions, and practical constraints were available to us around 2013–2014, before this approach had been developed?
+That practical question became the starting point of this research direction.
 
-The review should use literature and technical information that was available at that time, so that the origin of the idea is described in its real historical context rather than with hindsight from later publications.
+## The first material: porous glass
 
-## Authorship and perspective
+My personal route into the problem started with porous glass.
 
-The work described here was developed within a research team. Different people contributed ideas, experimental implementation, calculations, interpretation, writing, supervision, and discussion at different stages.
+Porous glass has a connected nanoscale pore network and a very large internal surface area. That makes it useful as a host material, but it also makes it sensitive to the surrounding atmosphere. Molecules from air can enter the pore network and, over time, change the optical properties of the material.
 
-This note does not attempt to redistribute credit or reconstruct individual contributions person by person. Formal authorship and contribution information should be taken from the corresponding publications and their author-contribution statements where available.
+The first practical problem was therefore not yet “how do we fabricate a phase plate?” It was much simpler:
 
-The purpose of this historical note is to document my own perspective on how the experimental approach emerged, especially details that were not published: practical constraints, discussions, intermediate ideas, failed attempts, and reasoning that remained outside the final papers.
+> Can we seal only the outer surface of porous glass while keeping the porous structure inside intact?
 
-## Why this note comes before the experiments
+The approach was to place an absorbing target next to the transparent glass and focus the laser through the glass onto that interface. The target absorbed the nanosecond laser radiation and created a highly localized thermal/plasma interaction near the glass surface.
 
-The experimental method did not appear from a single paper or established recipe.
+For porous glass, this local interaction could collapse and densify the pores at the surface, forming a sealing layer while preserving the internal porous network.
 
-It emerged from a combination of:
+This first result suggested a broader possibility: if the same localized interaction can collapse pores and reshape a glass surface, perhaps it can also be controlled to structure dense transparent glass.
 
-- the need to process transparent glass;
-- experience with nanoporous glass;
-- available laser hardware and materials;
-- lectures and discussions with colleagues and professors;
-- knowledge of other laser-processing approaches available at the time;
-- practical experimentation with an absorbing target placed next to the glass.
+That became the bridge from porous-glass stabilization to glass microstructuring.
 
-The aim of this note is to reconstruct that path carefully.
+## Why an external absorber was attractive
 
-## Questions to answer later
+Transparent glass is difficult to process efficiently with a near-infrared nanosecond laser because very little of the incident energy is absorbed in the material itself.
 
-### What was available before 2014?
+Using an external absorber changes the problem.
 
-A literature review will be added later, limited approximately to work published before or during 2013–2014.
+Instead of forcing the transparent glass to absorb the laser directly:
 
-It should examine:
+laser passes through the glass  
+→ absorbing target takes the energy  
+→ a localized hot/plasma region forms at the interface  
+→ the nearby glass surface is modified
 
-- established methods for laser processing of transparent glass;
-- indirect laser-heating approaches;
-- backside or target-assisted processing methods;
-- methods using absorbing layers, liquids, or auxiliary materials;
-- thermal and plasma-assisted processing concepts;
-- the advantages and limitations of those approaches at that time.
+This geometry made it possible to explore glass processing with laser hardware that was already available in the laboratory.
 
-The goal will not be to claim that the method developed here had no predecessors.
+The attraction was not that it could outperform every established fabrication method. The attraction was simplicity: no mask, no deposited multilayer process stack, no vacuum etching step, and no requirement for an ultrashort-pulse laser in the first experiments.
 
-Instead, the goal will be to show clearly what was already known, what ideas were available to be learned from, and what was different in the experimental approach that was eventually used.
+## What did we want to find out next?
 
-## Personal development of the idea
+Once the porous-glass surface could be locally sealed, the research questions naturally expanded:
 
-This section will be written later from personal recollection and any surviving laboratory records.
+- Can the same geometry modify dense silicate glass and fused silica?
+- Can the process be controlled without cracking the glass?
+- Can the relief depth be tuned?
+- Can we make reproducible arrays rather than isolated marks?
+- Can the structures perform real optical functions?
+- Can the same idea be useful for micro-optics, beam shaping and eventually microfluidic structures?
+- What physical processes actually dominate at the target–glass interface?
 
-Topics to reconstruct:
+The later notes in this repository follow those questions.
 
-- why nanoporous glass was the first material;
-- what practical processing problem needed to be solved;
-- why an external absorbing target became attractive;
-- why graphite was used;
-- how the target and glass were first combined;
-- what was expected before the first experiments;
-- which observations suggested that the approach could work on non-porous glass as well;
-- which discussions, lectures, or earlier techniques influenced the thinking;
-- what parts of the final approach emerged only through experimentation.
+## What was already available at the time?
 
-This section should distinguish clearly between documented history and personal recollection.
+This section will later become a short historical review based only on techniques and literature that were available around 2013–2014.
+
+The purpose will not be to claim that target-assisted glass processing appeared from nowhere. At the time, established approaches already included lithography and etching, ion exchange, direct laser writing, femtosecond processing, laser-assisted chemical methods, and several backside-processing concepts using liquids, thin absorbing films or nearby solid targets.
+
+The interesting question is narrower:
+
+> Given the equipment, materials and knowledge available to us at that time, why did this particular glass–target geometry become worth exploring?
+
+That historical comparison will be added after the relevant pre-2014 literature is reviewed carefully.
 
 ## Terminology
 
-Different names were used for related versions or interpretations of the process over time.
+The terminology evolved together with the experiments.
 
-For example, one 2015 paper used the term:
+One 2015 paper used the term **laser-induced black-body heating (LIBBH)**. Later work used terminology including **laser-induced microplasma processing (LIMP)**, while other research groups used different names for related backside, target-assisted, thermal or plasma-mediated methods.
 
-**laser-induced black-body heating (LIBBH)**
-
-Later publications used terminology including:
-
-**laser-induced microplasma processing (LIMP)**
-
-Other research groups have also used different names for related target-assisted, backside, thermal, or plasma-mediated glass-processing techniques.
-
-For this repository, these labels will not be used as umbrella names for the whole research direction.
-
-Instead:
-
-- note titles will use descriptive language;
-- historical abbreviations will be introduced only where the corresponding paper or period used them;
-- the terminology itself will eventually be reviewed here in its historical context.
+I do not use any one of these abbreviations as the title of the whole research direction in this repository. They are introduced only where they belong historically or when discussing a particular publication.
 
 ## Material to add later
 
-Potential sources:
+Potential historical material:
 
 ```text
 history/
@@ -107,18 +92,18 @@ history/
     personal-notes/
 ```
 
-Useful material may include:
+Useful additions may include:
 
-- early laboratory sketches;
-- first photographs of the target–glass geometry;
-- notes from lectures or discussions;
-- early failed experiments;
-- literature PDFs available at the time;
-- conference abstracts or slides;
-- emails or notes that help establish chronology.
+- early laboratory sketches of the glass–target geometry;
+- first photographs of the interaction region;
+- notes from lectures or discussions that influenced the experiments;
+- early unsuccessful trials;
+- papers that were actually available to us at the time;
+- LPM 2014 material;
+- laboratory notes that help establish the chronology.
 
 ## Status
 
-Placeholder for a later historical review.
+Working historical note.
 
-This note should remain short until the relevant literature and original records are collected.
+The motivation and personal perspective above reflect my recollection of how I entered this problem. The literature comparison and detailed chronology will be added separately and will be tied to contemporary sources wherever possible.
