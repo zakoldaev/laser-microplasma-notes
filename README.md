@@ -4,19 +4,21 @@ Research notes, experimental data and additional material on target-assisted las
 
 This private repository is a working archive for reconstructing the development of the research: historical context, shared experimental setups, practical details, selected original data, conference material, unsuccessful trials, later interpretation, and links to the peer-reviewed papers.
 
-## Authorship and scope
+## About this archive: authorship, sources and reuse
 
-The research collected here was collaborative. Ideas, experiments, implementation, calculations, interpretation, writing, and supervision were contributed by different members of the teams involved in the individual studies.
+The research discussed here was collaborative. Ideas, experiments, implementation, calculations, interpretation, writing and supervision were contributed by different members of the teams involved in the individual studies. This repository does not redefine authorship or assign individual credit beyond the published record; formal attribution should be taken from the papers themselves and, where available, their author-contribution statements.
 
-This repository does not redefine authorship or assign individual credit beyond the published record. Formal attribution should be taken from the papers themselves and, where available, their author-contribution statements.
+This repository is also not a replacement for the original journal articles. I link to the published papers and describe their results in my own words, adding retrospective context about why the experiments were performed, what practical decisions were made, what did not fit into the papers, and how one result led to the next.
 
-My purpose here is narrower: to document parts of the research process that are usually not visible in a paper — experimental reasoning, practical decisions, unsuccessful directions, preliminary ideas, conference-stage material, and personal recollections of how particular experiments developed. These notes are therefore a retrospective research archive, not an alternative authorship record.
+Publisher-owned PDFs, figures or other licensed material should not be reproduced here unless reuse is permitted. Where possible, the archive will use links to the original publications, my own explanatory diagrams, and original research material for which sharing is appropriate. Before adding old raw data, photographs or unpublished material, authorship, IP, confidentiality and reuse rights should be checked.
+
+The aim is therefore simple: preserve the scientific story around the publications without crossing journal licences or rewriting the formal authorship record.
 
 ## Scientific notes
 
 0. [Historical context — how the approach emerged in 2013–2014](notes/00-historical-context-2013-2014.md)
 1. [From nanoporous-glass passivation to surface structuring](notes/01-porous-glass-to-surface-structuring.md)
-2. [Master’s thesis — from one glass-processing setup to several optical functions](notes/02-master-thesis-summary.md) — a retrospective hub linking selected 2014–2017 papers to the experiments collected in the thesis
+2. [Master’s thesis — from one glass-processing setup to several optical functions](notes/02-master-thesis-summary.md) — a retrospective hub linking selected 2015–2017 papers to the experiments collected in the thesis
 3. [Phase-grating fabrication on fused silica](notes/03-phase-grating.md)
 
 ## Research trajectory
