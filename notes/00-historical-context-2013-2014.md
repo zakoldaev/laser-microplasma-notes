@@ -10,9 +10,7 @@ As an enthusiastic student, I was curious whether transparent dielectric materia
 
 That practical question became the starting point of this research direction.
 
-Research environment: this work started in the laser laboratory at ITMO University, now the [Institute of Laser Technologies at ITMO University](https://ilt.itmo.ru).
-
-For background on the porous-glass materials that motivated the first experiments, see the fundamental monograph [«Натриевоборосиликатные и пористые стекла»](https://books.google.no/books/about/%D0%9D%D0%B0%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%BD.html?id=lxRl0gEACAAJ&redir_esc=y).
+This work started in the laser laboratory at ITMO University, now the Institute of Laser Technologies at ITMO University. The first experiments were also shaped by the long-standing materials science of sodium borosilicate and porous glasses.
 
 ## The first material: porous glass
 
@@ -103,3 +101,9 @@ Useful additions may include:
 Working historical note.
 
 The motivation and personal perspective above reflect my recollection of how I entered this problem. The literature comparison and detailed chronology will be added separately and will be tied to contemporary sources wherever possible.
+
+## References and context
+
+1. Institute of Laser Technologies, ITMO University — current institute website: https://ilt.itmo.ru
+2. Fundamental monograph on sodium borosilicate and porous glasses: [«Натриевоборосиликатные и пористые стекла»](https://books.google.no/books/about/%D0%9D%D0%B0%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%BD.html?id=lxRl0gEACAAJ&redir_esc=y)
+3. Additional historical references from the 2013–2014 period will be added here as this context note is expanded.
