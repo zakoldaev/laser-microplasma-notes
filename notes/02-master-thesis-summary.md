@@ -8,7 +8,7 @@ By the time I completed my master’s thesis, our team had already moved from th
 
 The thesis brought together several strands that had developed through the earlier experiments, the LPM 2014 conference in Vilnius, and the first 2015 publications. Its value was not one single optical element. It was the attempt to understand one processing platform as a family of applications: porous-glass stabilization, controlled surface relief, beam homogenization, beam splitting, and parallel laser processing.
 
-This note is a short English retrospective for a broad scientific audience. It does not reproduce the full Russian thesis. I use the thesis as a reference point for a selected group of papers published before, during, and shortly after the thesis period (roughly 2014–2017), showing how results that appear as separate publications belong to one experimental story.
+This note is a short English retrospective for a broad scientific audience. It does not reproduce the full Russian thesis. I use the thesis as a reference point for a selected group of papers published during and shortly after the thesis period (roughly 2015–2017), showing how results that appear as separate publications belong to one experimental story.
 
 ## How to read this note — the thesis as a map of the papers
 
@@ -16,13 +16,12 @@ This page is not a second publication of the thesis. I use it as a retrospective
 
 Some papers were already published when the thesis was submitted, some results were still under review, and several questions were developed further during 2016–2017. The thesis is therefore a useful reference point for understanding how papers that may look separate in a publication list actually belong to one experimental story.
 
-### Publication trail, 2014–2017
+### Publication trail, 2015–2017
 
-I distinguish three types of connection below: **precursor** (work that led into the thesis), **direct thesis outcome** (results contained in the thesis and published around the same period), and **follow-up** (work that developed a thesis result or an unresolved question further).
+I distinguish between **direct thesis outcomes** (results contained in the thesis and published around the same period) and **follow-up work** (papers that developed a thesis result or an unresolved question further).
 
 | Year | Relation | Publication | How it connects to the thesis |
 | --- | --- | --- | --- |
-| 2014 | Precursor | R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, “Particulars of Structural Changes in Porous Glass Under the Action of Laser Radiation During ‘Cold’ Thermal Compaction,” *Glass and Ceramics* 71. DOI: https://doi.org/10.1007/s10717-014-9649-3 | Earlier porous-glass work that led into the master’s-thesis direction. |
 | 2015 | Direct thesis outcome | R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko, “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,” *Journal of Laser Micro/Nanoengineering* 10, 15–19. DOI: https://doi.org/10.2961/jlmn.2015.01.0003 | Introduced the target-assisted glass-processing geometry as a broader surface-modification method. |
 | 2015 | Direct thesis outcome | M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev, “Laser Induced Passivation of Porous Glass to Protect It from Chemical Degradation and Aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51, 427–434. DOI: https://doi.org/10.1134/S207020511503020X | Direct publication of the porous-glass stabilization branch. |
 | 2015 | Direct thesis outcome | G. K. Kostyuk, M. M. Sergeev, R. A. Zakoldaev, E. B. Yakovlev, “Fast microstructuring of silica glasses surface by NIR laser radiation,” *Optics and Lasers in Engineering* 68, 16–24. DOI: https://doi.org/10.1016/j.optlaseng.2014.12.004 | Direct publication of glass microstructuring, random phase plates, diffraction gratings and their optical testing. |
@@ -114,8 +113,6 @@ DOI: https://doi.org/10.1134/S207020511503020X
 
 The original Russian version was published in *Fizikokhimiya Poverkhnosti i Zashchita Materialov*.
 
-Earlier context:
-- The 2014 porous-glass paper on laser-induced “cold” thermal compaction belongs to the precursor stage of this research: https://doi.org/10.1007/s10717-014-9649-3
 
 ## 3. Turning the same setup into a fabrication tool
 
