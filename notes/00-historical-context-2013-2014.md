@@ -12,11 +12,19 @@ This work started in the International Laboratory of Laser Micro- and Nano- Tech
 
 ## The first material: porous glass
 
-My personal route into the problem started with porous glass (in the relation to my bachelor work). The Figure XX (below) shows a typical photo of porous glass window. SEM image inserted and adapted from (reference) gives unique conncted nanoscale pore network and makes it useful as a host material. However, developed pore network makes it prone to aging because molecules from air can enter the pores and change the optical properties over time. The first practical question was:
+My personal route into the problem started with porous glass, in connection with my bachelor work. The material is almost transparent to the eye, so the glass sample itself can be easy to miss in a photograph. At the nanoscale, however, it contains a connected pore network with a typical pore size of about 2 nm. This makes porous glass useful as a host material, but the developed internal surface also makes it prone to aging because molecules from air can enter the pores and gradually change its optical properties.
+
+<p align="center">
+  <img src="../images/00-porous-glass-sample.jpg" alt="Porous glass sample with SEM inset showing the nanoscale porous structure" width="900">
+</p>
+
+<p align="center"><em>Figure 1. Porous glass used as the first material in this research. The photograph shows how difficult the nearly transparent sample is to distinguish at the macroscopic scale. The circular inset shows the porous morphology; SEM panel (b) was cropped from Rysiakiewicz-Pasek et al., <a href="https://doi.org/10.3390/ma13173698">Materials 2020, 13, 3698</a> [3].</em></p>
+
+The first practical question was:
 
 > Can we seal only the outer surface while preserving the porous structure inside?
 
-Using the laser micro-plasma processing, we locally collapsed pores, forming a sealing layer while the internal porous network remained. That result became the bridge from porous-glass stabilization to the broader question of whether the same approach could structure dense transparent glass. The spectra below shows that during several months, the transmission curve dramatically redcues, while sealed surfaces keep it over 10 months. 
+Using laser microplasma processing, we locally collapsed the surface pores, forming a sealing layer while the internal porous network remained. That result became the bridge from porous-glass stabilization to the broader question of whether the same approach could structure dense transparent glass. The transmission measurements discussed in the next note showed the practical reason for doing this: untreated porous glass degraded during storage, while samples with sealed surfaces retained their optical transmission over a much longer period.
 
 ## Why an external absorber was attractive
 
@@ -91,4 +99,5 @@ The motivation and personal perspective above reflect my recollection of how I e
 
 1. Institute of Laser Technologies, ITMO University — current institute website: https://ilt.itmo.ru
 2. Fundamental monograph on sodium borosilicate and porous glasses: [«Натриевоборосиликатные и пористые стекла»](https://books.google.no/books/about/%D0%9D%D0%B0%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%BD.html?id=lxRl0gEACAAJ&redir_esc=y)
-3. Additional historical references from the 2013–2014 period will be added here as this context note is expanded.
+3. E. Rysiakiewicz-Pasek, T. Antropova, I. Polyakova, O. Pshenko, A. Ciżman, “New Insight into Phase Transitions of Porous Glass-Based Ferroelectric Nanocomposites,” *Materials* 13 (2020), 3698. https://doi.org/10.3390/ma13173698 — source of SEM panel (b) used in Figure 1.
+4. Additional historical references from the 2013–2014 period will be added here as this context note is expanded.
