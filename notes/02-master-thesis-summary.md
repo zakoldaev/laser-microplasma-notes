@@ -8,7 +8,7 @@ By the time I completed my master’s thesis, our team had already moved from th
 
 The thesis brought together several strands that had developed through the earlier experiments, the LPM 2014 conference in Vilnius, and the first 2015 publications. Its value was not one single optical element. It was the attempt to understand one processing platform as a family of applications: porous-glass stabilization, controlled surface relief, beam homogenization, beam splitting, and parallel laser processing.
 
-This note is a short English retrospective for a broad scientific audience. It does not reproduce the full Russian thesis. It highlights the main experimental logic, the most useful quantitative results, and the parts that connect directly to the published papers.
+This note is a short English retrospective for a broad scientific audience. It does not reproduce the full Russian thesis. I use the thesis as a reference point for a selected group of papers published before, during, and shortly after the thesis period (roughly 2014–2017), showing how results that appear as separate publications belong to one experimental story.
 
 ## How to read this note — the thesis as a map of the papers
 
@@ -17,6 +17,8 @@ This page is not a second publication of the thesis. I use it as a retrospective
 Some papers were already published when the thesis was submitted, some results were still under review, and several questions were developed further during 2016–2017. The thesis is therefore a useful reference point for understanding how papers that may look separate in a publication list actually belong to one experimental story.
 
 ### Publication trail, 2014–2017
+
+I distinguish three types of connection below: **precursor** (work that led into the thesis), **direct thesis outcome** (results contained in the thesis and published around the same period), and **follow-up** (work that developed a thesis result or an unresolved question further).
 
 | Year | Publication | How it connects to the thesis |
 | --- | --- | --- |
@@ -33,7 +35,9 @@ Some papers were already published when the thesis was submitted, some results w
 | 2017 | V. P. Veiko, S. A. Volkov, R. A. Zakoldaev, M. M. Sergeev, A. A. Samokhvalov, G. K. Kostyuk, K. A. Milyaev, “Laser-induced microplasma as a tool for microstructuring transparent media,” *Quantum Electronics* 47, 842–848. DOI: https://doi.org/10.1070/QEL16377 | Addressed the physical questions that the thesis explicitly left open: plasma confinement, temperature, pressure and the mechanism of transparent-material structuring. |
 | 2017 | R. Zakoldaev et al., “Fast Fabrication of Multilevel Phase Plates Used for Laser Beam Correction,” *Journal of Laser Micro/Nanoengineering* 12, 281–285. DOI: https://doi.org/10.2961/jlmn.2017.03.0018 | Continued the random/phase-plate branch into automated multilevel fabrication and coherent-beam correction. |
 
-The table is intentionally selective. It includes papers that directly reflect a thesis result or clearly develop one of its unresolved questions; it is not a complete publication list.
+The table is intentionally selective. It includes papers that directly reflect a thesis result, provide an important precursor, or clearly develop one of its unresolved questions; it is not a complete publication list.
+
+Full publication profile: https://scholar.google.com/citations?user=TcIkX-kAAAAJ&hl=en
 
 ## What was available at the time
 
@@ -105,7 +109,7 @@ Related publication:
 
 M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev,  
 “Laser Induced Passivation of Porous Glass to Protect It from Chemical Degradation and Aging,”  
-*Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–435.  
+*Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434.  
 DOI: https://doi.org/10.1134/S207020511503020X
 
 The original Russian version was published in *Fizikokhimiya Poverkhnosti i Zashchita Materialov*.
