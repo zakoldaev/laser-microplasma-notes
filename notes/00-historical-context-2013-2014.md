@@ -28,16 +28,18 @@ Using laser microplasma processing, we locally collapsed the surface pores, form
 
 ## Why an external absorber was attractive
 
-Transparent glass is difficult to process efficiently with a near-infrared nanosecond laser because very little of the incident energy is absorbed in the material itself. Using an external absorber changes the problem. Instead of forcing the transparent glass to absorb the laser directly:
+Transparent glass is difficult to process with a near-infrared nanosecond laser because the glass itself absorbs only a small part of the incident energy. Most of the beam simply passes through the sample. This is convenient for illumination, but inconvenient for local laser processing: if the material does not absorb the light, it is hard to heat or modify it in a controlled way.
 
-As you can see schematically (Figure to the right), laser passes through the glass  
-→ absorbing target takes the energy  
-→ a localized hot/plasma region forms at the interface  
+The idea of using an external absorber changed the problem. Instead of trying to make the transparent glass absorb the laser directly, we placed an absorbing carbon-based material behind the glass. In this geometry, the laser beam can pass through the glass and deliver energy to the absorber at the back surface:
+
+laser passes through the transparent glass  
+→ the carbon absorber takes up the energy  
+→ a localized hot region or microplasma forms at the glass–absorber interface  
 → the nearby glass surface is modified
 
-This geometry made it possible to explore glass processing with laser hardware that was already available in the laboratory. The interesting fact that the choice of the absorber came to my mind after listenting lectiures, talking to colleagues and I imagined that *activated charcoal* is the way to go! We got a pack ffrom nearest pharmacy and performed laser microfabrication for the first time with this materials, later after searching more compressed materials, I found carbon brushes, which as a result served us long time in the lab.
+This made the experiment possible with the laser hardware already available in the laboratory. The first trials were deliberately simple. I initially imagined that activated charcoal could work as the absorber, so we bought a small pack from a nearby pharmacy and tested the idea. Later, after searching for more compact and reproducible carbon materials, I found carbon brushes. They became a convenient target material and were used in the lab for a long time.
 
-The attraction was not that it could outperform every established fabrication method. The attraction was simplicity: no mask, no deposited multilayer process stack, no vacuum etching step, and no requirement for an ultrashort-pulse laser in the first experiments.
+The attraction of this geometry was not that it could replace every established glass-fabrication method. Its attraction was practical simplicity: no photomask, no deposited absorbing film, no vacuum etching step, and no requirement for an ultrashort-pulse laser in the first experiments. It offered a direct way to explore whether transparent glass could be locally modified using accessible nanosecond-laser equipment and a simple absorbing target.
 
 ## What did we want to find out next?
 
