@@ -12,13 +12,13 @@ This work started in the International Laboratory of Laser Micro- and Nano- Tech
 
 ## The first material: porous glass
 
-My personal route into the problem started with porous glass, in connection with my bachelor work. The material is almost transparent to the eye, so the glass sample itself can be easy to miss in a photograph. At the nanoscale, however, it contains a connected pore network with a typical pore size of about 2 nm. This makes porous glass useful as a host material, but the developed internal surface also makes it prone to aging because molecules from air can enter the pores and gradually change its optical properties.
+My personal route into the problem started with porous glass, in connection with my bachelor work. The material is almost transparent to the eye. At the nanoscale, however, it contains a connected pore network with a typical pore size of about 2-5 nm. This makes porous glass useful as a host material, but the developed internal surface also makes it prone to aging because molecules from air can enter the pores and gradually change its optical properties.
 
 <p align="center">
   <img src="../images/00-porous-glass-sample.png" alt="Porous glass sample with SEM inset showing the nanoscale porous structure" width="900">
 </p>
 
-<p align="center"><em>Figure 1. Porous glass used as the first material in this research. The photograph shows how difficult the nearly transparent sample is to distinguish at the macroscopic scale. The circular inset shows the porous morphology; SEM panel (b) was cropped from Rysiakiewicz-Pasek et al., <a href="https://doi.org/10.3390/ma13173698">Materials 2020, 13, 3698</a> [3].</em></p>
+<p align="center"><em>Figure 1. Porous glass used as the first material in this research. The photograph shows how it looks like at the macroscopic scale. The circular inset shows the porous morphology; SEM panel (b) was cropped from Rysiakiewicz-Pasek et al., <a href="https://doi.org/10.3390/ma13173698">Materials 2020, 13, 3698</a> [3].</em></p>
 
 The first practical question was:
 
