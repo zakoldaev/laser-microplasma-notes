@@ -2,7 +2,7 @@
 
 ## The starting question
 
-> How can we create a localized source of energy, using pulsed lasers sources, that could modify transparent dielectric materials such as porous glass, fused silica and crystal quartz?
+> How can we create a localized source of energy, using pulsed laser sources, that could modify transparent dielectric materials such as porous glass, fused silica and crystal quartz?
 
 Around 2013–2014, our laboratory had several laser-processing techniques, laser sources and scanning systems, but we did not have an ultrashort-pulse system dedicated to processing transparent dielectric materials. The tools I could work with most directly were nanosecond lasers and galvanometric scanners.
 
@@ -33,6 +33,29 @@ Using laser microplasma processing, we locally collapsed the surface pores, form
 ## Why an external absorber was attractive
 
 Transparent glass is difficult to process with a near-infrared nanosecond laser because the glass itself absorbs only a small part of the incident energy. Most of the beam simply passes through the sample. This is convenient for illumination, but inconvenient for local laser processing: if the material does not absorb the light, it is hard to heat or modify it in a controlled way.
+
+<details>
+<summary>Why ultrashort laser pulses are usually attractive for transparent dielectrics</summary>
+
+A simple way to understand this is through the peak intensity of a laser pulse:
+
+$$
+I = \frac{E}{A\tau}
+$$
+
+where $I$ is the intensity, $E$ is the pulse energy, $A$ is the focused spot area and $\tau$ is the pulse duration. For the same pulse energy and focusing conditions, reducing the pulse duration strongly increases the peak intensity.
+
+This matters for wide-bandgap dielectric materials such as fused silica. A near-infrared photon has much lower energy than the bandgap of fused silica, so the material is almost transparent under ordinary low-intensity conditions. At sufficiently high peak intensity, however, nonlinear absorption becomes possible. In a simplified form, the absorption rate can be written as
+
+$$
+W \propto I^k,
+$$
+
+where $W$ is the nonlinear absorption rate and $k$ is the number of photons involved in the absorption process. Because the rate depends on a high power of intensity, ultrashort pulses can deposit energy locally in a material that is otherwise transparent.
+
+In our case, we did not have an ultrashort-pulse system available for this work. The external absorber therefore offered a different route: the glass transmitted the laser beam, while the carbon target absorbed it and created a localized heat or microplasma source at the interface.
+
+</details>
 
 The idea of using an external absorber changed the problem. Instead of trying to make the transparent glass absorb the laser directly, we placed an absorbing carbon-based material behind the glass. In this geometry, the laser beam can pass through the glass and deliver energy to the absorber at the back surface:
 
