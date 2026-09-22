@@ -1,24 +1,16 @@
 # Research note 01 — From porous-glass passivation to surface structuring
 
-## Bridge from Note 00
+## The first experimental question
 
-Note 00 described the starting idea: if a transparent dielectric does not absorb the available near-infrared nanosecond laser radiation, an external carbon absorber can be used to create a localized heat or microplasma source at the interface.
+Once the glass–carbon geometry produced a visible localized interaction — a hot region or plasma plume at the interface — the next question became very practical: what useful change could this source create in a real material?
 
-This note follows the first experimental branch of that idea.
+Porous glass was the natural first test material. It already had a problem that matched the idea. The material is almost transparent macroscopically, but inside it contains a connected nanoscale pore network. This porosity makes it useful for infiltration, sensing and optical applications, but it also makes the glass sensitive to aging: molecules from air can enter the pores and gradually change its optical properties.
 
-The work began with **porous glass**. The initial goal was not yet to fabricate complex micro-optical elements. It was more practical: to locally seal the surface of porous glass while preserving the pore network inside. Once this worked, the same glass–carbon geometry was extended toward controlled modification of dense transparent glasses such as fused silica.
+The idea was therefore simple:
 
-In other words, the route was:
+> If a controlled hotspot can locally collapse or densify the surface pores, can we seal the outside of porous glass while keeping the internal pore network intact?
 
-```text
-localized absorber-based interaction
-→ porous-glass surface densification
-→ passivation against aging
-→ extension to dense glass
-→ controlled surface relief and microstructuring
-```
-
-This is why the porous-glass passivation paper and the early glass-surface-modification paper should be read together.
+This note follows that first material story. The same target-assisted interaction was first used to passivate porous glass against aging. Once that worked, it became natural to ask whether the same interaction could also modify dense transparent glasses such as fused silica and quartz glass, not for passivation, but for controlled surface relief and microstructuring.
 
 ---
 
@@ -95,7 +87,9 @@ So the same physical idea served first as a way to stabilize porous glass and th
 
 ## Why porous glass came first
 
-Porous glass was a natural starting material because it has a developed internal surface and a connected pore network. This makes it useful for infiltration, sensing and optical applications, but it also makes the material sensitive to the environment. Water, carbon dioxide and other molecules from air can enter the pores and gradually change the optical properties.
+Porous glass was not chosen only because it was available. It was chosen because the material problem was clear.
+
+Its open pore network is useful, but the surface is also an entrance for air, water and other molecules. If the whole material were fully sintered, the porosity would be lost. But if only a thin external layer could be locally densified, the material could become more stable while keeping its internal porous structure.
 
 The first practical question was therefore:
 
@@ -176,4 +170,4 @@ That paper connects this note to later work on controlled surface relief, phase 
 
 Working archive note.
 
-The purpose of this note is to bridge the historical motivation in Note 00 with the more detailed thesis and publication trail in later notes. Published papers remain the authoritative source for final results. This repository adds context, chronology, practical observations and recovered material where available.
+The purpose of this note is to describe the first material branch of the target-assisted laser-processing story: from seeing a localized interaction at the glass–carbon interface to using it for porous-glass passivation and then for early surface structuring of dense transparent glass. Published papers remain the authoritative source for final results. This repository adds context, chronology, practical observations and recovered material where available.
