@@ -1,4 +1,4 @@
-# Context note 00 — Why this approach to transparent dielectric processing?
+# Context note 00 — Why laser microplasma processing for transparent dielectrics?
 
 ## The starting question
 
@@ -53,7 +53,7 @@ W ∝ I^k
 
 Here, `W` is the nonlinear absorption rate and `k` is the number of photons involved in the absorption process. Because the rate depends on a high power of intensity, ultrashort pulses can deposit energy locally in a material that is otherwise transparent.
 
-In our case, we did not have an ultrashort-pulse system available for this work. The external absorber therefore offered a different route: the glass transmitted the laser beam, while the carbon target absorbed it and created a localized heat or microplasma source at the interface.
+In our case, we did not have an ultrashort-pulse system available for this work. Laser microplasma processing therefore offered a different route: the glass transmitted the laser beam, while the carbon target absorbed it and created a localized heat or microplasma source at the interface.
 
 </details>
 
@@ -67,10 +67,10 @@ laser passes through the transparent glass
 This made the experiment possible with the laser hardware already available in the laboratory. The first trials were deliberately simple. I initially imagined that activated charcoal could work as the absorber, so we bought a small pack from a nearby pharmacy and tested the idea. Later, after searching for more compact and reproducible carbon materials, I found carbon brushes. They became a convenient target material and were used in the lab for a long time.
 
 <p align="center">
-  <img src="../images/00-target-assisted-processing.png" alt="Schematic of target-assisted laser processing using transparent glass in direct contact with a carbon absorber" width="900">
+  <img src="../images/00-target-assisted-processing.png" alt="Schematic of laser microplasma processing using transparent glass in direct contact with a carbon absorber" width="900">
 </p>
 
-<p align="center"><em>Figure 2. Schematic illustration of the target-assisted laser-processing concept. A nanosecond laser beam passes through the transparent dielectric sample and is absorbed by a carbon target placed in direct contact with it. The absorbed energy creates a localized hot region or microplasma at the glass–carbon interface, which modifies the nearby glass surface. In the first trials, activated charcoal was used as the absorber; later, carbon brushes provided a more compact and reproducible target material.</em></p>
+<p align="center"><em>Figure 2. Schematic illustration of the laser microplasma processing concept. A nanosecond laser beam passes through the transparent dielectric sample and is absorbed by a carbon target placed in direct contact with it. The absorbed energy creates a localized hot region or microplasma at the glass–carbon interface, which modifies the nearby glass surface. In the first trials, activated charcoal was used as the absorber; later, carbon brushes provided a more compact and reproducible target material.</em></p>
 
 The attraction of this geometry was not that it could replace every established glass-fabrication method. Its attraction was practical simplicity: no photomask, no deposited absorbing film, no vacuum etching step, and no requirement for an ultrashort-pulse laser in the first experiments. It offered a direct way to explore whether transparent glass could be locally modified using accessible nanosecond-laser equipment and a simple absorbing target.
 
@@ -90,7 +90,7 @@ The later notes in this repository follow those questions.
 ## What was already available at the time?
 
 This section will later become a short historical review based only on techniques and literature that were available around 2013–2014.
-The purpose will not be to claim that target-assisted glass processing appeared from nowhere. At the time, established approaches already included lithography and etching, ion exchange, direct laser writing, femtosecond processing, laser-assisted chemical methods, and several backside-processing concepts using liquids, thin absorbing films or nearby solid targets.
+The purpose will not be to claim that laser microplasma processing appeared from nowhere. At the time, established approaches already included lithography and etching, ion exchange, direct laser writing, femtosecond processing, laser-assisted chemical methods, and several backside-processing concepts using liquids, thin absorbing films or nearby solid targets.
 
 The interesting question is narrower:
 > Given the equipment, materials and knowledge available to us at that time, why did this particular glass–target geometry become worth exploring?
@@ -99,7 +99,9 @@ The interesting question is narrower:
 
 The terminology evolved together with the experiments.
 
-One 2015 paper used the term **laser-induced black-body heating (LIBBH)**. Later work used terminology including **laser-induced microplasma processing (LIMP)**, while other research groups used different names for related backside, target-assisted, thermal or plasma-mediated methods. I do not use any one of these abbreviations as the title of the whole research direction in this repository. They are introduced only where they belong historically or when discussing a particular publication.
+One 2015 paper used the term **laser-induced black-body heating (LIBBH)**. Later work used terminology including **laser-induced microplasma processing (LIMP)**, while other research groups used different names for related backside, target-assisted, thermal or plasma-mediated methods.
+
+In this repository, I use **laser microplasma processing** as the common name for the process: transparent glass placed in contact with a carbon target, irradiation through the glass, formation of a localized hot region or microplasma at the interface, and modification of the nearby glass surface. Historical terms and abbreviations are introduced only where they belong, usually when discussing a particular publication.
 
 ## Material to add later
 
