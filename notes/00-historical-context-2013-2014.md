@@ -2,7 +2,7 @@
 
 ## The starting question
 
-> How can we create a localized source of energy, using only the lasers available in a conventional laboratory, that could modify transparent dielectric materials such as porous glass, fused silica and crystal quartz?
+> How can we create a localized source of energy, using pulsed lasers sources, that could modify transparent dielectric materials such as porous glass, fused silica and crystal quartz?
 
 Around 2013–2014, our laboratory had several laser-processing techniques, laser sources and scanning systems, but we did not have an ultrashort-pulse system dedicated to processing transparent dielectric materials. The tools I could work with most directly were nanosecond lasers and galvanometric scanners.
 
