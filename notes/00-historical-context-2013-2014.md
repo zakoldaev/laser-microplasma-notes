@@ -2,9 +2,13 @@
 
 ## The starting question
 
-> How can we microstructure transparent glass using the tools that are actually available in a conventional laser laboratory?
+> How can we create a localized source of energy, using only the lasers available in a conventional laboratory, that could modify transparent dielectric materials such as porous glass, fused silica and crystal quartz?
 
-Around 2013–2014, our laboratory had several laser-processing techniques, laser sources and scanning systems, but we did not have an ultrashort-pulse system dedicated to glass processing. The tools I could work with most directly were nanosecond lasers and galvanometric scanners. As an enthusiastic student, I was curious whether transparent dielectric materials could still be processed with such comparatively simple equipment — not only to make a mark on glass, but to create useful micro-optical and microfluidic structures in a way that could eventually be accessible without a long cleanroom fabrication chain.
+Around 2013–2014, our laboratory had several laser-processing techniques, laser sources and scanning systems, but we did not have an ultrashort-pulse system dedicated to processing transparent dielectric materials. The tools I could work with most directly were nanosecond lasers and galvanometric scanners.
+
+The question was therefore not only how to mark or texture a glass surface. It was broader: could we create a localized interaction zone — a small controllable source of heat, pressure or plasma — close enough to the dielectric material to modify it in a useful way?
+
+This mattered because local modification of glass, fused silica, crystal quartz or porous glass could open routes to micro-optical components, controlled surface relief, local density changes and control of porosity for future integration.
 
 That practical question became the starting point of this research direction.
 
