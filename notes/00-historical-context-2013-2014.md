@@ -59,18 +59,24 @@ In our case, we did not have an ultrashort-pulse system available for this work.
 
 The idea of using an external absorber changed the problem. Instead of trying to make the transparent glass absorb the laser directly, we placed an absorbing carbon-based material behind the glass. In this geometry, the laser beam can pass through the glass and deliver energy to the absorber at the back surface:
 
+<table>
+<tr>
+<td width="55%" valign="top">
+
 laser passes through the transparent glass  
 → the carbon absorber takes up the energy  
 → a localized hot region or microplasma forms at the glass–absorber interface  
 → the nearby glass surface is modified
 
+</td>
+<td width="45%" valign="top" align="center">
+  <img src="../images/00-target-assisted-processing.png" alt="Schematic of laser microplasma processing using transparent glass in direct contact with a carbon absorber" width="320"><br>
+  <em>Figure 2. Laser microplasma processing uses a carbon absorber in direct contact with transparent glass to create a localized hot region or microplasma that modifies the nearby surface.</em>
+</td>
+</tr>
+</table>
+
 This made the experiment possible with the laser hardware already available in the laboratory. The first trials were deliberately simple. I initially imagined that activated charcoal could work as the absorber, so we bought a small pack from a nearby pharmacy and tested the idea. Later, after searching for more compact and reproducible carbon materials, I found carbon brushes. They became a convenient target material and were used in the lab for a long time.
-
-<p align="center">
-  <img src="../images/00-target-assisted-processing.png" alt="Schematic of laser microplasma processing using transparent glass in direct contact with a carbon absorber" width="900">
-</p>
-
-<p align="center"><em>Figure 2. Schematic illustration of the laser microplasma processing concept. A nanosecond laser beam passes through the transparent dielectric sample and is absorbed by a carbon target placed in direct contact with it. The absorbed energy creates a localized hot region or microplasma at the glass–carbon interface, which modifies the nearby glass surface. In the first trials, activated charcoal was used as the absorber; later, carbon brushes provided a more compact and reproducible target material.</em></p>
 
 The attraction of this geometry was not that it could replace every established glass-fabrication method. Its attraction was practical simplicity: no photomask, no deposited absorbing film, no vacuum etching step, and no requirement for an ultrashort-pulse laser in the first experiments. It offered a direct way to explore whether transparent glass could be locally modified using accessible nanosecond-laser equipment and a simple absorbing target.
 
