@@ -14,17 +14,25 @@ This note follows that first material story. Laser microplasma processing was fi
 
 ---
 
-## What the passivation paper answered
+## The porous-glass passivation paper
 
-The porous-glass paper was the first answer to that question. It did not try to make a complex optical element yet. It asked whether laser microplasma processing could solve one clear materials problem: protect porous glass from aging without destroying the internal pore network.
+The passivation paper answered the first practical question. It showed that laser microplasma processing could form thermally densified layers on porous-glass wafers without fully sintering the material.
 
-The principle was simple. A porous-glass wafer was placed in tight contact with compacted graphite. The near-infrared laser passed through the glass and was absorbed by the graphite. At the interface, the absorbed energy produced a localized high-temperature region and a plasma torch. This locally densified the porous-glass surface and formed a protective layer.
+The key problem was balance. Porous glass had to remain porous inside, but its outer surface had to become closed enough to slow chemical degradation and aging. In the experiment, the wafer was placed in tight contact with compacted graphite. The laser passed through the porous glass, was absorbed by the graphite, and created the local high-temperature interaction that densified the nearby glass surface.
 
-The paper also showed that the process was not only about making the layer. After treatment, graphite particles remained on the surface, so a second laser step with a thin layer of distilled water was used to clean the surface. This practical step matters because the final goal was an optically useful, protected porous-glass wafer.
+Three points made the result important:
 
-The key result was that thermally densified layers were formed on the wide faces of porous-glass wafers while the internal structure remained. The optimized layer thickness was about 30–35 µm. After 10 months of storage in air, protected samples kept their optical transmission much better than untreated porous glass: the transmission loss over 350–900 nm remained below about 5–7%.
+```text
+surface pores closed locally
+internal porous structure was retained
+optical transmission stayed stable during storage
+```
 
-For me, the important message is that the plasma plume was not just a destructive effect. It became a controllable tool: first for sealing porous glass, and then as the starting point for using the same laser microplasma processing idea to shape dense transparent glass.
+The paper also answered a practical question that is easy to overlook: after processing, graphite particles had to be removed. This was done on the same laser setup using a thin layer of distilled water, turning the process from a laboratory effect into a cleaner route toward usable protected samples.
+
+The main result was a thermally densified layer about 30–35 µm thick. After 10 months in air, protected samples kept their optical transmission much better than untreated porous glass; the transmission loss in the measured 350–900 nm range remained below about 5–7%.
+
+For this archive, the message is simple: the plasma plume was not only something to observe. It became a tool for making a functional surface layer. That was the first step from a physical interaction at the glass–carbon interface toward laser microplasma processing as a broader method.
 
 Paper links:
 
