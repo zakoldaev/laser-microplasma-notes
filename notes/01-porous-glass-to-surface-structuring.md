@@ -1,4 +1,4 @@
-# Research note 01 — From porous-glass passivation to surface structuring
+# Research note 01 — From porous-glass passivation to micro-optics
 
 ## The first experimental question
 
