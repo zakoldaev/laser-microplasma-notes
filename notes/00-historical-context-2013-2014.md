@@ -39,19 +39,19 @@ Transparent glass is difficult to process with a near-infrared nanosecond laser 
 
 A simple way to understand this is through the peak intensity of a laser pulse:
 
-$$
-I = \frac{E}{A\tau}
-$$
+```text
+I = E / (A × τ)
+```
 
-where $I$ is the intensity, $E$ is the pulse energy, $A$ is the focused spot area and $\tau$ is the pulse duration. For the same pulse energy and focusing conditions, reducing the pulse duration strongly increases the peak intensity.
+Here, `I` is the intensity, `E` is the pulse energy, `A` is the focused spot area and `τ` is the pulse duration. For the same pulse energy and focusing conditions, reducing the pulse duration strongly increases the peak intensity.
 
-This matters for wide-bandgap dielectric materials such as fused silica. A near-infrared photon has much lower energy than the bandgap of fused silica, so the material is almost transparent under ordinary low-intensity conditions. At sufficiently high peak intensity, however, nonlinear absorption becomes possible. In a simplified form, the absorption rate can be written as
+This matters for wide-bandgap dielectric materials such as fused silica. A near-infrared photon has much lower energy than the bandgap of fused silica, so the material is almost transparent under ordinary low-intensity conditions. At sufficiently high peak intensity, however, nonlinear absorption becomes possible. In a simplified form, the absorption rate can be written as:
 
-$$
-W \propto I^k,
-$$
+```text
+W ∝ I^k
+```
 
-where $W$ is the nonlinear absorption rate and $k$ is the number of photons involved in the absorption process. Because the rate depends on a high power of intensity, ultrashort pulses can deposit energy locally in a material that is otherwise transparent.
+Here, `W` is the nonlinear absorption rate and `k` is the number of photons involved in the absorption process. Because the rate depends on a high power of intensity, ultrashort pulses can deposit energy locally in a material that is otherwise transparent.
 
 In our case, we did not have an ultrashort-pulse system available for this work. The external absorber therefore offered a different route: the glass transmitted the laser beam, while the carbon target absorbed it and created a localized heat or microplasma source at the interface.
 
