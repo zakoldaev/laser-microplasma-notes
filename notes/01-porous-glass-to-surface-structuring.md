@@ -10,7 +10,7 @@ The idea was therefore simple:
 
 > If a controlled hotspot can locally collapse or densify the surface pores, can we seal the outside of porous glass while keeping the internal pore network intact?
 
-This note follows that first material story. The same target-assisted interaction was first used to passivate porous glass against aging. Once that worked, it became natural to ask whether the same interaction could also modify dense transparent glasses such as fused silica and quartz glass, not for passivation, but for controlled surface relief and microstructuring.
+This note follows that first material story. Laser microplasma processing was first used here to passivate porous glass against aging. Once that worked, it became natural to ask whether the same process could also modify dense transparent glasses such as fused silica and quartz glass, not for passivation, but for controlled surface relief and microstructuring.
 
 ---
 
@@ -37,7 +37,7 @@ R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko
 *Journal of Laser Micro/Nanoengineering* 10(1) (2015), 15–19.  
 DOI: https://doi.org/10.2961/jlmn.2015.01.0003
 
-The term **laser-induced black-body heating (LIBBH)** is kept here as historical terminology from the 2015 paper. In this repository, I use more descriptive wording — target-assisted or carbon-absorber-assisted laser processing — unless discussing the terminology of a specific publication.
+The term **laser-induced black-body heating (LIBBH)** is kept here as historical terminology from the 2015 paper. In this repository, I use **laser microplasma processing** as the common name for the process unless discussing the terminology of a specific publication.
 
 ---
 
@@ -72,7 +72,9 @@ in contact with a carbon/graphite absorber
 irradiated through the glass by a near-infrared pulsed laser
 ```
 
-The glass transmitted most of the laser radiation. The carbon target absorbed the radiation and converted it into a localized heat or plasma source near the glass surface. The nearby glass was then modified.
+The glass transmitted most of the laser radiation. The carbon target absorbed the radiation and converted it into a localized heat or microplasma source near the glass surface. The nearby glass was then modified.
+
+This is the process referred to throughout this repository as **laser microplasma processing**.
 
 The important difference between the two papers was the **material problem**:
 
@@ -81,7 +83,7 @@ The important difference between the two papers was the **material problem**:
 | Porous glass | Seal / densify the external surface while preserving internal porosity |
 | Fused silica or quartz glass | Create controlled surface modification and relief |
 
-So the same physical idea served first as a way to stabilize porous glass and then as a route toward glass microstructuring.
+So the same physical process served first as a way to stabilize porous glass and then as a route toward glass microstructuring.
 
 ---
 
@@ -95,9 +97,9 @@ The first practical question was therefore:
 
 > Can we densify only the external surface of porous glass strongly enough to protect it, while keeping the internal porous structure open?
 
-The experiments showed that this was possible. Local laser processing produced a densified surface layer that acted as a protective barrier, while the internal porous structure remained. The published work also reported improved optical stability during long-term storage.
+The experiments showed that this was possible. Laser microplasma processing produced a densified surface layer that acted as a protective barrier, while the internal porous structure remained. The published work also reported improved optical stability during long-term storage.
 
-This result was important because it showed that the laser-induced interaction was not just damaging the sample. It could create a useful functional layer.
+This result was important because it showed that the microplasma-assisted interaction was not just damaging the sample. It could create a useful functional layer.
 
 ---
 
@@ -105,7 +107,7 @@ This result was important because it showed that the laser-induced interaction w
 
 After the porous-glass result, the next conceptual step was straightforward:
 
-> If the glass–carbon interface can create a controlled densified layer in porous glass, can the same interaction be used to shape dense transparent glass?
+> If the glass–carbon interface can create a controlled densified layer in porous glass, can laser microplasma processing also be used to shape dense transparent glass?
 
 This is where the work moved from material stabilization toward surface microstructuring.
 
@@ -170,4 +172,4 @@ That paper connects this note to later work on controlled surface relief, phase 
 
 Working archive note.
 
-The purpose of this note is to describe the first material branch of the target-assisted laser-processing story: from seeing a localized interaction at the glass–carbon interface to using it for porous-glass passivation and then for early surface structuring of dense transparent glass. Published papers remain the authoritative source for final results. This repository adds context, chronology, practical observations and recovered material where available.
+The purpose of this note is to describe the first material branch of the laser microplasma processing story: from seeing a localized interaction at the glass–carbon interface to using it for porous-glass passivation and then for early surface structuring of dense transparent glass. Published papers remain the authoritative source for final results. This repository adds context, chronology, practical observations and recovered material where available.
