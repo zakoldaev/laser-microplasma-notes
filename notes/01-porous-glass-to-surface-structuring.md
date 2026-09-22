@@ -14,30 +14,54 @@ This note follows that first material story. Laser microplasma processing was fi
 
 ---
 
-## Publications connected to this note
+## The porous-glass passivation paper
 
-### Porous-glass passivation
+The first paper in this line was not about making a complex optical element. It was about solving a very practical materials problem.
 
-M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev  
-“Laser-induced passivation of porous glass to protect it from chemical degradation and aging”  
-*Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434.  
-DOI: https://doi.org/10.1134/S207020511503020X
+Porous glass has an open internal structure. That structure is useful, but it also makes the material vulnerable. During storage in air, water, carbon dioxide and organic compounds can enter the pores. Over time, the glass can lose optical transparency and develop a yellowish or brownish color. For porous-glass-based nanocomposites, this is especially problematic, because the material inside the pores can migrate, react with moisture or change its properties during storage.
 
-Russian original:
+The idea of the paper was to protect the material without destroying what made it useful. Full thermal sintering would close the pore network everywhere. That would make the glass more stable, but it would also remove the internal porous structure. Laser microplasma processing offered a more selective route: densify only a thin external surface layer, while keeping the porous volume inside the wafer.
 
-М. М. Сергеев, Г. К. Костюк, Р. А. Заколдаев, Е. Б. Яковлев  
-«Лазерная пассивация пористого стекла для защиты от химической деградации и старения»  
-*Физикохимия поверхности и защита материалов* 51(3) (2015), 314–322.  
-DOI: https://doi.org/10.7868/S0044185615030201
+In the experiments, a porous-glass wafer was placed in tight contact with compacted graphite. The near-infrared laser passed through the porous glass and was absorbed by the graphite. At the glass–graphite interface, a localized high-temperature region and plasma torch appeared. This interaction formed a thermally densified layer on the porous-glass surface.
 
-### Generalization toward glass surface modification
+A second practical step was also needed. After processing, graphite particles remained on the surface. These particles were removed using the same laser setup, with a thin layer of distilled water on the surface. This cleaning step was important because the goal was not only to form a densified layer, but also to recover an optically useful surface.
+
+The key result was that the method created protective layers on the wide faces of porous-glass wafers while preserving the internal porous structure. The optimized process formed thermally densified layers with a thickness of about 30–35 µm. The initial loss in transmission after processing was modest, and the protected wafers remained optically stable during storage. After 10 months in air, the loss of transmission across the measured 350–900 nm range remained below about 5–7%, while unprotected porous glass degraded more strongly.
+
+For me, the important message of the paper is simple: the laser-induced interaction was not just a destructive hot spot. It could be used as a controlled tool to make a functional surface layer. That was the first step from an observed plasma plume at the glass–carbon interface toward a useful processing technology.
+
+Paper links:
+
+- English translation: M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev, “Laser-induced passivation of porous glass to protect it from chemical degradation and aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434. DOI: https://doi.org/10.1134/S207020511503020X
+- Russian original: М. М. Сергеев, Г. К. Костюк, Р. А. Заколдаев, Е. Б. Яковлев, «Лазерная пассивация пористого стекла для защиты от химической деградации и старения», *Физикохимия поверхности и защита материалов* 51(3) (2015), 314–322. DOI: https://doi.org/10.7868/S0044185615030201
+
+---
+
+## From passivation to surface structuring
+
+Once porous-glass passivation worked, the next conceptual step was straightforward:
+
+> If the glass–carbon interface can create a controlled densified layer in porous glass, can laser microplasma processing also be used to shape dense transparent glass?
+
+This is where the work moved from material stabilization toward surface microstructuring.
+
+The goal changed:
+
+```text
+porous glass: protect the material
+fused silica / quartz glass: create controlled surface relief
+```
+
+The same physical process served first as a way to stabilize porous glass and then as a route toward glass microstructuring. That transition later led to micro-optical structures, including phase gratings, random phase plates and other surface-relief elements described in the following notes.
+
+A related early paper described this broader glass-surface-modification direction using the historical term **laser-induced black-body heating (LIBBH)**:
 
 R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko  
 “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification”  
 *Journal of Laser Micro/Nanoengineering* 10(1) (2015), 15–19.  
 DOI: https://doi.org/10.2961/jlmn.2015.01.0003
 
-The term **laser-induced black-body heating (LIBBH)** is kept here as historical terminology from the 2015 paper. In this repository, I use **laser microplasma processing** as the common name for the process unless discussing the terminology of a specific publication.
+In this repository, I use **laser microplasma processing** as the common name for the process, unless discussing the terminology of a specific publication.
 
 ---
 
@@ -64,7 +88,7 @@ conference/LPM2014/
 
 ## Shared experimental idea
 
-Both papers used the same core geometry:
+Both early papers used the same core geometry:
 
 ```text
 transparent glass sample
@@ -76,49 +100,12 @@ The glass transmitted most of the laser radiation. The carbon target absorbed th
 
 This is the process referred to throughout this repository as **laser microplasma processing**.
 
-The important difference between the two papers was the **material problem**:
+The important difference between the studies was the **material problem**:
 
 | Material | Main purpose |
 | --- | --- |
 | Porous glass | Seal / densify the external surface while preserving internal porosity |
 | Fused silica or quartz glass | Create controlled surface modification and relief |
-
-So the same physical process served first as a way to stabilize porous glass and then as a route toward glass microstructuring.
-
----
-
-## Why porous glass came first
-
-Porous glass was not chosen only because it was available. It was chosen because the material problem was clear.
-
-Its open pore network is useful, but the surface is also an entrance for air, water and other molecules. If the whole material were fully sintered, the porosity would be lost. But if only a thin external layer could be locally densified, the material could become more stable while keeping its internal porous structure.
-
-The first practical question was therefore:
-
-> Can we densify only the external surface of porous glass strongly enough to protect it, while keeping the internal porous structure open?
-
-The experiments showed that this was possible. Laser microplasma processing produced a densified surface layer that acted as a protective barrier, while the internal porous structure remained. The published work also reported improved optical stability during long-term storage.
-
-This result was important because it showed that the microplasma-assisted interaction was not just damaging the sample. It could create a useful functional layer.
-
----
-
-## From passivation to structuring
-
-After the porous-glass result, the next conceptual step was straightforward:
-
-> If the glass–carbon interface can create a controlled densified layer in porous glass, can laser microplasma processing also be used to shape dense transparent glass?
-
-This is where the work moved from material stabilization toward surface microstructuring.
-
-The goal changed:
-
-```text
-porous glass: protect the material
-fused silica / quartz glass: create controlled surface relief
-```
-
-That transition later led to micro-optical structures, including phase gratings, random phase plates and other surface-relief elements described in the following notes.
 
 ---
 
