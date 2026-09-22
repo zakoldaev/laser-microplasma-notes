@@ -1,14 +1,14 @@
-# Context note 00 — Why try to process glass this way?
+# Context note 00 — Why this approach to transparent dielectric processing?
 
 ## The starting question
 
-> How can we create a localized source of energy, using pulsed laser sources, that could modify transparent dielectric materials such as porous glass, fused silica and crystal quartz?
+> How can we create a localized energy source, using the pulsed laser sources available in a conventional laboratory, that could modify transparent dielectric materials such as porous glass, fused silica and crystal quartz?
 
 Around 2013–2014, our laboratory had several laser-processing techniques, laser sources and scanning systems, but we did not have an ultrashort-pulse system dedicated to processing transparent dielectric materials. The tools I could work with most directly were nanosecond lasers and galvanometric scanners.
 
 The question was therefore not only how to mark or texture a glass surface. It was broader: could we create a localized interaction zone — a small controllable source of heat, pressure or plasma — close enough to the dielectric material to modify it in a useful way?
 
-This mattered because local modification of glass, fused silica, crystal quartz or porous glass could open routes to micro-optical components, controlled surface relief, local density changes and control of porosity for future integration.
+This mattered because local modification of glass, fused silica, crystal quartz or porous glass could open routes to micro-optical components, controlled surface relief, local densification and control of porosity for future integration.
 
 That practical question became the starting point of this research direction.
 
@@ -22,7 +22,7 @@ My personal route into the problem started with porous glass, in connection with
   <img src="../images/00-porous-glass-sample.png" alt="Porous glass sample with SEM inset showing the nanoscale porous structure" width="900">
 </p>
 
-<p align="center"><em>Figure 1. Porous glass used as the first material in this research. The photograph shows how it looks like at the macroscopic scale. The circular inset shows the porous morphology; SEM panel (b) was cropped from Rysiakiewicz-Pasek et al., <a href="https://doi.org/10.3390/ma13173698">Materials 2020, 13, 3698</a> [3].</em></p>
+<p align="center"><em>Figure 1. Porous glass used as the first material in this research. The photograph shows the macroscopic appearance of the nearly transparent sample. The circular inset shows the porous morphology; SEM panel (b) was cropped from Rysiakiewicz-Pasek et al., <a href="https://doi.org/10.3390/ma13173698">Materials 2020, 13, 3698</a> [3].</em></p>
 
 The first practical question was:
 
