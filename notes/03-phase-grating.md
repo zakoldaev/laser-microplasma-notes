@@ -1,12 +1,22 @@
-# Behind the experiment 03 — Phase-grating fabrication on fused silica
+# Fused-silica phase gratings — laser microplasma processing for beam splitting
 
-## Purpose of this note
+This note follows one later branch of the archive: using laser microplasma processing to fabricate a functional phase grating directly on fused silica.
 
-This is a working scientific note accompanying our earlier research on target-assisted laser processing of transparent materials.
+## Why this experiment mattered
 
-The journal article gives the final scientific result. This note is intended to preserve the experimental story around it: why we tried the experiment, which parameters mattered, what was difficult in practice, what data are still available, and what we would do differently today.
+The goal was not only to modify a glass surface. The surface relief had to work optically.
 
-The note will be expanded gradually as original files, laboratory records, images, and personal observations are recovered.
+The useful chain was:
+
+```text
+laser microplasma processing
+→ controlled surface relief
+→ phase modulation
+→ diffraction
+→ beam splitting
+```
+
+This makes the experiment a good example of the transition from “we can change glass” to “we can fabricate a working micro-optical component.”
 
 ## Related publication
 
@@ -17,19 +27,23 @@ DOI: https://doi.org/10.1016/j.optlaseng.2016.12.013
 
 ## Scientific question
 
-Can a laser-induced microplasma process be controlled well enough to fabricate a functional phase grating directly on fused silica?
+Can laser microplasma processing be controlled well enough to fabricate a periodic surface profile on fused silica with an optical response close to a useful phase grating?
 
-The experiment was interesting because the goal was not only to modify the glass surface. The fabricated relief had to perform an optical function: redistribute the incident light into diffraction orders and act as a beam-splitting element.
+The key point is that a phase grating works by changing the phase of transmitted light, not mainly by absorbing it. The relief depth and periodicity therefore determine how power is distributed between diffraction orders.
 
-This created a useful chain between fabrication and optical performance:
+So the practical question was not just:
 
-laser processing → surface relief → phase modulation → diffraction → beam splitting.
+> Can we make grooves in fused silica?
+
+It was closer to:
+
+> Can we fabricate a repeatable surface relief that produces useful beam splitting?
 
 ## Published experimental basis
 
-The published work reports fabrication of phase gratings on fused silica using the same target-assisted laser-processing geometry developed in the earlier work. In publications from this period, the process was described using terms including **laser-induced black-body heating (LIBBH)** and later **laser-induced microplasma processing (LIMP)**; these labels are kept here only when discussing the terminology of the original papers.
+The published work reports phase gratings fabricated on fused silica using the same glass–carbon laser microplasma processing geometry developed in the earlier work.
 
-Published laser parameters:
+Published parameter range:
 
 | Parameter | Published value |
 | --- | --- |
@@ -42,33 +56,17 @@ Published laser parameters:
 | Relief-depth range | ~0.5–2 µm |
 | Typical fabrication time | ~1–5 min, depending on grating size and period |
 
-The paper also compared measured optical characteristics with diffraction theory and demonstrated the phase grating as a beam splitter in an interference experiment.
-
-## Why the relief profile matters
-
-A phase grating works primarily by changing the phase of transmitted light rather than by absorbing it.
-
-The surface relief therefore determines the optical-path modulation, which in turn controls how power is distributed among the diffraction orders.
-
-For this reason, the fabrication problem was not simply:
-
-> Can we make grooves in fused silica?
-
-It was closer to:
-
-> Can we fabricate a repeatable surface profile with a depth and periodicity suitable for a useful optical response?
-
-This distinction is important when thinking about laser microplasma processing as a micro-optical fabrication method rather than only a surface-etching technique.
+The paper compared measured optical characteristics with diffraction theory and demonstrated the grating as a beam splitter in an interference experiment.
 
 ## What was demonstrated
 
-The experiment linked three stages:
+The experiment connected three stages:
 
-1. formation of a controlled periodic relief on fused silica;
-2. optical characterization of the fabricated grating;
-3. use of the grating as a beam-splitting element for interference-based laser processing.
+1. fabrication of a controlled periodic relief on fused silica;
+2. optical characterization of the grating;
+3. use of the grating as a beam-splitting element.
 
-That final optical demonstration makes this experiment an important later step in the archive: the structure was fabricated, characterized, and then used as an optical component.
+That final step is why this paper is important for the archive. The structure was not only fabricated and measured; it was used as an optical component.
 
 ## Experimental details to reconstruct
 
@@ -85,7 +83,6 @@ Items to add when available:
 - target material and preparation;
 - sample thickness;
 - surface cleaning/preparation;
-- processing atmosphere;
 - repeatability between nominally identical samples;
 - conditions that produced rough or damaged structures;
 - profilometer settings;
@@ -98,12 +95,12 @@ The purpose of adding these details is not to rewrite history from memory. Each 
 A useful archive for this experiment could eventually contain:
 
 ```text
-data/
+data/phase-grating/
     profilometry/
     diffraction/
     process-parameters/
 
-images/
+images/phase-grating/
     setup/
     microscopy/
     profilometry/
@@ -124,20 +121,18 @@ Priority material:
 
 The unsuccessful results may be particularly useful because they help define the practical process window.
 
-## Behind the paper — questions worth answering
+## Behind-the-paper questions
 
-As the archive is reconstructed, I want to answer questions that usually receive little space in a journal article:
+Questions worth answering when original records are recovered:
 
 - How sensitive was the process to focus position?
 - Which parameter was most difficult to control experimentally?
 - How reproducible was the surface relief from sample to sample?
-- Which processing regimes produced excessive roughness or cracking?
+- Which regimes produced excessive roughness or cracking?
 - How stable was the absorbing target during repeated processing?
-- How much alignment was needed before a reliable process was obtained?
 - What was the practical limit on grating area?
 - How closely did the real relief resemble the intended sinusoidal profile?
 - Which early approaches were abandoned?
-- Which observations were interesting but did not fit into the final paper?
 
 These will be filled only when supported by original records or clearly identified personal recollection.
 
@@ -152,28 +147,22 @@ DOI: https://doi.org/10.1016/j.jmatprotec.2021.117061
 
 That work provides a useful later perspective on why parameters such as the air gap and focal-plane position matter for process stability.
 
-A future version of this note can therefore connect the 2017 device-oriented experiment with the later process-physics study.
-
 ## What I would investigate today
 
-This section is deliberately retrospective and is not part of the original published result.
+This section is retrospective and is not part of the original published result.
 
-With current hardware and analysis tools, interesting extensions could include:
+Possible modern extensions:
 
-- automated plasma imaging during processing;
+- imaging the plasma during processing;
 - closed-loop control of focal position;
 - automated profilometry analysis;
-- statistical mapping of process repeatability;
+- statistical mapping of repeatability;
 - camera-based detection of unstable processing events;
-- systematic parameter-space exploration;
-- correlation of plasma-emission features with final relief geometry;
-- machine-learning-assisted classification of successful and unsuccessful processing regimes.
-
-These are possible modern directions, not claims from the original experiment.
+- correlation of plasma-emission features with final relief geometry.
 
 ## Status and provenance
 
-Status: working scientific archive.
+Status: working archive note.
 
 Information in this repository should be labelled by provenance wherever possible:
 
