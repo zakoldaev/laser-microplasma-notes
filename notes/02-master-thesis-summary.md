@@ -1,95 +1,62 @@
-# Research story 02 — Master’s thesis: from one glass-processing setup to several optical functions
+# Glass micro-optics by laser microplasma processing — thesis map, surface relief and beam shaping
 
-## Where this thesis sits in the story
+This note uses my master’s thesis as a map of the early laser microplasma processing work: porous-glass stabilization, fused-silica surface relief, microlens arrays, random phase plates and diffraction gratings.
 
-By the time I completed my master’s thesis, our team had already moved from the first experiments on nanoporous glass to a broader question:
+## Why this note exists
 
-> Could the same simple target–glass geometry be used as a practical platform for modifying different transparent glasses and fabricating functional optical structures?
+By the time I completed the thesis, the work had moved beyond one porous-glass experiment. The larger question became:
 
-The thesis brought together several strands that had developed through the earlier experiments, the LPM 2014 conference in Vilnius, and the first 2015 publications. Its value was not one single optical element. It was the attempt to understand one processing platform as a family of applications: porous-glass stabilization, controlled surface relief, beam homogenization, beam splitting, and parallel laser processing.
+> Could the same glass–carbon geometry become a practical platform for modifying transparent glass and fabricating functional optical structures?
 
-This note is a short English retrospective for a broad scientific audience. It does not reproduce the full Russian thesis. I use the thesis as a reference point for a selected group of papers published during and shortly after the thesis period (roughly 2015–2017), showing how results that appear as separate publications belong to one experimental story.
+The thesis is useful because it connects results that later appeared as separate publications. It shows one experimental platform branching into several directions: passivation, surface microstructuring, beam homogenization, beam splitting and parallel laser processing.
 
-## How to read this note — the thesis as a map of the papers
+This page is not a second publication of the thesis. It is a readable map for the GitHub archive.
 
-This page is not a second publication of the thesis. I use it as a retrospective map connecting the experiments collected in the thesis with the papers that appeared around it.
+## Publication trail, 2015–2017
 
-Some papers were already published when the thesis was submitted, some results were still under review, and several questions were developed further during 2016–2017. The thesis is therefore a useful reference point for understanding how papers that may look separate in a publication list actually belong to one experimental story.
+Selected papers connected to the thesis period:
 
-### Publication trail, 2015–2017
-
-I distinguish between **direct thesis outcomes** (results contained in the thesis and published around the same period) and **follow-up work** (papers that developed a thesis result or an unresolved question further).
-
-| Year | Relation | Publication | How it connects to the thesis |
-| --- | --- | --- | --- |
-| 2015 | Direct thesis outcome | R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko, “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,” *Journal of Laser Micro/Nanoengineering* 10, 15–19. DOI: https://doi.org/10.2961/jlmn.2015.01.0003 | Introduced the target-assisted glass-processing geometry as a broader surface-modification method. |
-| 2015 | Direct thesis outcome | M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev, “Laser Induced Passivation of Porous Glass to Protect It from Chemical Degradation and Aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51, 427–434. DOI: https://doi.org/10.1134/S207020511503020X | Direct publication of the porous-glass stabilization branch. |
-| 2015 | Direct thesis outcome | G. K. Kostyuk, M. M. Sergeev, R. A. Zakoldaev, E. B. Yakovlev, “Fast microstructuring of silica glasses surface by NIR laser radiation,” *Optics and Lasers in Engineering* 68, 16–24. DOI: https://doi.org/10.1016/j.optlaseng.2014.12.004 | Direct publication of glass microstructuring, random phase plates, diffraction gratings and their optical testing. |
-| 2016 | Direct development | G. K. Kostyuk, R. A. Zakoldaev, M. M. Sergeev, V. P. Veiko, “Laser-induced glass surface structuring by LIBBH technology,” *Optical and Quantum Electronics* 48, 249. DOI: https://doi.org/10.1007/s11082-016-0531-0 | Developed the process-window and controllable-relief results from the thesis. |
-| 2016 | Direct thesis outcome | G. K. Kostyuk, R. A. Zakoldaev, M. M. Sergeev, E. B. Yakovlev, “Microlens array fabrication on fused silica influenced by NIR laser,” *Applied Physics B* 122, 99. DOI: https://doi.org/10.1007/s00340-016-6379-y | Published the microlens-array fabrication, characterization and parallel-processing branch that was still listed as under review in the thesis. |
-| 2016 | Follow-up | R. A. Zakoldaev, G. K. Kostyuk, V. V. Koval, M. M. Sergeev, V. S. Rymkevich, E. B. Yakovlev, “Microlens array fabrication on fused silica by LIBBH technology with CO₂ laser smoothing,” *Journal of Instrument Engineering* 59, 400–406. DOI: https://doi.org/10.17586/0021-3454-2016-59-5-400-406 | Follow-up to the thesis limitation that the directly fabricated microlenses had a flat/rounded-trapezoid profile and low numerical aperture; CO₂-laser smoothing was explored as the next processing step. |
-| 2017 | Follow-up | G. K. Kostyuk, R. A. Zakoldaev, V. V. Koval, M. M. Sergeev, V. S. Rymkevich, “Laser microplasma as a tool to fabricate phase grating applied for laser beam splitting,” *Optics and Lasers in Engineering* 92, 63–69. DOI: https://doi.org/10.1016/j.optlaseng.2016.12.013 | Developed the diffraction-grating branch into a dedicated functional beam-splitting study. |
-| 2017 | Follow-up | V. V. Koval, M. M. Sergeev, R. A. Zakoldaev, G. K. Kostyuk, “Changes in the spectral characteristics of quartz-glass plates when they are processed with laser-induced plasma,” *Journal of Optical Technology* 84, 447–452. DOI: https://doi.org/10.1364/JOT.84.000447 | Followed up the thesis observations on graphite contamination, optical changes and wet laser cleaning. |
-| 2017 | Follow-up | V. S. Rymkevich, R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, “Using laser-induced microplasma for multilevel phase plate fabrication,” *Journal of Instrument Engineering* 60, 431–439. DOI: https://doi.org/10.17586/0021-3454-2017-60-5-431-439 | Extended the phase-plate branch from binary/random structures toward controlled multilevel relief. |
-| 2017 | Follow-up on mechanism | V. P. Veiko, S. A. Volkov, R. A. Zakoldaev, M. M. Sergeev, A. A. Samokhvalov, G. K. Kostyuk, K. A. Milyaev, “Laser-induced microplasma as a tool for microstructuring transparent media,” *Quantum Electronics* 47, 842–848. DOI: https://doi.org/10.1070/QEL16377 | Addressed the physical questions that the thesis explicitly left open: plasma confinement, temperature, pressure and the mechanism of transparent-material structuring. |
-| 2017 | Follow-up | R. Zakoldaev et al., “Fast Fabrication of Multilevel Phase Plates Used for Laser Beam Correction,” *Journal of Laser Micro/Nanoengineering* 12, 281–285. DOI: https://doi.org/10.2961/jlmn.2017.03.0018 | Continued the phase-plate branch into automated multilevel fabrication and coherent-beam correction. |
-
-The table is intentionally selective. It includes papers that directly reflect a thesis result, provide an important precursor, or clearly develop one of its unresolved questions; it is not a complete publication list.
+| Year | Topic | Publication |
+| --- | --- | --- |
+| 2015 | Glass surface modification | R. A. Zakoldaev et al., “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,” *JLMN*. DOI: https://doi.org/10.2961/jlmn.2015.01.0003 |
+| 2015 | Porous-glass passivation | M. M. Sergeev et al., “Laser Induced Passivation of Porous Glass to Protect It from Chemical Degradation and Aging,” *Protection of Metals and Physical Chemistry of Surfaces*. DOI: https://doi.org/10.1134/S207020511503020X |
+| 2015 | Fast microstructuring and optical testing | G. K. Kostyuk et al., “Fast microstructuring of silica glasses surface by NIR laser radiation,” *Optics and Lasers in Engineering*. DOI: https://doi.org/10.1016/j.optlaseng.2014.12.004 |
+| 2016 | Process window and relief control | G. K. Kostyuk et al., “Laser-induced glass surface structuring by LIBBH technology,” *Optical and Quantum Electronics*. DOI: https://doi.org/10.1007/s11082-016-0531-0 |
+| 2016 | Microlens arrays | G. K. Kostyuk et al., “Microlens array fabrication on fused silica influenced by NIR laser,” *Applied Physics B*. DOI: https://doi.org/10.1007/s00340-016-6379-y |
+| 2017 | Phase gratings and beam splitting | G. K. Kostyuk et al., “Laser microplasma as a tool to fabricate phase grating applied for laser beam splitting,” *Optics and Lasers in Engineering*. DOI: https://doi.org/10.1016/j.optlaseng.2016.12.013 |
+| 2017 | Process physics | V. P. Veiko et al., “Laser-induced microplasma as a tool for microstructuring transparent media,” *Quantum Electronics*. DOI: https://doi.org/10.1070/QEL16377 |
 
 Full publication profile: https://scholar.google.com/citations?user=TcIkX-kAAAAJ&hl=en
 
-## What was available at the time
-
-Around 2014–2015, glass microstructuring already had several established routes. Lithography combined with reactive-ion etching could produce high-quality micro-optical structures, but required multiple fabrication steps and dedicated infrastructure. Ion exchange was well established for refractive-index engineering, while direct laser writing, femtosecond processing, laser-assisted chemical etching, and backside laser-processing methods were expanding the range of structures that could be made in glass.
-
-The motivation of our work was therefore not that glass structuring was impossible. It was to explore whether a much simpler, maskless processing route could be useful: a laser, transparent glass, an absorbing target, beam scanning, and post-processing only when needed.
-
-Retrospectively, this is what makes the approach interesting for me today: it points toward affordable, potentially cleanroom-free glass microstructuring rather than a replacement for mature lithographic fabrication.
-
 ## One processing platform
 
-The basic experimental geometry was simple.
+The basic geometry was simple:
 
-A pulsed ytterbium-fiber laser at 1.064 µm was focused through the transparent glass onto the interface between the glass and a plate of pressed graphite. The thesis reports pulse durations of about 50–200 ns, repetition rates of 20–100 kHz, galvanometric beam scanning, and a focusing lens with a focal length of about 210 mm.
+```text
+pulsed NIR laser
+→ transparent glass
+→ graphite target
+→ localized heating / ablation / microplasma
+→ modified glass surface
+```
 
-The glass transmitted most of the processing radiation, while graphite acted as the strong broadband absorber.
+The thesis reports a pulsed ytterbium-fiber laser at 1.064 µm, pulse durations of about 50–200 ns, repetition rates of 20–100 kHz, galvanometric beam scanning, and focusing through transparent glass onto pressed graphite.
 
-The process can be summarized as:
+The exact roles of heat transfer, graphite ablation, plasma dynamics, shock waves and deposited carbon particles were not fully resolved in the thesis. That uncertainty is important: it later became part of the process-physics research direction.
 
-laser beam  
-→ transmission through glass  
-→ absorption by graphite  
-→ rapid local heating / graphite ablation / plasma formation  
-→ modification of the adjacent glass surface
+## 1. Processing window for fused silica
 
-The exact physical contribution of heating, ablation, plasma, shock waves, and material transfer was not fully resolved in the thesis. That uncertainty is important to preserve rather than rewrite retrospectively.
+One useful thesis result was that glass composition mattered strongly.
 
-The thesis estimated very high transient temperatures from the laser-energy balance, but also noted that the graphite thermal properties made this estimate uncertain. A thermal camera with insufficient temporal resolution to capture the pulse itself measured average temperatures of roughly 450–650 °C close to the processing zone. Formation of carbon foam-like material was also used as an experimental indication that much higher local temperatures occurred during the interaction.
+For fused silica, a typical successful condition was around 15 W average power and a scanning speed of about 300 mm/s, producing smooth microstructures without visible cracking or chipping. Similar conditions could damage other glasses such as BK7 or US-1.
 
-## 1. Mapping a practical processing window
+The relief depth in fused silica could be tuned approximately from 0.2 to 5 µm by changing laser power, pulse duration and number of passes. This mattered because phase optical elements require not only lateral patterning, but controlled relief depth.
 
-One of the useful results of the thesis was that glass composition mattered strongly.
+## 2. Porous-glass stabilization
 
-For fused silica, a typical successful condition was around 15 W average power and a scanning speed of about 300 mm/s, producing smooth microstructures without visible cracking or chipping.
+The historical starting point was porous glass. The thesis explored whether only the outer surface could be densified while the internal pore network remained available.
 
-The same conditions could cause cracks or even severe damage in other glasses such as BK7 or US-1. The thesis therefore treated the process not as a universal recipe, but as a material-dependent window controlled by laser power, scan speed, pulse duration, repetition rate, and the thermomechanical properties of the glass.
-
-For fused silica, the relief depth could be adjusted approximately from 0.2 to 5 µm by changing the laser power, pulse duration, and number of passes. Over the tested range, relief depth was approximately linear with laser power.
-
-This tunability was important because phase optical elements require not only lateral patterning, but controlled relief depth.
-
-Publication connection:
-- The general surface-structuring concept was introduced in the 2015 JLMN paper: https://doi.org/10.2961/jlmn.2015.01.0003
-- The process-window and relief-depth dependence were developed further in *Optical and Quantum Electronics* in 2016: https://doi.org/10.1007/s11082-016-0531-0
-- The physical mechanism that remained unresolved in the thesis was investigated more directly in *Quantum Electronics* in 2017: https://doi.org/10.1070/QEL16377
-
-## 2. Stabilizing nanoporous glass
-
-The historical starting point of this work was nanoporous glass.
-
-Porous glass can absorb water, carbon dioxide, and organic molecules from air. Over time this can change its optical properties and produce visible aging. The thesis explored whether only the outer surface could be densified while the internal pore network remained available.
-
-Typical processing conditions for porous glass were:
+Typical porous-glass processing conditions were:
 
 | Parameter | Thesis range |
 | --- | --- |
@@ -98,165 +65,51 @@ Typical processing conditions for porous glass were:
 | Scan speed | ~0.3–0.7 m/s |
 | Line overlap | ~15–35 µm |
 
-The laser-treated surface formed a densified layer. Cross-sectional microscopy showed a layer around 30–35 µm thick under the tested multipulse conditions, while the deeper porous structure remained.
+The treated surface formed a densified layer. Cross-sectional microscopy showed a layer around 30–35 µm thick under the tested multipulse conditions, while the deeper porous structure remained.
 
-The strongest practical result was the long-term stability test. Treated and untreated samples were stored for 10 months in laboratory air at relative humidity above 70%. Creating densified layers initially reduced transmission by roughly 5–10%, but the treated samples then remained essentially stable over the measured spectral range. Untreated porous-glass samples showed clear degradation with storage time.
+The practical result was the long-term stability test: treated and untreated samples were stored for 10 months in laboratory air. Treated samples remained essentially stable over the measured spectral range, while untreated porous-glass samples degraded.
 
-The thesis also included nanoscale surface images showing open pores before treatment, pore closure after treatment, and preservation of the densified surface after 10 months.
+## 3. From surface features to micro-optics
 
-Related publication:
+The same laser microplasma processing platform was then used to fabricate functional surface-relief elements in fused silica.
 
-M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev,  
-“Laser Induced Passivation of Porous Glass to Protect It from Chemical Degradation and Aging,”  
-*Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434.  
-DOI: https://doi.org/10.1134/S207020511503020X
+The thesis reports fabrication of 10 × 10 mm² micro-optical arrays in about 5–15 minutes, depending on element size and spacing. A wet laser-cleaning step using distilled water was developed to remove graphite particles deposited during processing.
 
-The original Russian version was published in *Fizikokhimiya Poverkhnosti i Zashchita Materialov*.
+This practical cleaning step is exactly the kind of detail worth preserving in the archive: it turns an interesting interaction into a usable fabrication workflow.
 
-
-## 3. Turning the same setup into a fabrication tool
-
-The same platform was then applied to dense silicate glass and fused silica.
-
-This was the transition from solving one porous-material problem to using the geometry as a general surface-structuring tool.
-
-The thesis reports fabrication of 10 × 10 mm² micro-optical arrays in approximately 5–15 minutes, depending on element size and spacing. A wet laser-cleaning step was developed to remove graphite particles deposited during processing.
-
-That cleaning step used distilled water on the processed surface and a different laser-scanning regime. One reported condition was about 3500 mm/s scanning speed, 20 kHz repetition rate, 10–12 W average power, 200 ns pulses, and 1–3 passes.
-
-This practical detail is easy to overlook in a journal paper, but it is exactly the kind of information that makes an experimental method usable.
-
-Related publication:
-
-R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko,  
-“Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,”  
-*Journal of Laser Micro/Nanoengineering* 10 (2015), 15–19.  
-DOI: https://doi.org/10.2961/jlmn.2015.01.0003
-
-The acronym above is retained because it is the terminology used in that publication. In this repository I prefer descriptive language for the broader research direction.
-
-Publication connection:
-- The broad microstructuring outcome, including random phase plates and phase gratings, was published in *Optics and Lasers in Engineering* in 2015: https://doi.org/10.1016/j.optlaseng.2014.12.004
-- The controllable-relief/process-window study followed in 2016: https://doi.org/10.1007/s11082-016-0531-0
-- The practical question of optical/spectral changes after processing and the effectiveness of wet laser cleaning was investigated in 2017: https://doi.org/10.1364/JOT.84.000447
-
-## 4. Functional micro-optics, not only surface features
-
-A major part of the thesis was to show that the fabricated structures could perform optical functions.
+## 4. Optical functions demonstrated
 
 ### Microlens arrays
 
-Microlens arrays were fabricated on fused silica with typical lens diameters from about 50 to 500 µm and array periods from about 10 to 1000 µm.
+Microlens arrays were fabricated on fused silica with lens diameters from about 50 to 500 µm. The directly fabricated lenses had low numerical aperture and focal spots larger than ideal predictions, which showed that the first profiles were not yet sufficient for direct high-quality focusing.
 
-For representative arrays with lens diameters of 150–400 µm, measured numerical apertures were about 0.0025–0.0057 and focal lengths about 30–35 mm. The smallest directly measured focal spots were around 90 ± 10 µm, larger than ideal geometric-optics predictions.
-
-This negative result was useful: the fabricated microlenses were not good enough for direct parallel microprocessing simply by focusing with the lenses themselves.
-
-The team therefore tested them in a non-imaging integrator configuration. With an additional microscope objective, the system produced much smaller processing spots and was used to create arrays of holes in a thin titanium film. Feature sizes down to about 10 µm were demonstrated.
-
-Publications from this branch:
-- “Microlens array fabrication on fused silica influenced by NIR laser,” *Applied Physics B* (2016): https://doi.org/10.1007/s00340-016-6379-y
-- “Microlens array fabrication on fused silica by LIBBH technology with CO₂ laser smoothing,” *Journal of Instrument Engineering* (2016): https://doi.org/10.17586/0021-3454-2016-59-5-400-406
-
-The second paper is especially useful as a continuation of a limitation already visible in the thesis: direct fabrication produced relatively flat microlens profiles and low numerical aperture, so an additional CO₂-laser smoothing/reflow step was explored.
+That limitation led to follow-up work on CO₂-laser smoothing and reflow.
 
 ### Random phase plates
 
-Random phase plates with characteristic element sizes of roughly 250–680 µm were fabricated and tested for beam homogenization.
-
-The thesis deliberately distorted the input beam and then examined how the fabricated phase plate redistributed the intensity. Beam homogenization was demonstrated experimentally.
-
-Measured optical losses through the phase-plate system were approximately 6.6–9.4%, depending on the measurement condition.
-
-The thesis contains some internal variation in which element size is described as giving the “best” homogenization in different parts of the text, so I do not select one optimum value here. The robust result is that several structures were fabricated and beam homogenization was experimentally demonstrated.
-
-Publications from this branch:
-- The first random-phase-plate results were included in the 2015 glass-microstructuring paper: https://doi.org/10.1016/j.optlaseng.2014.12.004
-- The idea was developed into multilevel phase plates in 2017: https://doi.org/10.17586/0021-3454-2017-60-5-431-439
-- A further 2017 paper introduced finer depth control, automation and coherent-beam correction: https://doi.org/10.2961/jlmn.2017.03.0018
+Random phase plates with characteristic element sizes of roughly 250–680 µm were fabricated and tested for beam homogenization. The important result was not a single “best” plate, but the demonstration that laser-written surface relief could redistribute light and act as a functional phase element.
 
 ### Diffraction phase gratings
 
-Diffraction phase gratings were fabricated with periods from about 55 to 400 µm and relief depths around 0.2–1.3 µm.
+Diffraction gratings were fabricated with periods from about 55 to 400 µm and relief depths around 0.2–1.3 µm.
 
-A representative grating had:
+A representative grating had a period of about 100 µm and a relief depth of about 0.5 µm. The ±1 diffraction orders reached about 95% of the zero-order intensity. The grating was also used for simultaneous processing of a thin titanium film in a three-beam geometry.
 
-- period: ~100 µm
-- relief depth: ~0.5 µm
-- approximately equal filling of modified and unmodified regions
-
-When tested optically, the ±1 diffraction orders reached about 95% of the intensity of the zero order. The measured spot diameter was about 60 µm and the separation between spots about 1200 µm, close to the corresponding theoretical estimates of about 48 µm and 1210 µm.
-
-The grating was then used for simultaneous processing of a 20 nm titanium film, producing three holes in a single exposure geometry.
-
-Publications from this branch:
-- The thesis-stage diffraction-grating and simultaneous-processing results were included in the 2015 paper: https://doi.org/10.1016/j.optlaseng.2014.12.004
-- The dedicated phase-grating study published in 2017 developed this into a beam-splitting element with a near-sinusoidal profile: https://doi.org/10.1016/j.optlaseng.2016.12.013
-
-Related publication:
-
-G. K. Kostyuk, M. M. Sergeev, R. A. Zakoldaev, E. B. Yakovlev,  
-“Fast microstructuring of silica glasses surface by NIR laser radiation,”  
-*Optics and Lasers in Engineering* 68 (2015), 16–24.  
-DOI: https://doi.org/10.1016/j.optlaseng.2014.12.004
+This branch later developed into the dedicated phase-grating and beam-splitting paper.
 
 ## What the thesis added beyond the papers
 
-Looking back, the thesis was useful because it connected results that otherwise appeared as separate papers.
+Looking back, the thesis was useful because it connected separate papers into one experimental story:
 
-It showed that:
-
-- the same target–glass geometry could be used with porous and dense glasses;
-- processing conditions had to be adapted to the thermomechanical properties of each glass;
+- the same glass–carbon geometry worked with both porous and dense glasses;
+- processing conditions depended strongly on glass type;
 - relief depth could be tuned over the micrometer range;
 - porous-glass surfaces could be stabilized for long-term storage;
-- the same processing platform could fabricate several classes of micro-optical elements;
-- those elements could then be tested in real optical functions rather than characterized only by microscopy;
-- some designs did not work as well as expected, and the optical testing directly revealed those limitations.
-
-The thesis also made clear what was still unresolved. The relative roles of thermal transfer, graphite ablation, plasma-plume dynamics, shock waves, and deposited carbon particles needed dedicated experiments and modelling.
-
-That open question became part of the later research direction.
-
-The clearest publication connection is the 2017 *Quantum Electronics* paper, which studied the properties of the confined laser-induced microplasma itself and reported stronger pressure pulses and higher particle temperature under confinement: https://doi.org/10.1070/QEL16377
-
-This is a good example of why I view the thesis as a hub rather than an endpoint: a practical fabrication observation became a later physics question.
-
-## Published and thesis-stage outputs
-
-At the time of thesis submission, the thesis itself listed three 2015 journal papers as published and two microlens manuscripts as under review.
-
-One of those thesis-stage microlens manuscripts can be followed directly into the 2016 *Applied Physics B* publication, “Microlens array fabrication on fused silica influenced by NIR laser” (https://doi.org/10.1007/s00340-016-6379-y).
-
-The wider 2016–2017 publication record then shows how the thesis branches continued: controllable glass relief, microlens improvement, phase gratings, multilevel phase plates, wet cleaning/spectral changes, and eventually a more physical study of the confined microplasma.
-
-For this GitHub archive, I therefore use the thesis as the central reference point and the papers as the validated outputs of individual branches. The thesis gives the connections between them; the papers remain the authoritative source for each published claim.
-
-## One illustration I would use
-
-Suggested title:
-
-“From one target-assisted laser-processing setup to several functions”
-
-I would make one composite figure, not a collage of many thesis pages.
-
-Center:
-- simplified redraw of the common laser → glass → graphite geometry from thesis Fig. 17
-
-Three branches:
-- porous glass → densified surface → stable transmission after 10 months
-- fused silica → controlled relief → microlens / random phase element
-- fused silica → diffraction grating → three-beam parallel processing
-
-The point of the figure should be visible in one second:
-
-> one experimental platform, several materials and optical functions.
-
-I would redraw the setup cleanly and use only one small experimental image for each branch.
+- fabricated structures could perform real optical functions;
+- some optical elements did not work as well as expected, and those limitations shaped the next experiments;
+- unresolved mechanism questions later became a separate process-physics direction.
 
 ## Raw data — to add later
-
-I still have original files from this project that can be added to the repository when I recover them.
 
 Planned location:
 
@@ -272,18 +125,18 @@ data/master-thesis/
     parallel-processing/
 ```
 
-Priority files to look for:
+Priority files to recover:
 
-- original profilometer traces behind the relief-depth plots;
-- raw transmission spectra from the 10-month porous-glass study;
-- microscopy / scanning-probe microscopy data;
+- profilometer traces behind the relief-depth plots;
+- raw transmission spectra from the porous-glass stability study;
+- microscopy and scanning-probe microscopy data;
 - laser-processing parameter tables;
 - CCD intensity distributions;
 - diffraction-order measurements;
-- original images from the titanium-film processing tests;
+- images from titanium-film processing tests;
 - failed or damaged samples, if documented.
 
-When these files are added, each dataset should get a short README explaining what it contains, which figure or result it relates to, and whether it was published, unpublished, or re-analysed later.
+Each dataset should get a short README explaining what it contains, which figure or result it relates to, and whether it was published, unpublished or re-analysed later.
 
 ## Source and provenance
 
@@ -291,4 +144,4 @@ Primary source for this note: my Russian-language master’s thesis.
 
 The thesis describes collaborative research performed by the team. Formal scientific credit and authorship should be taken from the corresponding papers and their published records.
 
-This GitHub note is a retrospective explanation intended to make the experimental development easier to understand and to preserve details that were distributed across the thesis, papers, conference material, and laboratory records.
+This GitHub note is a retrospective explanation intended to make the experimental development easier to understand and to preserve details that were distributed across the thesis, papers, conference material and laboratory records.
