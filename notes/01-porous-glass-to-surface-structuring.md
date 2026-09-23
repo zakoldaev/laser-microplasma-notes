@@ -1,4 +1,6 @@
-# Research note 01 — From porous-glass passivation to micro-optics
+# Porous-glass sealing and passivation — surface densification by laser microplasma processing
+
+This note explains the first material result in the archive: using laser microplasma processing to seal porous glass against aging while keeping the internal pore network intact.
 
 ## The first experimental question
 
@@ -14,7 +16,7 @@ This note follows that first material story. Laser microplasma processing was fi
 
 ---
 
-## The porous-glass passivation paper
+## What the porous-glass paper answered
 
 The passivation paper answered the first practical question. It showed that laser microplasma processing could form thermally densified layers on porous-glass wafers without fully sintering the material.
 
@@ -88,11 +90,9 @@ conference/LPM2014/
 
 ---
 
-## What should be recovered later
+## Material to recover
 
-This note should stay compact. The most useful future additions are not long summaries of the papers, but the practical details that help reconstruct the experimental development.
-
-Useful material to recover:
+The note should stay compact. The most useful additions are practical details that help reconstruct the experiment:
 
 - LPM 2014 poster, abstract and photographs;
 - early photographs of the glass–carbon interaction region;
@@ -119,7 +119,7 @@ data/glass-surface-structuring/process-parameters/
 
 ---
 
-## Connection to the next stage
+## Next step in the story
 
 The next stage was no longer only about proving that the surface could be modified. It was about whether the relief could be shaped deliberately and used optically.
 
