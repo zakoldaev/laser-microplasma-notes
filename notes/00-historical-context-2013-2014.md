@@ -1,4 +1,6 @@
-# Context note 00 — Why laser microplasma processing for transparent dielectrics?
+# Laser microplasma processing for transparent dielectrics — glass–carbon origin story
+
+Start here for the basic idea behind this archive: a transparent glass sample, a carbon target, and a nanosecond laser beam used to create a localized hot region or microplasma at the interface.
 
 ## The starting question
 
