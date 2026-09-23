@@ -2,23 +2,14 @@
 
 Research notes, experimental context and recovered data on **laser microplasma processing of transparent glass, porous glass, fused silica and crystal quartz**.
 
-This archive follows how a simple glass–carbon geometry became a practical way to create localized heating or microplasma at the interface with transparent materials. The focus is not only on the final papers, but also on the experimental story behind them: why the tests were done, what worked, what failed, and how one result led to the next.
+This archive follows how a simple glass–carbon geometry became a practical way to create localized heating or microplasma at the interface with transparent materials. The focus is the experimental story behind the papers: why the tests were done, what worked, what failed, and how one result led to the next.
 
-## Read the research notes
+## Research notes on laser microplasma processing, glass microstructuring and micro-optics
 
-0. [Why laser microplasma processing for transparent dielectrics?](notes/00-historical-context-2013-2014.md)
-1. [Porous-glass passivation and the first surface-sealing experiments](notes/01-porous-glass-to-surface-structuring.md)
-2. [Master’s thesis — from one glass-processing setup to several optical functions](notes/02-master-thesis-summary.md)
-3. [Phase-grating fabrication on fused silica](notes/03-phase-grating.md)
-
-## What is inside
-
-- historical context for the first glass–carbon experiments;
-- porous-glass sealing and passivation data;
-- surface microstructuring of fused silica and quartz glass;
-- links between conference material, papers and thesis results;
-- recovered spectra, microscopy, profilometry and process parameters where available;
-- practical notes on experimental choices, failed regimes and reproducibility.
+0. [Laser microplasma processing of transparent dielectrics — historical context and first glass–carbon experiments](notes/00-historical-context-2013-2014.md)
+1. [Porous-glass sealing by laser microplasma processing — passivation, aging and surface densification](notes/01-porous-glass-to-surface-structuring.md)
+2. [Laser microstructuring for glass micro-optics — thesis map from surface relief to optical functions](notes/02-master-thesis-summary.md)
+3. [Fused-silica phase gratings made by laser microplasma processing — beam splitting and surface relief](notes/03-phase-grating.md)
 
 ## Terminology
 
