@@ -1,73 +1,57 @@
-# laser-microplasma-notes
+# Laser microplasma notes
 
-Research notes, experimental data and additional material on target-assisted laser processing of transparent materials.
+Research notes, experimental context and recovered data on **laser microplasma processing of transparent glass, porous glass, fused silica and crystal quartz**.
 
-This private repository is a working archive for reconstructing the development of the research: historical context, shared experimental setups, practical details, selected original data, conference material, unsuccessful trials, later interpretation, and links to the peer-reviewed papers.
+This archive follows how a simple glass–carbon geometry became a practical way to create localized heating or microplasma at the interface with transparent materials. The focus is not only on the final papers, but also on the experimental story behind them: why the tests were done, what worked, what failed, and how one result led to the next.
 
-## About this archive: authorship, sources and reuse
+## Read the research notes
 
-The research discussed here was collaborative. Ideas, experiments, implementation, calculations, interpretation, writing and supervision were contributed by different members of the teams involved in the individual studies. This repository does not redefine authorship or assign individual credit beyond the published record; formal attribution should be taken from the papers themselves and, where available, their author-contribution statements.
-
-This repository is also not a replacement for the original journal articles. I link to the published papers and describe their results in my own words, adding retrospective context about why the experiments were performed, what practical decisions were made, what did not fit into the papers, and how one result led to the next.
-
-Publisher-owned PDFs, figures or other licensed material should not be reproduced here unless reuse is permitted. Where possible, the archive will use links to the original publications, my own explanatory diagrams, and original research material for which sharing is appropriate. Before adding old raw data, photographs or unpublished material, authorship, IP, confidentiality and reuse rights should be checked.
-
-The aim is therefore simple: preserve the scientific story around the publications without crossing journal licences or rewriting the formal authorship record.
-
-## Scientific notes
-
-0. [Historical context — how the approach emerged in 2013–2014](notes/00-historical-context-2013-2014.md)
-1. [From nanoporous-glass passivation to surface structuring](notes/01-porous-glass-to-surface-structuring.md)
-2. [Master’s thesis — from one glass-processing setup to several optical functions](notes/02-master-thesis-summary.md) — a retrospective hub linking selected 2015–2017 papers to the experiments collected in the thesis
+0. [Why laser microplasma processing for transparent dielectrics?](notes/00-historical-context-2013-2014.md)
+1. [Porous-glass passivation and the first surface-sealing experiments](notes/01-porous-glass-to-surface-structuring.md)
+2. [Master’s thesis — from one glass-processing setup to several optical functions](notes/02-master-thesis-summary.md)
 3. [Phase-grating fabrication on fused silica](notes/03-phase-grating.md)
 
-## Research trajectory
+## What is inside
 
-The archive follows the development of the research approximately as:
-
-nanoporous glass → surface densification and passivation → LPM 2014 → 2015 publications → master’s thesis → broader target-assisted glass processing → controlled surface microstructuring → phase optical elements → processing of glass and crystals → process physics and reproducibility.
+- historical context for the first glass–carbon experiments;
+- porous-glass sealing and passivation data;
+- surface microstructuring of fused silica and quartz glass;
+- links between conference material, papers and thesis results;
+- recovered spectra, microscopy, profilometry and process parameters where available;
+- practical notes on experimental choices, failed regimes and reproducibility.
 
 ## Terminology
 
 Different names were used for related versions and interpretations of this processing approach over time.
 
-For example, the 2015 JLMN paper introduced **laser-induced black-body heating (LIBBH)**, while later publications used terminology including **laser-induced microplasma processing (LIMP)**. Other groups have used different names for related techniques.
+The 2015 JLMN paper used **laser-induced black-body heating (LIBBH)**. Later publications used terminology including **laser-induced microplasma processing (LIMP)**. Other groups have used different names for related backside, target-assisted, thermal or plasma-mediated techniques.
 
-For clarity, this repository will use descriptive language in note titles and navigation. Historical terminology and abbreviations will be introduced only where they are needed to discuss a specific publication, period, or comparison with earlier literature.
+For clarity, this repository uses **laser microplasma processing** as the common name for the process discussed here: transparent glass placed in contact with a carbon target, irradiation through the glass, formation of a localized hot region or microplasma at the interface, and modification of the nearby glass surface. Historical terms and abbreviations are introduced only where they belong, usually when discussing a specific publication.
 
-The historical context note will later review the terminology and techniques that were available around 2013–2014, rather than interpreting the origin of the work using today's literature.
+## Data and archive material
 
-## Conference archive
+Material will be added gradually as original files are recovered.
 
-Material from conferences will be added when original files become available.
+Current placeholders:
 
-Planned first entry:
-
-- LPM 2014 — 15th International Symposium on Laser Precision Microfabrication, Vilnius, Lithuania, 17–20 June 2014
+- [Master’s thesis raw data — files to add later](data/master-thesis/README.md)
+- LPM 2014 — 15th International Symposium on Laser Precision Microfabrication, Vilnius, Lithuania
   - poster
   - photographs
   - abstract/proceedings material
-  - early figures and data related to the porous-glass and glass-structuring work
+  - early figures and data related to porous-glass passivation and glass surface structuring
 
-## Raw data archive
+Planned data types include transmission spectra, profilometry, microscopy, beam profiles, diffraction measurements, process parameters and unsuccessful trials.
 
-A placeholder is now reserved for original files connected to the master’s thesis:
+## Authorship
 
-- [Master’s thesis raw data — files to add later](data/master-thesis/README.md)
+The research discussed here was collaborative. Ideas, experiments, implementation, calculations, interpretation, writing and supervision were contributed by different members of the teams involved in the individual studies.
 
-This will hold or point to profilometry, transmission spectra, microscopy, beam profiles, diffraction measurements, processing parameters, and unsuccessful trials when the original files are recovered.
+This repository does not redefine authorship or assign individual credit beyond the published record. Formal attribution should be taken from the peer-reviewed papers themselves and, where available, their author-contribution statements.
 
-## Planned topics
+This archive also does not replace the original journal articles. It links to the publications and adds retrospective context, practical observations and recovered material where sharing is appropriate. Publisher-owned PDFs, figures or other licensed material should not be reproduced here unless reuse is permitted.
 
-- Fast microstructuring of silica glasses
-- Random phase plates
-- Multilevel phase plates
-- Processing of crystalline and birefringent materials
-- Focusing conditions and process reproducibility
-- Original profilometry and microscopy data
-- Practical process windows and failed experiments
-
-## Working principle
+## How the notes are organized
 
 Notes are grouped by experimental story rather than one note per paper. When several publications use the same setup and belong to the same research step, they are combined to avoid repetition.
 
