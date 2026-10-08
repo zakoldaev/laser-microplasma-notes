@@ -57,11 +57,11 @@ The early glass-surface-modification paper used the historical term **laser-indu
 
 This was the transition from passivation to micro-optical fabrication.
 
-## Conference stage
+## First public presentation of the technology
 
-The chronology can already be seen in the 2014 conference record. At the 15th International Symposium on Laser Precision Microfabrication (LPM 2014) in Vilnius, the team presented work on **laser densification of porous glass** and on **LIBBH as a method for surface stabilization and modification of porous glass**. The journal papers followed in 2015.
+LPM 2014 in Vilnius was the first time I presented this technology at a conference. The conference record already shows both parts of the idea emerging: **laser densification of porous glass** and **LIBBH as a method for surface stabilization and modification of porous glass** [5,6]. The journal papers followed in 2015.
 
-That sequence is useful for this archive because it shows the method developing from a material-stabilization problem into a more general glass-processing platform.
+For me, this was the point where the work first moved out of the laboratory and became a research direction that we could present publicly, discuss with the community and develop further.
 
 ## Connection to the next note
 
