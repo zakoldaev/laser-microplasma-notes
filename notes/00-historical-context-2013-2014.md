@@ -1,120 +1,94 @@
 # Laser microplasma processing for transparent dielectrics — glass–carbon origin story
 
-Start here for the basic idea behind this archive: a transparent glass sample, a carbon target, and a nanosecond laser beam used to create a localized hot region or microplasma at the interface.
+This note introduces the basic idea behind the archive: a transparent glass sample, an absorbing carbon target and a nanosecond laser beam used to create a localized high-temperature interaction at their interface.
+
+The published terminology changed later from **laser-induced black-body heating (LIBBH)** to **laser-induced microplasma processing (LIMP)**. In this repository, **laser microplasma processing** is used as the umbrella term for the research line, while the original terminology is preserved when individual papers are discussed.
 
 ## The starting question
 
-> How can we create a localized energy source, using the pulsed laser sources available in a conventional laboratory, that could modify transparent dielectric materials such as porous glass, fused silica and crystal quartz?
+Around 2013–2014, the practical question for me was:
 
-Around 2013–2014, our laboratory had several laser-processing techniques, laser sources and scanning systems, but we did not have an ultrashort-pulse system dedicated to processing transparent dielectric materials. The tools I could work with most directly were nanosecond lasers and galvanometric scanners.
+> How can we create a localized energy source, using the pulsed laser equipment available in the laboratory, that can modify a transparent dielectric material?
 
-The question was therefore not only how to mark or texture a glass surface. It was broader: could we create a localized interaction zone — a small controllable source of heat, pressure or plasma — close enough to the dielectric material to modify it in a useful way?
+At that time I was working with nanosecond laser sources and galvanometric scanning systems. Transparent glasses such as fused silica transmit near-infrared light efficiently, so direct absorption is weak under ordinary nanosecond-processing conditions. Instead of forcing the glass itself to absorb the beam, we explored whether an absorbing material placed behind it could convert the laser energy into a localized thermal and plasma-mediated interaction.
 
-This mattered because local modification of glass, fused silica, crystal quartz or porous glass could open routes to micro-optical components, controlled surface relief, local densification and control of porosity for future integration.
-
-That practical question became the starting point of this research direction.
-
-This work started in the International Laboratory of Laser Micro- and Nano- Technologies at ITMO University. The first experiments were also shaped by the long history of application of porous glass in micro-optics and sensing.
+This laboratory context is a retrospective account of how I entered the problem. The quantitative results described later in the archive come from the corresponding publications.
 
 ## The first material: porous glass
 
-My personal route into the problem started with porous glass, in connection with my bachelor work. The material is almost transparent to the eye. At the nanoscale, however, it contains a connected pore network with a typical pore size of about 2-5 nm. This makes porous glass useful as a host material, but the developed internal surface also makes it prone to aging because molecules from air can enter the pores and gradually change its optical properties.
+My route into the topic began with porous glass during my bachelor-stage work. Porous glass can be macroscopically transparent while containing a connected nanoscale pore network. That internal surface makes it useful for infiltration, sensing and optical applications, but also makes it sensitive to adsorption of water and other molecules from the environment.
 
 <p align="center">
-  <img src="../images/00-porous-glass-sample.png" alt="Porous glass sample with SEM inset showing the nanoscale porous structure" width="900">
+  <img src="../images/00-porous-glass-sample.png" alt="Porous glass sample with a representative SEM inset showing nanoscale pore morphology" width="900">
 </p>
 
-<p align="center"><em>Figure 1. Porous glass used as the first material in this research. The photograph shows the macroscopic appearance of the nearly transparent sample. The circular inset shows the porous morphology; SEM panel (b) was cropped from Rysiakiewicz-Pasek et al., <a href="https://doi.org/10.3390/ma13173698">Materials 2020, 13, 3698</a> [3].</em></p>
+<p align="center"><em>Figure 1. Porous glass as the first material in this research story. The photograph shows the macroscopic sample. The SEM inset is a representative porous-glass morphology adapted from Rysiakiewicz-Pasek et al., <a href="https://doi.org/10.3390/ma13173698">Materials 13 (2020), 3698</a>, distributed under CC BY 4.0; it is not presented as an SEM image of the exact sample shown in the photograph.</em></p>
 
-The first practical question was:
+The first practical question was simple:
 
-> Can we seal only the outer surface while preserving the porous structure inside?
+> Can we densify or seal only the outer surface while preserving the porous structure inside?
 
-Using laser microplasma processing, we locally collapsed the surface pores, forming a sealing layer while the internal porous network remained. That result became the bridge from porous-glass stabilization to the broader question of whether the same approach could structure dense transparent glass. The transmission measurements discussed in the next note showed the practical reason for doing this: untreated porous glass degraded during storage, while samples with sealed surfaces retained their optical transmission over a much longer period.
+The work later published on porous-glass passivation showed that thermally densified surface layers could be formed while the internal porous structure remained. That became the first functional application in this research line and is discussed in [Note 01](01-porous-glass-to-surface-structuring.md).
 
-## Why an external absorber was attractive
+## Why the carbon target mattered
 
-Transparent glass is difficult to process with a near-infrared nanosecond laser because the glass itself absorbs only a small part of the incident energy. Most of the beam simply passes through the sample. This is convenient for illumination, but inconvenient for local laser processing: if the material does not absorb the light, it is hard to heat or modify it in a controlled way.
+The key experimental change was to separate **where the laser light travels** from **where the energy is absorbed**.
 
-<details>
-<summary>Why ultrashort laser pulses are usually attractive for transparent dielectrics</summary>
-
-A simple way to understand this is through the peak intensity of a laser pulse:
-
-```text
-I = E / (A × τ)
-```
-
-Here, `I` is the intensity, `E` is the pulse energy, `A` is the focused spot area and `τ` is the pulse duration. For the same pulse energy and focusing conditions, reducing the pulse duration strongly increases the peak intensity.
-
-This matters for wide-bandgap dielectric materials such as fused silica. A near-infrared photon has much lower energy than the bandgap of fused silica, so the material is almost transparent under ordinary low-intensity conditions. At sufficiently high peak intensity, however, nonlinear absorption becomes possible. In a simplified form, the absorption rate can be written as:
-
-```text
-W ∝ I^k
-```
-
-Here, `W` is the nonlinear absorption rate and `k` is the number of photons involved in the absorption process. Because the rate depends on a high power of intensity, ultrashort pulses can deposit energy locally in a material that is otherwise transparent.
-
-In our case, we did not have an ultrashort-pulse system available for this work. Laser microplasma processing therefore offered a different route: the glass transmitted the laser beam, while the carbon target absorbed it and created a localized heat or microplasma source at the interface.
-
-</details>
-
-The idea of using an external absorber changed the problem. Instead of trying to make the transparent glass absorb the laser directly, we placed an absorbing carbon-based material behind the glass. In this geometry, the laser beam can pass through the glass and deliver energy to the absorber at the back surface:
+The transparent sample was placed in contact with an absorbing graphite or carbon target. The laser beam passed through the glass and was absorbed at the target. The resulting local heating, target ablation and plasma formation acted on the nearby glass surface.
 
 <table>
 <tr>
 <td width="55%" valign="top">
 
-laser passes through the transparent glass  
-→ the carbon absorber takes up the energy  
-→ a localized hot region or microplasma forms at the glass–absorber interface  
-→ the nearby glass surface is modified
+laser passes through transparent glass  
+→ carbon/graphite absorbs the radiation  
+→ localized heating, ablation and microplasma develop at the interface  
+→ the adjacent glass surface is modified
 
 </td>
 <td width="45%" valign="top" align="center">
-  <img src="../images/00-target-assisted-processing.png" alt="Schematic of laser microplasma processing using transparent glass in direct contact with a carbon absorber" width="320"><br>
-  <em>Figure 2. Laser microplasma processing uses a carbon absorber in direct contact with transparent glass to create a localized hot region or microplasma that modifies the nearby surface.</em>
+  <img src="../images/00-target-assisted-processing.png" alt="Schematic of transparent glass in contact with a carbon target during laser microplasma processing" width="320"><br>
+  <em>Figure 2. Simplified glass–carbon geometry used throughout this archive.</em>
 </td>
 </tr>
 </table>
 
-This made the experiment possible with the laser hardware already available in the laboratory. The first trials were deliberately simple. I initially imagined that activated charcoal could work as the absorber, so we bought a small pack from a nearby pharmacy and tested the idea. Later, after searching for more compact and reproducible carbon materials, I found carbon brushes. They became a convenient target material and were used in the lab for a long time.
+The first absorber trials were deliberately simple. I remember testing activated charcoal before moving to more compact carbon materials, including carbon brushes. These details are personal laboratory recollections rather than claims taken from the published papers; they are included because they explain how the experimental geometry developed in practice.
 
-The attraction of this geometry was not that it could replace every established glass-fabrication method. Its attraction was practical simplicity: no photomask, no deposited absorbing film, no vacuum etching step, and no requirement for an ultrashort-pulse laser in the first experiments. It offered a direct way to explore whether transparent glass could be locally modified using accessible nanosecond-laser equipment and a simple absorbing target.
+The attraction of the geometry was its simplicity. It allowed us to explore transparent-material modification with available nanosecond-laser hardware without first requiring a photomask, deposited absorbing film or ultrashort-pulse source.
 
-## What did we want to find out next?
+## From an interaction to a processing method
 
-Once the porous-glass surface could be locally sealed, the research questions naturally expanded:
+Once a localized hot region and plasma plume could be produced reproducibly at the glass–target interface, the questions expanded:
 
-- Can the same geometry modify dense fused silica?
-- Can the process be controlled without cracking the glass?
-- Can the relief depth be tuned?
-- Can we make reproducible arrays rather than isolated marks?
-- Can the same idea be useful for micro-optics, beam shaping and eventually microfluidic structures?
-- What physical processes actually dominate at the target–glass interface?
+- Could the process densify porous glass without destroying the internal pore network?
+- Could it modify dense fused silica without cracking?
+- Could the relief depth be controlled over the micrometer range?
+- Could repeated scanning create useful arrays and phase structures?
+- Which part of the effect came from thermal transfer, target ablation, plasma pressure or material transfer?
 
-The later notes in this repository follow those questions.
+The next papers answered these questions step by step. The earliest publications mainly emphasized thermal densification and **LIBBH**. By 2017, dedicated experiments explicitly studied the confined **laser-induced microplasma** and its pressure and temperature, making the plasma interpretation much more direct.
 
-## Historical perspective
+## Historical terminology
 
-By 2013–2014, transparent-glass processing already had established routes, including lithography and etching, ion exchange, ultrashort-pulse laser writing and laser-assisted backside methods. The appeal of our glass–carbon geometry was not a claim to replace them: it offered a simple experiment with the nanosecond laser and scanning hardware already available to us.
+The terminology is therefore best read chronologically rather than as competing names for different repositories:
 
-## Terminology
+- **2014–2016:** conference abstracts and early papers commonly used **laser-induced black-body heating (LIBBH)** or described thermal densification using graphite as the absorber.
+- **2017 onward:** several papers used **laser-induced microplasma (LIMP)** and examined the plasma-mediated mechanism more explicitly.
+- **This repository:** uses **laser microplasma processing** as the common descriptive name for the full research line.
 
-The terminology evolved together with the experiments.
+This avoids rewriting the terminology of the original papers while keeping the archive easy to follow.
 
-One 2015 paper used the term **laser-induced black-body heating (LIBBH)**. Later work used terminology including **laser-induced microplasma processing (LIMP)**, while other research groups used different names for related backside, target-assisted, thermal or plasma-mediated methods.
+## Where the story goes next
 
-In this repository, I use **laser microplasma processing** as the common name for the process: transparent glass placed in contact with a carbon target, irradiation through the glass, formation of a localized hot region or microplasma at the interface, and modification of the nearby glass surface. Historical terms and abbreviations are introduced only where they belong, usually when discussing a particular publication.
+The first useful result was porous-glass passivation. The next step was to ask whether the same target-assisted interaction could become a fabrication tool for dense glass and, eventually, for functional micro-optical elements.
 
-## Looking back
+Continue with [Note 01 — porous-glass sealing and passivation](01-porous-glass-to-surface-structuring.md).
 
-The early experiments began as a practical question about where to deposit laser energy in a transparent material. The glass–carbon interface gave us a localized interaction to investigate, and porous glass offered the first useful test. The laboratory details described here reflect my recollection; published results are discussed in the following notes.
+## References
 
-## References and context
-
-1. Institute of Laser Technologies, ITMO University — current institute website: https://ilt.itmo.ru
-2. Fundamental monograph on sodium borosilicate and porous glasses: [«Натриевоборосиликатные и пористые стекла»](https://books.google.no/books/about/%D0%9D%D0%B0%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%BD.html?id=lxRl0gEACAAJ&redir_esc=y)
-3. E. Rysiakiewicz-Pasek, T. Antropova, I. Polyakova, O. Pshenko, A. Ciżman, “New Insight into Phase Transitions of Porous Glass-Based Ferroelectric Nanocomposites,” *Materials* 13 (2020), 3698. https://doi.org/10.3390/ma13173698 — source of SEM panel (b) used in Figure 1.
-4. R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko, “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,” *Journal of Laser Micro/Nanoengineering* 10 (2015), 15–19. https://doi.org/10.2961/jlmn.2015.01.0003 — early published description of the glass–graphite processing approach.
-5. M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev, “Laser-induced passivation of porous glass to protect it from chemical degradation and aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434. https://doi.org/10.1134/S207020511503020X — first application discussed in the following note.
+1. M. M. Sergeev, G. K. Kostyuk, **R. A. Zakoldaev**, E. B. Yakovlev, “Laser-induced passivation of porous glass to protect it from chemical degradation and aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434. https://doi.org/10.1134/S207020511503020X
+2. **R. A. Zakoldaev**, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko, “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,” *Journal of Laser Micro/Nanoengineering* 10 (2015), 15–19. https://doi.org/10.2961/jlmn.2015.01.0003
+3. G. K. Kostyuk, M. M. Sergeev, **R. A. Zakoldaev**, E. B. Yakovlev, “Fast microstructuring of silica glasses surface by NIR laser radiation,” *Optics and Lasers in Engineering* 68 (2015), 16–24. https://doi.org/10.1016/j.optlaseng.2014.12.004
+4. V. P. Veiko, S. A. Volkov, **R. A. Zakoldaev**, M. M. Sergeev, A. A. Samokhvalov, G. K. Kostyuk, K. A. Milyaev, “Laser-induced microplasma as a tool for microstructuring transparent media,” *Quantum Electronics* 47 (2017), 842–848. https://doi.org/10.1070/QEL16377
+5. E. Rysiakiewicz-Pasek, T. Antropova, I. Polyakova, O. Pshenko, A. Ciżman, “New Insight into Phase Transitions of Porous Glass-Based Ferroelectric Nanocomposites,” *Materials* 13 (2020), 3698. https://doi.org/10.3390/ma13173698 — source of the representative SEM inset in Figure 1; CC BY 4.0.
