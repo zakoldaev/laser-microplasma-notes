@@ -1,88 +1,75 @@
 # Porous-glass sealing and passivation — surface densification by laser microplasma processing
 
-This note explains the first material result in the archive: using laser microplasma processing to seal porous glass against aging while keeping the internal pore network intact.
+This note covers the first practical material result in the archive: forming thermally densified surface layers on porous glass to slow aging while preserving the internal pore network.
 
-## The first experimental question
+The 2015 passivation paper described the result in terms of **thermal densification** using a graphite target. In this repository, it is treated as the first application in the broader laser microplasma processing story because the same glass–graphite geometry later developed into LIBBH/LIMP studies and micro-optical fabrication.
 
-Once the glass–carbon geometry produced a visible localized interaction — a hot region or plasma plume at the interface — the next question became very practical: what useful change could this source create in a real material?
+## The practical question
 
-Porous glass was the natural first test material. It already had a problem that matched the idea. The material is almost transparent macroscopically, but inside it contains a connected nanoscale pore network. This porosity makes it useful for infiltration, sensing and optical applications, but it also makes the glass sensitive to aging: molecules from air can enter the pores and gradually change its optical properties.
+Porous glass is useful because its connected nanoscale pore network can host liquids, molecules and functional materials. The same open structure also makes it vulnerable to environmental adsorption and gradual changes in optical properties.
 
-The idea was therefore simple:
+The question was therefore:
 
-> If a controlled hotspot can locally collapse or densify the surface pores, can we seal the outside of porous glass while keeping the internal pore network intact?
+> Can the outer surface be densified enough to slow aging without sintering the porous structure throughout the whole sample?
 
-This note follows that first material story. Laser microplasma processing was first used here to passivate porous glass against aging. Once that worked, it became natural to ask whether the same process could also modify dense transparent glasses such as fused silica and quartz glass, not for passivation, but for controlled surface relief and microstructuring.
+The experiment used a porous-glass wafer in tight contact with compacted graphite. A pulsed ytterbium-fiber laser passed through the glass and was absorbed by the graphite, producing a localized high-temperature interaction at the interface.
 
----
+The published passivation study reports a wavelength of about 1.06 µm, pulse duration of 100 ns and repetition rate of 30–50 kHz for formation of the thermally densified layer.
 
-## What the porous-glass paper answered
+## What the paper demonstrated
 
-The passivation paper answered the first practical question. It showed that laser microplasma processing could form thermally densified layers on porous-glass wafers without fully sintering the material.
+The result was not simply a laser mark. The treatment produced a functional surface layer while keeping the deeper porous structure.
 
-The key problem was balance. Porous glass had to remain porous inside, but its outer surface had to become closed enough to slow chemical degradation and aging. In the experiment, the wafer was placed in tight contact with compacted graphite. The laser passed through the porous glass, was absorbed by the graphite, and created the local high-temperature interaction that densified the nearby glass surface.
+The main findings were:
 
-Three points made the result important:
+- thermally densified surface layers formed on porous-glass wafers;
+- cross-sectional measurements showed a densified layer of roughly 30–35 µm under the reported multipulse conditions;
+- the internal porous structure remained available below the surface layer;
+- graphite contamination could be removed on the same laser system using a wet-cleaning step with distilled water;
+- optical stability during storage improved strongly compared with untreated porous glass.
 
-```text
-surface pores closed locally
-internal porous structure was retained
-optical transmission stayed stable during storage
-```
+The transmission result needs one important distinction. Forming the densified layers initially reduced the transmission coefficient by less than about **5–10%** across the measured range. The treated samples were then stored in laboratory air with relative humidity above 70% for 10 months, and the paper reports no significant additional decrease in transmission over that period. The abstract summarizes the total transmittance loss after 10 months as less than about **5–7%** across the measured wavelength range.
 
-The paper also answered a practical question that is easy to overlook: after processing, graphite particles had to be removed. This was done on the same laser setup using a thin layer of distilled water, turning the process from a laboratory effect into a cleaner route toward usable protected samples.
+That is the key passivation result: the surface treatment introduced a modest initial optical penalty, but it strongly suppressed the subsequent aging seen in untreated porous glass.
 
-The main result was a thermally densified layer about 30–35 µm thick. After 10 months in air, protected samples kept their optical transmission much better than untreated porous glass; the transmission loss in the measured 350–900 nm range remained below about 5–7%.
+## Cleaning was part of the method
 
-For this archive, the message is simple: the plasma plume was not only something to observe. It became a tool for making a functional surface layer. That was the first step from a physical interaction at the glass–carbon interface toward laser microplasma processing as a broader method.
+Graphite particles deposited during processing were a practical problem. The published work used a thin layer of distilled water and laser scanning to remove them.
 
-Paper links:
+This detail matters because it shows the difference between observing an interesting glass–target interaction and developing a usable processing route. Surface modification, contamination and cleaning had to be considered together.
 
-- English translation: M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev, “Laser-induced passivation of porous glass to protect it from chemical degradation and aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434. DOI: https://doi.org/10.1134/S207020511503020X
-- Russian original: М. М. Сергеев, Г. К. Костюк, Р. А. Заколдаев, Е. Б. Яковлев, «Лазерная пассивация пористого стекла для защиты от химической деградации и старения», *Физикохимия поверхности и защита материалов* 51(3) (2015), 314–322. DOI: https://doi.org/10.7868/S0044185615030201
+A later 2017 paper returned specifically to the spectral changes caused by laser-microplasma processing of quartz glass and compared wet laser cleaning, thermal treatment and chemical cleaning. That work confirmed that cleaning and surface condition were important for preserving optical transmission.
 
----
+## From porous-glass passivation to dense-glass structuring
 
-## From passivation to surface structuring
+Once a localized surface layer could be produced in porous glass, the next question was whether the same target-assisted geometry could shape dense transparent glass.
 
-Once porous-glass passivation worked, the next conceptual step was straightforward:
-
-> If the glass–carbon interface can create a controlled densified layer in porous glass, can laser microplasma processing also be used to shape dense transparent glass?
-
-This is where the work moved from material stabilization toward surface microstructuring.
-
-The goal changed:
+The purpose changed:
 
 ```text
-porous glass: protect the material
-fused silica / quartz glass: create controlled surface relief
+porous glass → stabilize the material
+fused silica → create controlled surface relief
 ```
 
-A related early paper described this broader glass-surface-modification direction using the historical term **laser-induced black-body heating (LIBBH)**:
+The early glass-surface-modification paper used the historical term **laser-induced black-body heating (LIBBH)**. The following *Optics and Lasers in Engineering* paper then demonstrated fast microstructuring of fused silica and other silica glasses and tested the fabricated relief as diffraction gratings and random phase plates.
 
-R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko  
-“Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification”  
-*Journal of Laser Micro/Nanoengineering* 10(1) (2015), 15–19.  
-DOI: https://doi.org/10.2961/jlmn.2015.01.0003
+This was the transition from passivation to micro-optical fabrication.
 
-In this repository, I use **laser microplasma processing** as the common name for the process, unless discussing the terminology of a specific publication.
+## Conference stage
 
----
+The chronology can already be seen in the 2014 conference record. At the 15th International Symposium on Laser Precision Microfabrication (LPM 2014) in Vilnius, the team presented work on **laser densification of porous glass** and on **LIBBH as a method for surface stabilization and modification of porous glass**. The journal papers followed in 2015.
 
-## From the lab to publication
+That sequence is useful for this archive because it shows the method developing from a material-stabilization problem into a more general glass-processing platform.
 
-The early work was presented at LPM 2014 in Vilnius, before the 2015 journal publications. That sequence matters: the first visible plasma interaction became a practical method for protecting porous glass, and the same approach soon raised questions about structuring dense glass.
+## Connection to the next note
 
-## Next step in the story
+[Note 02](02-master-thesis-summary.md) uses the master’s thesis as a map of the next stage: process-window studies in fused silica, microlens arrays, random phase plates, diffraction gratings and beam shaping.
 
-The next stage was no longer only about proving that the surface could be modified. It was about whether the relief could be shaped deliberately and used optically.
+## References
 
-A key next publication was:
-
-G. K. Kostyuk, M. M. Sergeev, R. A. Zakoldaev, E. B. Yakovlev  
-“Fast microstructuring of silica glasses surface by NIR laser radiation”  
-*Optics and Lasers in Engineering* 68 (2015), 16–24.  
-DOI: https://doi.org/10.1016/j.optlaseng.2014.12.004
-
-That paper connects this note to later work on controlled surface relief, phase structures and beam-shaping elements.
-
+1. M. M. Sergeev, G. K. Kostyuk, **R. A. Zakoldaev**, E. B. Yakovlev, “Laser-induced passivation of porous glass to protect it from chemical degradation and aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434. https://doi.org/10.1134/S207020511503020X
+2. **R. A. Zakoldaev**, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko, “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,” *Journal of Laser Micro/Nanoengineering* 10 (2015), 15–19. https://doi.org/10.2961/jlmn.2015.01.0003
+3. G. K. Kostyuk, M. M. Sergeev, **R. A. Zakoldaev**, E. B. Yakovlev, “Fast microstructuring of silica glasses surface by NIR laser radiation,” *Optics and Lasers in Engineering* 68 (2015), 16–24. https://doi.org/10.1016/j.optlaseng.2014.12.004
+4. V. V. Koval, M. M. Sergeev, **R. A. Zakoldaev**, G. K. Kostyuk, “Changes in the spectral characteristics of quartz-glass plates when they are processed with laser-induced plasma,” *Journal of Optical Technology* 84 (2017), 447–452. https://doi.org/10.1364/JOT.84.000447
+5. G. K. Kostyuk, M. M. Sergeev, V. P. Veiko, E. B. Yakovlev, **R. A. Zakoldaev**, “Laser Densification of Porous Glasses for Multiple Photonics Applications,” *15th International Symposium on Laser Precision Microfabrication (LPM 2014)*, Vilnius, Lithuania, abstract p. 137.
+6. V. P. Veiko, **R. A. Zakoldaev**, G. K. Kostyuk, M. M. Sergeev, “Laser Induced Black Body Heating (LIBBH) – the New Method for Surface Stabilization and Modification of Porous Glasses,” *15th International Symposium on Laser Precision Microfabrication (LPM 2014)*, Vilnius, Lithuania, abstract p. 139.
