@@ -31,12 +31,6 @@ nanosecond NIR laser
 
 The relative contributions of heating, target ablation, plasma pressure and material transfer were not fully resolved in the earliest experiments; that uncertainty later became a research topic of its own.
 
-## What is currently in the repository
-
-The repository currently contains four research notes and two supporting images used in Note 00. It does **not** yet contain a complete raw-data archive. Original spectra, profilometry, microscopy, beam profiles and processing records can be added later when the corresponding files are recovered and their provenance is clear.
-
-The research discussed here was collaborative. Formal scientific credit and author order should therefore be taken from the original papers. The notes do not redefine authorship. Publisher-owned material is not reproduced unless reuse is permitted; the representative porous-glass SEM used in Note 00 comes from an open-access CC BY 4.0 article and is attributed there.
-
 ## Core publications behind the archive
 
 The following papers are directly connected to the laser microplasma processing story described here. **R. A. Zakoldaev** is shown explicitly in every citation to make the connection with this archive clear while preserving the published author order.
