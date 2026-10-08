@@ -1,8 +1,8 @@
 # Laser microplasma notes
 
-Research notes on **laser microplasma processing of transparent dielectric materials**, with a focus on porous glass, fused silica and micro-optical surface structures.
+Research notes on **laser microplasma processing of transparent dielectric materials**, with a focus on porous glass, fused silica, birefringent crystals, and the fabrication of micro-optical surface structures.
 
-This repository follows one experimental line from the first glass–carbon experiments and porous-glass passivation to controlled surface relief, phase elements and later studies of process stability. It is a research-story archive: the peer-reviewed papers remain the authoritative source for published results, while the notes add chronology, experimental context and clearly marked retrospective observations.
+This repository follows one experimental line from the first glass–carbon experiments and porous-glass passivation to controlled surface relief and functional micro-optics. The current notes focus mainly on glass and fused silica, while the broader research direction also includes laser microplasma processing of crystalline and birefringent optical materials for micro-optical structures. It is a research-story archive: the peer-reviewed papers remain the authoritative source for published results, while the notes add chronology, experimental context and clearly marked retrospective observations.
 
 ## Start here
 
