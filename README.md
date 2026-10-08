@@ -1,8 +1,8 @@
 # Laser microplasma notes
 
-Research notes and recovered experimental material on **laser microplasma processing of transparent glass, porous glass, fused silica and crystal quartz**.
+Research notes on **laser microplasma processing of transparent dielectric materials**, with a focus on porous glass, fused silica and micro-optical surface structures.
 
-This archive explains how a simple glass–carbon geometry evolved from porous-glass surface sealing to fused-silica microstructuring and glass micro-optics. It is written as a research-story archive, not as a replacement for the published papers.
+This repository follows one experimental line from the first glass–carbon experiments and porous-glass passivation to controlled surface relief, phase elements and later studies of process stability. It is a research-story archive: the peer-reviewed papers remain the authoritative source for published results, while the notes add chronology, experimental context and clearly marked retrospective observations.
 
 ## Start here
 
@@ -13,60 +13,56 @@ This archive explains how a simple glass–carbon geometry evolved from porous-g
 | 02 | [Glass micro-optics by laser microplasma processing — thesis map, surface relief and beam shaping](notes/02-master-thesis-summary.md) |
 | 03 | [Fused-silica phase gratings — laser microplasma processing for beam splitting](notes/03-phase-grating.md) |
 
-## How to read this archive
+Read the notes in order if you want the development as one story. Note 00 introduces the idea and laboratory context; Note 01 covers the first practical application in porous glass; Note 02 maps the transition to functional micro-optics; Note 03 follows the phase-grating branch in more detail.
 
-Start with Note 00 for the historical idea, then Note 01 for porous-glass sealing. Notes 02 and 03 follow the move toward controlled surface relief, beam shaping and glass micro-optics.
+## Scope and terminology
 
-The notes are grouped by experimental story rather than one note per paper. When several publications use the same setup and belong to the same research step, they are combined to avoid repeating the same background.
+The terminology changed as the work developed. Early papers used **laser-induced black-body heating (LIBBH)** to describe the glass–graphite geometry and its thermal interpretation. Later papers increasingly used **laser-induced microplasma processing (LIMP)** or simply **laser microplasma** as the plasma-mediated mechanism was studied more directly.
 
-## What you will find here
+For readability, this repository uses **laser microplasma processing** as the umbrella term for the research line. When a specific paper used LIBBH or LIMP, that historical terminology is preserved in the note and citation rather than rewritten.
 
-- short research notes explaining why each experiment was done;
-- links to the peer-reviewed publications behind each step;
-- recovered spectra, microscopy, profilometry and process parameters when available;
-- practical observations about graphite targets, cleaning, failed regimes and reproducibility;
-- placeholders for conference material and raw data that will be added later.
+The common experimental geometry is:
 
-## Terminology
+```text
+nanosecond NIR laser
+→ transparent glass
+→ absorbing graphite/carbon target
+→ localized heating, ablation and confined microplasma
+→ modification of the adjacent glass surface
+```
 
-Different names were used for related versions of this processing approach over time. The 2015 JLMN paper used **laser-induced black-body heating (LIBBH)**. Later publications used terms including **laser-induced microplasma processing (LIMP)**.
+The relative contributions of heating, target ablation, plasma pressure and material transfer were not fully resolved in the earliest experiments; that uncertainty later became a research topic of its own.
 
-For clarity, this repository uses **laser microplasma processing** as the common name for the process discussed here: transparent glass in contact with a carbon target, irradiation through the glass, formation of a localized hot region or microplasma at the interface, and modification of the nearby glass surface. Historical terms and abbreviations are introduced only where they belong, usually when discussing a specific publication.
+## What is currently in the repository
 
-## Data and archive status
+The repository currently contains four research notes and two supporting images used in Note 00. It does **not** yet contain a complete raw-data archive. Original spectra, profilometry, microscopy, beam profiles and processing records can be added later when the corresponding files are recovered and their provenance is clear.
 
-Material will be added gradually as original files are recovered.
+The research discussed here was collaborative. Formal scientific credit and author order should therefore be taken from the original papers. The notes do not redefine authorship. Publisher-owned material is not reproduced unless reuse is permitted; the representative porous-glass SEM used in Note 00 comes from an open-access CC BY 4.0 article and is attributed there.
 
-Current placeholders:
+## Core publications behind the archive
 
-- [Master’s thesis raw data — files to add later](data/master-thesis/README.md)
-- LPM 2014 — 15th International Symposium on Laser Precision Microfabrication, Vilnius, Lithuania
-  - poster
-  - photographs
-  - abstract/proceedings material
-  - early figures and data related to porous-glass passivation and glass surface structuring
+The following papers are directly connected to the laser microplasma processing story described here. **R. A. Zakoldaev** is shown explicitly in every citation to make the connection with this archive clear while preserving the published author order.
 
-Planned data types include transmission spectra, profilometry, microscopy, beam profiles, diffraction measurements, processing parameters and unsuccessful trials.
+### Establishing the glass–graphite method and first applications
 
-## Authorship and reuse
+- **R. A. Zakoldaev**, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko, “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,” *Journal of Laser Micro/Nanoengineering* 10 (2015), 15–19. [DOI](https://doi.org/10.2961/jlmn.2015.01.0003)
+- M. M. Sergeev, G. K. Kostyuk, **R. A. Zakoldaev**, E. B. Yakovlev, “Laser-induced passivation of porous glass to protect it from chemical degradation and aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434. [DOI](https://doi.org/10.1134/S207020511503020X)
+- G. K. Kostyuk, M. M. Sergeev, **R. A. Zakoldaev**, E. B. Yakovlev, “Fast microstructuring of silica glasses surface by NIR laser radiation,” *Optics and Lasers in Engineering* 68 (2015), 16–24. [DOI](https://doi.org/10.1016/j.optlaseng.2014.12.004)
+- G. K. Kostyuk, **R. A. Zakoldaev**, M. M. Sergeev, V. P. Veiko, “Laser-induced glass surface structuring by LIBBH technology,” *Optical and Quantum Electronics* 48 (2016), 249. [DOI](https://doi.org/10.1007/s11082-016-0531-0)
 
-The research discussed here was collaborative. Ideas, experiments, implementation, calculations, interpretation, writing and supervision were contributed by different members of the teams involved in the individual studies.
+### From surface relief to functional micro-optics
 
-This repository does not redefine authorship or assign individual credit beyond the published record. Formal attribution should be taken from the peer-reviewed papers themselves and, where available, their author-contribution statements.
+- G. K. Kostyuk, **R. A. Zakoldaev**, M. M. Sergeev, E. B. Yakovlev, “Microlens array fabrication on fused silica influenced by NIR laser,” *Applied Physics B* 122 (2016), 99. [DOI](https://doi.org/10.1007/s00340-016-6379-y)
+- **R. A. Zakoldaev**, G. K. Kostyuk, V. V. Koval, M. M. Sergeev, V. S. Rymkevich, E. B. Yakovlev, “Microlens array fabrication on fused silica by LIBBH technology with CO₂ laser smoothing,” *Journal of Instrument Engineering* 59 (2016), 400–406. [DOI](https://doi.org/10.17586/0021-3454-2016-59-5-400-406)
+- G. K. Kostyuk, **R. A. Zakoldaev**, V. V. Koval, M. M. Sergeev, V. S. Rymkevich, “Laser microplasma as a tool to fabricate phase grating applied for laser beam splitting,” *Optics and Lasers in Engineering* 92 (2017), 63–69. [DOI](https://doi.org/10.1016/j.optlaseng.2016.12.013)
+- V. S. Rymkevich, **R. A. Zakoldaev**, M. M. Sergeev, G. K. Kostyuk, “Using laser-induced microplasma for multilevel phase plate fabrication,” *Journal of Instrument Engineering* 60 (2017), 431–439. [DOI](https://doi.org/10.17586/0021-3454-2017-60-5-431-439)
+- **R. A. Zakoldaev**, G. K. Kostyuk, V. S. Rymkevich, V. V. Koval, M. M. Sergeev, V. P. Veiko, E. B. Yakovlev, A. N. Sivers, “Fast Fabrication of Multilevel Phase Plates Used for Laser Beam Correction,” *Journal of Laser Micro/Nanoengineering* 12 (2017), 281–285. [DOI](https://doi.org/10.2961/jlmn.2017.03.0018)
 
-This archive links to publications and adds retrospective context, practical observations and recovered material where sharing is appropriate. Publisher-owned PDFs, figures or other licensed material should not be reproduced here unless reuse is permitted.
+### Process physics and later development
 
-## Provenance
+- V. P. Veiko, S. A. Volkov, **R. A. Zakoldaev**, M. M. Sergeev, A. A. Samokhvalov, G. K. Kostyuk, K. A. Milyaev, “Laser-induced microplasma as a tool for microstructuring transparent media,” *Quantum Electronics* 47 (2017), 842–848. [DOI](https://doi.org/10.1070/QEL16377)
+- V. V. Koval, M. M. Sergeev, **R. A. Zakoldaev**, G. K. Kostyuk, “Changes in the spectral characteristics of quartz-glass plates when they are processed with laser-induced plasma,” *Journal of Optical Technology* 84 (2017), 447–452. [DOI](https://doi.org/10.1364/JOT.84.000447)
+- V. Shkuratova, G. K. Kostyuk, M. M. Sergeev, **R. A. Zakoldaev**, E. B. Yakovlev, O. Medvedev, “Rapid fabrication of spiral phase plate on fused silica by laser-induced microplasma,” *Applied Physics B* 126 (2020), 61. [DOI](https://doi.org/10.1007/s00340-020-7410-x)
+- V. S. Rymkevich, M. M. Sergeev, **R. A. Zakoldaev**, “Laser microplasma as a spot tool for glass processing: Focusing conditions,” *Journal of Materials Processing Technology* 292 (2021), 117061. [DOI](https://doi.org/10.1016/j.jmatprotec.2021.117061)
 
-The peer-reviewed publications remain the authoritative sources for the original results. Additional material in this repository will be identified, where possible, as published data, conference history, original experimental data, laboratory record, personal recollection, or new analysis.
-
-## Selected publications
-
-Foundational publications behind these notes (full author lists and scientific credit are retained in the papers):
-
-- R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko, “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,” *Journal of Laser Micro/Nanoengineering* 10 (2015), 15–19. [DOI](https://doi.org/10.2961/jlmn.2015.01.0003).
-- M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev, “Laser-induced passivation of porous glass to protect it from chemical degradation and aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434. [DOI](https://doi.org/10.1134/S207020511503020X).
-- G. K. Kostyuk, M. M. Sergeev, R. A. Zakoldaev, E. B. Yakovlev, “Fast microstructuring of silica glasses surface by NIR laser radiation,” *Optics and Lasers in Engineering* 68 (2015), 16–24. [DOI](https://doi.org/10.1016/j.optlaseng.2014.12.004).
-- G. K. Kostyuk, R. A. Zakoldaev, V. V. Koval, M. M. Sergeev, V. S. Rymkevich, “Laser microplasma as a tool to fabricate phase grating applied for laser beam splitting,” *Optics and Lasers in Engineering* 92 (2017), 63–69. [DOI](https://doi.org/10.1016/j.optlaseng.2016.12.013).
-
-More publications: [Roman Zakoldaev — Google Scholar](https://scholar.google.com/citations?user=TcIkX-kAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-6212-0532).
+Full publication records: [Google Scholar](https://scholar.google.com/citations?user=TcIkX-kAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-6212-0532)
