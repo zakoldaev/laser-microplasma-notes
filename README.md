@@ -19,8 +19,6 @@ Read the notes in order if you want the development as one story. Note 00 introd
 
 The terminology changed as the work developed. Early papers used **laser-induced black-body heating (LIBBH)** to describe the glass–graphite geometry and its thermal interpretation. Later papers increasingly used **laser-induced microplasma processing (LIMP)** or simply **laser microplasma** as the plasma-mediated mechanism was studied more directly.
 
-For readability, this repository uses **laser microplasma processing** as the umbrella term for the research line. When a specific paper used LIBBH or LIMP, that historical terminology is preserved in the note and citation rather than rewritten.
-
 The common experimental geometry is:
 
 ```text
