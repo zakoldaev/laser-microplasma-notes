@@ -14,6 +14,8 @@ The question was therefore:
 
 The experiment used a porous-glass wafer in tight contact with compacted graphite. A pulsed ytterbium-fiber laser passed through the glass and was absorbed by the graphite, producing a localized high-temperature interaction at the interface.
 
+There is little photographic documentation from this early stage. At the time, everyday phone cameras were not yet good enough for useful laboratory documentation, and most of the digital material around the project came later. If I recover photographs, scans or other material that genuinely belongs to this experiment, I will add it here.
+
 The published passivation study reports a wavelength of about 1.06 µm, pulse duration of 100 ns and repetition rate of 30–50 kHz for formation of the thermally densified layer.
 
 ## What the paper demonstrated
