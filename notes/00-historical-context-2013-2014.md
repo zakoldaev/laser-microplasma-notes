@@ -12,13 +12,13 @@ At that time I was working with nanosecond laser sources and galvanometric scann
 
 ## The first material: porous glass
 
-My route into the topic began with porous glass during my bachelor-stage work. Porous glass can be macroscopically transparent while containing a connected nanoscale pore network. That internal surface makes it useful for infiltration, sensing and optical applications, but also makes it sensitive to adsorption of water and other molecules from the environment.
+My route into the topic began with porous glass during my bachelor-stage work. Porous glass can be macroscopically transparent while containing a connected nanoscale pore network. Its high internal surface area and accessible pores make it useful as a host for molecules and functional species, including in optical sensing [2]. The same accessible pore network also allows interaction with ambient species; adsorption and related chemical changes are central to the aging problem addressed in our porous-glass passivation study [3].
 
 <p align="center">
   <img src="../images/00-porous-glass-sample.png" alt="Porous glass sample with a representative SEM inset showing nanoscale pore morphology" width="900">
 </p>
 
-<p align="center"><em>Figure 1. Porous glass as the first material in this research story. The photograph shows the macroscopic sample. The SEM inset is a representative porous-glass morphology adapted from Rysiakiewicz-Pasek et al. [2], distributed under CC BY 4.0; it is not presented as an SEM image of the exact sample shown in the photograph.</em></p>
+<p align="center"><em>Figure 1. Porous glass as the first material in this research story. The photograph shows the macroscopic sample. The SEM inset is a representative porous-glass morphology adapted from Rysiakiewicz-Pasek et al. [4], distributed under CC BY 4.0; it is not presented as an SEM image of the exact sample shown in the photograph.</em></p>
 
 The first practical question was simple:
 
@@ -65,7 +65,7 @@ Once a localized hot region and plasma plume could be produced reproducibly at t
 - Could repeated scanning create useful arrays and phase structures?
 - Which part of the effect came from thermal transfer, target ablation, plasma pressure or material transfer?
 
-The next papers answered these questions step by step and moved the work from porous-glass stabilization toward controlled surface structuring and functional micro-optics. One early step in that transition was the demonstration of fast surface microstructuring of silica glasses [4].
+The next papers answered these questions step by step and moved the work from porous-glass stabilization toward controlled surface structuring and functional micro-optics. One early step in that transition was the demonstration of fast surface microstructuring of silica glasses [5].
 
 ## Where the story goes next
 
@@ -76,6 +76,7 @@ Continue with [Note 01 — porous-glass sealing and passivation](01-porous-glass
 ## References
 
 1. **R. A. Zakoldaev**, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko, “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,” *Journal of Laser Micro/Nanoengineering* 10 (2015), 15–19. https://doi.org/10.2961/jlmn.2015.01.0003
-2. E. Rysiakiewicz-Pasek, T. Antropova, I. Polyakova, O. Pshenko, A. Ciżman, “New Insight into Phase Transitions of Porous Glass-Based Ferroelectric Nanocomposites,” *Materials* 13 (2020), 3698. https://doi.org/10.3390/ma13173698 — source of the representative SEM inset in Figure 1; CC BY 4.0.
+2. X.-D. Wang, O. S. Wolfbeis, “Optical methods for sensing and imaging oxygen: materials, spectroscopies and applications,” *Chemical Society Reviews* 43 (2014), 3666–3761. https://doi.org/10.1039/C4CS00039K
 3. M. M. Sergeev, G. K. Kostyuk, **R. A. Zakoldaev**, E. B. Yakovlev, “Laser-induced passivation of porous glass to protect it from chemical degradation and aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434. https://doi.org/10.1134/S207020511503020X
-4. G. K. Kostyuk, M. M. Sergeev, **R. A. Zakoldaev**, E. B. Yakovlev, “Fast microstructuring of silica glasses surface by NIR laser radiation,” *Optics and Lasers in Engineering* 68 (2015), 16–24. https://doi.org/10.1016/j.optlaseng.2014.12.004
+4. E. Rysiakiewicz-Pasek, T. Antropova, I. Polyakova, O. Pshenko, A. Ciżman, “New Insight into Phase Transitions of Porous Glass-Based Ferroelectric Nanocomposites,” *Materials* 13 (2020), 3698. https://doi.org/10.3390/ma13173698 — source of the representative SEM inset in Figure 1; CC BY 4.0.
+5. G. K. Kostyuk, M. M. Sergeev, **R. A. Zakoldaev**, E. B. Yakovlev, “Fast microstructuring of silica glasses surface by NIR laser radiation,” *Optics and Lasers in Engineering* 68 (2015), 16–24. https://doi.org/10.1016/j.optlaseng.2014.12.004
