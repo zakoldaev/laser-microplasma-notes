@@ -59,3 +59,14 @@ This archive links to publications and adds retrospective context, practical obs
 ## Provenance
 
 The peer-reviewed publications remain the authoritative sources for the original results. Additional material in this repository will be identified, where possible, as published data, conference history, original experimental data, laboratory record, personal recollection, or new analysis.
+
+## Selected publications
+
+Foundational publications behind these notes (full author lists and scientific credit are retained in the papers):
+
+- R. A. Zakoldaev, M. M. Sergeev, G. K. Kostyuk, V. P. Veiko, “Laser-induced Black-body Heating (LIBBH) as a Method for Glass Surface Modification,” *Journal of Laser Micro/Nanoengineering* 10 (2015), 15–19. [DOI](https://doi.org/10.2961/jlmn.2015.01.0003).
+- M. M. Sergeev, G. K. Kostyuk, R. A. Zakoldaev, E. B. Yakovlev, “Laser-induced passivation of porous glass to protect it from chemical degradation and aging,” *Protection of Metals and Physical Chemistry of Surfaces* 51 (2015), 427–434. [DOI](https://doi.org/10.1134/S207020511503020X).
+- G. K. Kostyuk, M. M. Sergeev, R. A. Zakoldaev, E. B. Yakovlev, “Fast microstructuring of silica glasses surface by NIR laser radiation,” *Optics and Lasers in Engineering* 68 (2015), 16–24. [DOI](https://doi.org/10.1016/j.optlaseng.2014.12.004).
+- G. K. Kostyuk, R. A. Zakoldaev, V. V. Koval, M. M. Sergeev, V. S. Rymkevich, “Laser microplasma as a tool to fabricate phase grating applied for laser beam splitting,” *Optics and Lasers in Engineering* 92 (2017), 63–69. [DOI](https://doi.org/10.1016/j.optlaseng.2016.12.013).
+
+More publications: [Roman Zakoldaev — Google Scholar](https://scholar.google.com/citations?user=TcIkX-kAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-6212-0532).
