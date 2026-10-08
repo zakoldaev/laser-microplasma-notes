@@ -95,13 +95,9 @@ Once the porous-glass surface could be locally sealed, the research questions na
 
 The later notes in this repository follow those questions.
 
-## What was already available at the time?
+## Historical perspective
 
-This section will later become a short historical review based only on techniques and literature that were available around 2013–2014.
-The purpose will not be to claim that laser microplasma processing appeared from nowhere. At the time, established approaches already included lithography and etching, ion exchange, direct laser writing, femtosecond processing, laser-assisted chemical methods, and several backside-processing concepts using liquids, thin absorbing films or nearby solid targets.
-
-The interesting question is narrower:
-> Given the equipment, materials and knowledge available to us at that time, why did this particular glass–target geometry become worth exploring?
+By 2013–2014, transparent-glass processing already had established routes, including lithography and etching, ion exchange, ultrashort-pulse laser writing and laser-assisted backside methods. The appeal of our glass–carbon geometry was not a claim to replace them: it offered a simple experiment with the nanosecond laser and scanning hardware already available to us.
 
 ## Terminology
 
@@ -111,38 +107,12 @@ One 2015 paper used the term **laser-induced black-body heating (LIBBH)**. Later
 
 In this repository, I use **laser microplasma processing** as the common name for the process: transparent glass placed in contact with a carbon target, irradiation through the glass, formation of a localized hot region or microplasma at the interface, and modification of the nearby glass surface. Historical terms and abbreviations are introduced only where they belong, usually when discussing a particular publication.
 
-## Material to add later
+## Looking back
 
-Potential historical material:
-
-```text
-history/
-    literature-2013-2014/
-    lab-notes/
-    sketches/
-    early-setup-photos/
-    personal-notes/
-```
-
-Useful additions may include:
-
-- early laboratory sketches of the glass–target geometry;
-- first photographs of the interaction region;
-- notes from lectures or discussions that influenced the experiments;
-- early unsuccessful trials;
-- papers that were actually available to us at the time;
-- LPM 2014 material;
-- laboratory notes that help establish the chronology.
-
-## Status
-
-Working historical note.
-
-The motivation and personal perspective above reflect my recollection of how I entered this problem. The literature comparison and detailed chronology will be added separately and will be tied to contemporary sources wherever possible.
+The early experiments began as a practical question about where to deposit laser energy in a transparent material. The glass–carbon interface gave us a localized interaction to investigate, and porous glass offered the first useful test. The laboratory details described here reflect my recollection; published results are discussed in the following notes.
 
 ## References and context
 
 1. Institute of Laser Technologies, ITMO University — current institute website: https://ilt.itmo.ru
 2. Fundamental monograph on sodium borosilicate and porous glasses: [«Натриевоборосиликатные и пористые стекла»](https://books.google.no/books/about/%D0%9D%D0%B0%D1%82%D1%80%D0%B8%D0%B5%D0%B2%D0%BE%D0%B1%D0%BE%D1%80%D0%BE%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%B0%D1%82%D0%BD.html?id=lxRl0gEACAAJ&redir_esc=y)
 3. E. Rysiakiewicz-Pasek, T. Antropova, I. Polyakova, O. Pshenko, A. Ciżman, “New Insight into Phase Transitions of Porous Glass-Based Ferroelectric Nanocomposites,” *Materials* 13 (2020), 3698. https://doi.org/10.3390/ma13173698 — source of SEM panel (b) used in Figure 1.
-4. Additional historical references from the 2013–2014 period will be added here as this context note is expanded.
