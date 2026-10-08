@@ -6,6 +6,12 @@ This repository follows one experimental line from the first glass–carbon expe
 
 > **A note on how to read these notes:** the archive combines published results with my recollection of how the experiments developed in the laboratory. Numerical results and scientific claims are tied to the cited papers; details about early ideas, practical choices, failed attempts and the sequence of experiments reflect my recollection unless a source is given.
 
+### Terminology used in this archive
+
+The name of the process changed as the work developed. In the 2014–2016 conference abstracts and early papers we commonly used **laser-induced black-body heating (LIBBH)**, reflecting the thermal interpretation of the glass–graphite interaction. From 2017 onward, several papers used **laser-induced microplasma (LIMP)** and examined the plasma-mediated mechanism more directly.
+
+Throughout this repository I use **laser microplasma processing** as the common descriptive name for the full research line, while the original terminology is kept in the titles and discussion of individual papers.
+
 ## Start here
 
 | Note | Topic |
@@ -17,9 +23,7 @@ This repository follows one experimental line from the first glass–carbon expe
 
 Read the notes in order if you want the development as one story. Note 00 introduces the idea and laboratory context; Note 01 covers the first practical application in porous glass; Note 02 maps the transition to functional micro-optics; Note 03 follows the phase-grating branch in more detail.
 
-## Scope and terminology
-
-The terminology changed as the work developed. Early papers used **laser-induced black-body heating (LIBBH)** to describe the glass–graphite geometry and its thermal interpretation. Later papers increasingly used **laser-induced microplasma processing (LIMP)** or simply **laser microplasma** as the plasma-mediated mechanism was studied more directly.
+## Basic processing geometry
 
 The common experimental geometry is:
 
