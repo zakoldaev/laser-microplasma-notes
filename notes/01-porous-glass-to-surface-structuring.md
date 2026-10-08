@@ -69,55 +69,9 @@ In this repository, I use **laser microplasma processing** as the common name fo
 
 ---
 
-## Conference stage
+## From the lab to publication
 
-The work was presented at:
-
-**LPM 2014 — 15th International Symposium on Laser Precision Microfabrication**  
-Vilnius, Lithuania, 17–20 June 2014
-
-This conference stage is important because it sits between the first laboratory trials and the 2015 journal publications. Later, it would be useful to add the poster, abstract, photographs and early figures to show what was already clear at that point and what changed before publication.
-
-Placeholder:
-
-```text
-conference/LPM2014/
-    poster/
-    photos/
-    abstract/
-    figures/
-```
-
----
-
-## Material to recover
-
-The note should stay compact. The most useful additions are practical details that help reconstruct the experiment:
-
-- LPM 2014 poster, abstract and photographs;
-- early photographs of the glass–carbon interaction region;
-- porous-glass transmission spectra before and after aging;
-- microscopy or profilometry of densified porous-glass surfaces;
-- processing parameters for successful and failed regimes;
-- notes on activated charcoal, graphite and carbon-brush targets;
-- observations about contact between glass and absorber;
-- contamination and cleaning procedures;
-- examples of cracked, damaged or unstable samples;
-- early fused-silica / quartz-glass surface-relief profiles.
-
-Suggested archive structure:
-
-```text
-conference/LPM2014/
-images/porous-glass/
-images/glass-surface-structuring/
-data/porous-glass/transmission/
-data/porous-glass/microscopy/
-data/glass-surface-structuring/profilometry/
-data/glass-surface-structuring/process-parameters/
-```
-
----
+The early work was presented at LPM 2014 in Vilnius, before the 2015 journal publications. That sequence matters: the first visible plasma interaction became a practical method for protecting porous glass, and the same approach soon raised questions about structuring dense glass.
 
 ## Next step in the story
 
@@ -132,10 +86,3 @@ DOI: https://doi.org/10.1016/j.optlaseng.2014.12.004
 
 That paper connects this note to later work on controlled surface relief, phase structures and beam-shaping elements.
 
----
-
-## Status
-
-Working archive note.
-
-The purpose of this note is to describe the first material branch of the laser microplasma processing story: from seeing a localized interaction at the glass–carbon interface to using it for porous-glass passivation and then for early surface structuring of dense transparent glass. Published papers remain the authoritative source for final results. This repository adds context, chronology, practical observations and recovered material where available.
