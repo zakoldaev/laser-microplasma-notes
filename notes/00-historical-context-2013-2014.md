@@ -2,8 +2,6 @@
 
 This note introduces the basic idea behind the archive: a transparent glass sample, an absorbing carbon target and a nanosecond laser beam used to create a localized high-temperature interaction at their interface.
 
-The published terminology changed later from **laser-induced black-body heating (LIBBH)** to **laser-induced microplasma processing (LIMP)**. In this repository, **laser microplasma processing** is used as the umbrella term for the research line, while the original terminology is preserved when individual papers are discussed.
-
 ## The starting question
 
 Around 2013–2014, the practical question for me was:
@@ -68,16 +66,6 @@ Once a localized hot region and plasma plume could be produced reproducibly at t
 - Which part of the effect came from thermal transfer, target ablation, plasma pressure or material transfer?
 
 The next papers answered these questions step by step and moved the work from porous-glass stabilization toward controlled surface structuring and functional micro-optics.
-
-## Historical terminology
-
-The terminology is therefore best read chronologically rather than as competing names for different repositories:
-
-- **2014–2016:** conference abstracts and early papers commonly used **laser-induced black-body heating (LIBBH)** or described thermal densification using graphite as the absorber.
-- **2017 onward:** several papers used **laser-induced microplasma (LIMP)** and examined the plasma-mediated mechanism more explicitly.
-- **This repository:** uses **laser microplasma processing** as the common descriptive name for the full research line.
-
-This avoids rewriting the terminology of the original papers while keeping the archive easy to follow.
 
 ## Where the story goes next
 
