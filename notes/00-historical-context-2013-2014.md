@@ -67,7 +67,7 @@ Once a localized hot region and plasma plume could be produced reproducibly at t
 - Could repeated scanning create useful arrays and phase structures?
 - Which part of the effect came from thermal transfer, target ablation, plasma pressure or material transfer?
 
-The next papers answered these questions step by step. The earliest publications mainly emphasized thermal densification and **LIBBH**. By 2017, dedicated experiments explicitly studied the confined **laser-induced microplasma** and its pressure and temperature, making the plasma interpretation much more direct.
+The next papers answered these questions step by step and moved the work from porous-glass stabilization toward controlled surface structuring and functional micro-optics.
 
 ## Historical terminology
 
