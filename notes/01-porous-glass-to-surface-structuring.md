@@ -32,9 +32,7 @@ The main findings were:
 
 Looking back at those cross sections, there is an important ambiguity. Porous glass itself is produced by chemical leaching, which creates a porous near-surface region, and at the magnification used in the published cross-sectional images it is difficult to separate that pre-existing chemically modified region from the much thinner zone affected directly by the laser-driven interaction. The actual plasma- and heat-induced structural change may therefore have been confined to a substantially thinner, micron-scale surface layer. I now treat the reported 30–35 µm value as the extent of the visible cross-sectional region rather than a precise measurement of the laser-modified depth.
 
-The transmission result needs one important distinction. Forming the densified layers initially reduced the transmission coefficient by less than about **5–10%** across the measured range. The treated samples were then stored in laboratory air with relative humidity above 70% for 10 months, and the paper reports no significant additional decrease in transmission over that period. The abstract summarizes the total transmittance loss after 10 months as less than about **5–7%** across the measured wavelength range.
-
-That is the key passivation result: the surface treatment introduced a modest initial optical penalty, but it strongly suppressed the subsequent aging seen in untreated porous glass.
+The transmission result needs one important distinction. Forming the densified layers initially reduced the transmission coefficient by less than about **5–10%** across the measured range. The treated samples were then stored in laboratory air with relative humidity above 70% for 10 months, and the paper reports no significant additional decrease in transmission over that period.
 
 ## Cleaning was part of the method
 
