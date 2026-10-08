@@ -12,8 +12,6 @@ Around 2013–2014, the practical question for me was:
 
 At that time I was working with nanosecond laser sources and galvanometric scanning systems. Transparent glasses such as fused silica transmit near-infrared light efficiently, so direct absorption is weak under ordinary nanosecond-processing conditions. Instead of forcing the glass itself to absorb the beam, we explored whether an absorbing material placed behind it could convert the laser energy into a localized thermal and plasma-mediated interaction.
 
-This laboratory context is a retrospective account of how I entered the problem. The quantitative results described later in the archive come from the corresponding publications.
-
 ## The first material: porous glass
 
 My route into the topic began with porous glass during my bachelor-stage work. Porous glass can be macroscopically transparent while containing a connected nanoscale pore network. That internal surface makes it useful for infiltration, sensing and optical applications, but also makes it sensitive to adsorption of water and other molecules from the environment.
@@ -55,7 +53,7 @@ laser passes through the transparent optical material
 </tr>
 </table>
 
-The first absorber trials were deliberately simple. I remember testing activated charcoal before moving to more compact carbon materials, including carbon brushes. These details are personal laboratory recollections rather than claims taken from the published papers; they are included because they explain how the experimental geometry developed in practice.
+The first absorber trials were deliberately simple. I remember testing activated charcoal before moving to more compact carbon materials, including carbon brushes.
 
 The attraction of the geometry was its simplicity. It allowed us to explore transparent-material modification with available nanosecond-laser hardware without first requiring a photomask, deposited absorbing film or ultrashort-pulse source.
 
