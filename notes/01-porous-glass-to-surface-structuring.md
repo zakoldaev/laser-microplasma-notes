@@ -20,15 +20,17 @@ The published passivation study reports a wavelength of about 1.06 µm, pulse du
 
 ## What the paper demonstrated
 
-The result was not simply a laser mark. The treatment produced a functional surface layer while keeping the deeper porous structure.
+The result was not simply a laser mark. The treatment produced a functional near-surface modification while the deeper porous structure remained.
 
 The main findings were:
 
-- thermally densified surface layers formed on porous glass;
-- cross-sectional measurements showed a densified layer of roughly 30–35 µm under the reported multipulse conditions;
-- the internal porous structure remained available below the surface layer;
+- a modified near-surface region was observed after laser treatment;
+- the published cross-sectional images show a region extending roughly 30–35 µm under the reported multipulse conditions, but this dimension should not automatically be interpreted as the true depth of laser-induced densification;
+- the internal porous structure remained below the modified surface region;
 - graphite contamination could be removed on the same laser system using a wet-cleaning step with distilled water;
 - optical stability during storage improved strongly compared with untreated porous glass.
+
+Looking back at those cross sections, there is an important ambiguity. Porous glass itself is produced by chemical leaching, which creates a porous near-surface region, and at the magnification used in the published cross-sectional images it is difficult to separate that pre-existing chemically modified region from the much thinner zone affected directly by the laser-driven interaction. The actual plasma- and heat-induced structural change may therefore have been confined to a substantially thinner, micron-scale surface layer. I now treat the reported 30–35 µm value as the extent of the visible cross-sectional region rather than a precise measurement of the laser-modified depth.
 
 The transmission result needs one important distinction. Forming the densified layers initially reduced the transmission coefficient by less than about **5–10%** across the measured range. The treated samples were then stored in laboratory air with relative humidity above 70% for 10 months, and the paper reports no significant additional decrease in transmission over that period. The abstract summarizes the total transmittance loss after 10 months as less than about **5–7%** across the measured wavelength range.
 
@@ -44,7 +46,7 @@ A later 2017 paper returned specifically to the spectral changes caused by laser
 
 ## From porous-glass passivation to dense-glass structuring
 
-Once a localized surface layer could be produced in porous glass, the next question was whether the same target-assisted geometry could shape dense transparent glass.
+Once a localized surface modification could be produced in porous glass, the next question was whether the same target-assisted geometry could shape dense transparent glass.
 
 The purpose changed:
 
