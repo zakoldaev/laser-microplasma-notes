@@ -109,39 +109,6 @@ Looking back, the thesis was useful because it connected separate papers into on
 - some optical elements did not work as well as expected, and those limitations shaped the next experiments;
 - unresolved mechanism questions later became a separate process-physics direction.
 
-## Raw data — to add later
+## Sources
 
-Planned location:
-
-```text
-data/master-thesis/
-    process-window/
-    profilometry/
-    porous-glass-transmission/
-    microscopy/
-    microlens-arrays/
-    random-phase-plates/
-    diffraction-gratings/
-    parallel-processing/
-```
-
-Priority files to recover:
-
-- profilometer traces behind the relief-depth plots;
-- raw transmission spectra from the porous-glass stability study;
-- microscopy and scanning-probe microscopy data;
-- laser-processing parameter tables;
-- CCD intensity distributions;
-- diffraction-order measurements;
-- images from titanium-film processing tests;
-- failed or damaged samples, if documented.
-
-Each dataset should get a short README explaining what it contains, which figure or result it relates to, and whether it was published, unpublished or re-analysed later.
-
-## Source and provenance
-
-Primary source for this note: my Russian-language master’s thesis.
-
-The thesis describes collaborative research performed by the team. Formal scientific credit and authorship should be taken from the corresponding papers and their published records.
-
-This GitHub note is a retrospective explanation intended to make the experimental development easier to understand and to preserve details that were distributed across the thesis, papers, conference material and laboratory records.
+This retrospective draws on my Russian-language master’s thesis and the linked peer-reviewed publications. The experiments were collaborative; the papers remain the source for formal authorship and validated results.
