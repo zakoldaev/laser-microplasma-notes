@@ -40,7 +40,7 @@ Graphite particles deposited during processing were a practical problem. The pub
 
 This detail matters because it shows the difference between observing an interesting glass–target interaction and developing a usable processing route. Surface modification, contamination and cleaning had to be considered together.
 
-A later 2017 paper returned specifically to the spectral changes caused by laser-microplasma processing of quartz glass and compared wet laser cleaning, thermal treatment and chemical cleaning. That work confirmed that cleaning and surface condition were important for preserving optical transmission.
+A later 2017 paper returned specifically to the spectral changes caused by laser-microplasma processing of quartz glass and compared wet laser cleaning, thermal treatment and chemical cleaning [4]. That work confirmed that cleaning and surface condition were important for preserving optical transmission.
 
 ## From porous-glass passivation to dense-glass structuring
 
