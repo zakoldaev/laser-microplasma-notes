@@ -12,7 +12,7 @@ The question was therefore:
 
 > Can the outer surface be densified enough to slow aging without sintering the porous structure throughout the whole sample?
 
-The experiment used a porous-glass wafer in tight contact with compacted graphite. A pulsed ytterbium-fiber laser passed through the glass and was absorbed by the graphite, producing a localized high-temperature interaction at the interface.
+The experiment used porous glass in tight contact with compacted graphite. A pulsed ytterbium-fiber laser passed through the glass and was absorbed by the graphite, producing a localized high-temperature interaction at the interface.
 
 There is little photographic documentation from this early stage. At the time, everyday phone cameras were not yet good enough for useful laboratory documentation, and most of the digital material around the project came later. If I recover photographs, scans or other material that genuinely belongs to this experiment, I will add it here.
 
@@ -24,7 +24,7 @@ The result was not simply a laser mark. The treatment produced a functional surf
 
 The main findings were:
 
-- thermally densified surface layers formed on porous-glass wafers;
+- thermally densified surface layers formed on porous glass;
 - cross-sectional measurements showed a densified layer of roughly 30–35 µm under the reported multipulse conditions;
 - the internal porous structure remained available below the surface layer;
 - graphite contamination could be removed on the same laser system using a wet-cleaning step with distilled water;
