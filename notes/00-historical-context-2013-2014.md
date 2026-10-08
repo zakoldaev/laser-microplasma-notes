@@ -30,25 +30,27 @@ The first practical question was simple:
 
 The work later published on porous-glass passivation showed that thermally densified surface layers could be formed while the internal porous structure remained. That became the first functional application in this research line and is discussed in [Note 01](01-porous-glass-to-surface-structuring.md).
 
-## Why the carbon target mattered
+## Making the laser energy useful for transparent optical materials
 
-The key experimental change was to separate **where the laser light travels** from **where the energy is absorbed**.
+The basic problem was that the optical material itself did not absorb enough of the near-infrared nanosecond laser radiation to be modified efficiently. We therefore needed another way to absorb the light and convert it into a local source of energy close to the surface.
 
-The transparent sample was placed in contact with an absorbing graphite or carbon target. The laser beam passed through the glass and was absorbed at the target. The resulting local heating, target ablation and plasma formation acted on the nearby glass surface.
+The solution was to place the transparent sample in contact with a graphite or carbon target. The laser beam passed through the optical material and was absorbed by the carbon. That absorption created intense local heating, target ablation and microplasma at the interface. The important consequence was that the energy released at the target could then act back on the adjacent transparent material and modify its surface.
+
+In other words, the carbon target was not the object we wanted to process. It was the absorber that made processing of the transparent optical material possible.
 
 <table>
 <tr>
 <td width="55%" valign="top">
 
-laser passes through transparent glass  
+laser passes through the transparent optical material  
 → carbon/graphite absorbs the radiation  
 → localized heating, ablation and microplasma develop at the interface  
-→ the adjacent glass surface is modified
+→ the released energy modifies the adjacent optical material
 
 </td>
 <td width="45%" valign="top" align="center">
   <img src="../images/00-target-assisted-processing.png" alt="Schematic of transparent glass in contact with a carbon target during laser microplasma processing" width="320"><br>
-  <em>Figure 2. Simplified glass–carbon geometry used throughout this archive.</em>
+  <em>Figure 2. The carbon target absorbs the laser radiation and converts it into a localized high-energy interaction that modifies the adjacent transparent optical material.</em>
 </td>
 </tr>
 </table>
