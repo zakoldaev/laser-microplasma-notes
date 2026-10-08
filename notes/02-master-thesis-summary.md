@@ -112,3 +112,6 @@ Looking back, the thesis was useful because it connected separate papers into on
 ## Sources
 
 This retrospective draws on my Russian-language master’s thesis and the linked peer-reviewed publications. The experiments were collaborative; the papers remain the source for formal authorship and validated results.
+
+
+Selected primary papers: [glass surface modification (2015)](https://doi.org/10.2961/jlmn.2015.01.0003), [porous-glass passivation (2015)](https://doi.org/10.1134/S207020511503020X), [silica microstructuring (2015)](https://doi.org/10.1016/j.optlaseng.2014.12.004), [microlens arrays (2016)](https://doi.org/10.1007/s00340-016-6379-y), [phase gratings (2017)](https://doi.org/10.1016/j.optlaseng.2016.12.013), and [microplasma mechanism (2017)](https://doi.org/10.1070/QEL16377). See [Roman Zakoldaev's publication profile](https://scholar.google.com/citations?user=TcIkX-kAAAAJ&hl=en) for the wider publication record.
