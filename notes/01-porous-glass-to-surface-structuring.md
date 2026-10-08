@@ -63,6 +63,9 @@ LPM 2014 in Vilnius was the first time I presented this technology at a conferen
 
 For me, this was the point where the work first moved out of the laboratory and became a research direction that we could present publicly, discuss with the community and develop further.
 
+> [!IMPORTANT]
+> **TODO:** Add the original LPM 2014 presentation and a few photographs from the conference when I recover and prepare them for the repository.
+
 ## Connection to the next note
 
 [Note 02](02-master-thesis-summary.md) uses the master’s thesis as a map of the next stage: process-window studies in fused silica, microlens arrays, random phase plates, diffraction gratings and beam shaping.
