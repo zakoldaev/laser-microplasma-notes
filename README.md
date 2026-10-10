@@ -2,7 +2,7 @@
 
 Research notes on **laser microplasma processing of transparent dielectric materials**, with a focus on porous glass, fused silica, birefringent crystals, and the fabrication of micro-optical surface elements.
 
-This repository follows one experimental line from the first glass–carbon experiments and porous-glass passivation to controlled surface relief and functional micro-optics. It is a research-story archive: the peer-reviewed papers remain the authoritative source for published results, while the notes add chronology, experimental context and clearly marked retrospective observations.
+This repository follows one experimental line from the first glass–carbon experiments and porous-glass passivation to controlled surface relief and functional micro-optics. It is a research-story archive: the peer-reviewed papers remain the authoritative source for published results, while the notes add chronology, experimental context and retrospective observations from the laboratory.
 
 ### Terminology used in this archive
 
@@ -33,7 +33,7 @@ nanosecond NIR laser
 
 ## How the work developed in publications
 
-The publication trail follows the same path as the experiments. It starts with the first glass–graphite studies and porous-glass passivation, then moves toward controlled surface relief, microlenses and phase elements, and finally to a closer look at the microplasma itself and the stability of the processing conditions. Most of the papers I have uploaded in ResearchGate profile: https://www.researchgate.net/profile/Roman-Zakoldaev. 
+The publication trail follows the same path as the experiments. It starts with the first glass–graphite studies and porous-glass passivation, then moves toward controlled surface relief, microlenses and phase elements, and finally to a closer look at the microplasma itself and the stability of the processing conditions. Many of these papers are also available through my [ResearchGate profile](https://www.researchgate.net/profile/Roman-Zakoldaev).
 
 ### Establishing the glass–graphite method and first applications
 
