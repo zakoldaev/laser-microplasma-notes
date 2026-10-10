@@ -4,12 +4,13 @@ This note introduces the basic idea behind the archive: a transparent glass samp
 
 ## The starting question
 
-Around 2013–2014, the practical question for me was:
+Looking back, I would formulate the question as:
 
 > How can we create a localized energy source, using the pulsed laser equipment available in the laboratory, that can modify a transparent dielectric material?
-> It is my current wording, back then it was curiosity - how to induce porous glass changes with the lasers we have :D
 
-At that time I was working with nanosecond laser sources and galvanometric scanning systems. Transparent glasses such as fused silica transmit near-infrared light efficiently, so direct absorption is weak under ordinary nanosecond-processing conditions. Instead of forcing the glass itself to absorb the beam, we explored whether an absorbing material placed behind it could convert the laser energy into a localized thermal and plasma-mediated interaction. The glass–graphite geometry was later described in our early publication on laser-induced black-body heating [1].
+At the time, however, it was much less formal. It was mainly curiosity: **could we induce useful changes in porous glass with the lasers we already had?**
+
+I was working with nanosecond laser sources and galvanometric scanning systems. Transparent glasses such as fused silica transmit near-infrared light efficiently, so direct absorption is weak under ordinary nanosecond-processing conditions. Instead of forcing the glass itself to absorb the beam, we explored whether an absorbing material placed behind it could convert the laser energy into a localized thermal and plasma-mediated interaction. The glass–graphite geometry was later described in our early publication on laser-induced black-body heating [1].
 
 ## The first material: porous glass
 
@@ -25,15 +26,15 @@ The first practical question was simple:
 
 > Can we densify or seal only the outer surface while preserving the porous structure inside?
 
-The work later published on porous-glass passivation showed that thermally densified surface layers could be formed while the internal porous structure remained [3]. That became the first functional application in this research line and is discussed in [Note 01](01-porous-glass-to-surface-structuring.md).
+The work later published on porous-glass passivation showed that thermally modified surface regions could be produced while the internal porous structure remained [3]. That became the first functional application in this research line and is discussed in [Note 01](01-porous-glass-to-surface-structuring.md).
 
 ## Making the laser energy useful for transparent optical materials
 
 The basic problem was that the optical material itself did not absorb enough of the near-infrared nanosecond laser radiation to be modified efficiently. We therefore needed another way to absorb the light and convert it into a local source of energy close to the surface.
 
-The solution was to place the transparent sample in contact with a graphite or carbon target.  The laser beam passed through the optical material and was absorbed by the carbon. That absorption created intense local heating, target ablation and microplasma at the interface. The important consequence was that the energy released at the target could then act back on the adjacent transparent material and modify its surface [1].
+My first clear indication that this could work came from placing a metal target next to the porous glass and focusing the beam at the interface. The result was crude: a large, sub-millimeter-scale cavity formed in the glass surface and was heavily contaminated by material from the target. It was not yet a useful process, but it showed that an absorbing target could transfer enough localized energy to modify the glass.
 
-> Honestly, first time I have noticed that when placed a metal target next to the porous glass and focused beam - but the results was very rought - a huge sub-mm cavity ob the glass surface, full of impurities from the target.
+The next step was to use carbon-based absorbers. With the transparent sample in contact with graphite or carbon, the laser beam passed through the optical material and was absorbed by the target. That absorption produced intense local heating, target ablation and microplasma at the interface, and the released energy then acted back on the adjacent transparent material and modified its surface [1].
 
 In other words, the carbon target was not the object we wanted to process. It was the absorber that made processing of the transparent optical material possible.
 
@@ -54,7 +55,7 @@ laser passes through the transparent optical material
 </tr>
 </table>
 
-highlight somehow: The first absorber trials were deliberately simple. I remember testing activated charcoal before moving to more compact carbon materials, including carbon brushes.
+> **Early absorber trials.** I remember starting with very simple materials, including activated charcoal, before moving to more compact carbon absorbers such as carbon brushes.
 
 The attraction of the geometry was its simplicity. It allowed us to explore transparent-material modification with available nanosecond-laser hardware without first requiring a photomask, deposited absorbing film or ultrashort-pulse source.
 
