@@ -1,4 +1,4 @@
-# Laser microplasma processing for transparent dielectrics — glass–carbon origin story
+# Laser microplasma processing for transparent dielectrics: glass–carbon origin story
 
 This note introduces the basic idea behind the archive: a transparent glass sample, an absorbing carbon target and a nanosecond laser beam used to create a localized high-temperature interaction at their interface.
 
@@ -7,6 +7,7 @@ This note introduces the basic idea behind the archive: a transparent glass samp
 Around 2013–2014, the practical question for me was:
 
 > How can we create a localized energy source, using the pulsed laser equipment available in the laboratory, that can modify a transparent dielectric material?
+> It is my current wording, back then it was curiosity - how to induce porous glass changes with the lasers we have :D
 
 At that time I was working with nanosecond laser sources and galvanometric scanning systems. Transparent glasses such as fused silica transmit near-infrared light efficiently, so direct absorption is weak under ordinary nanosecond-processing conditions. Instead of forcing the glass itself to absorb the beam, we explored whether an absorbing material placed behind it could convert the laser energy into a localized thermal and plasma-mediated interaction. The glass–graphite geometry was later described in our early publication on laser-induced black-body heating [1].
 
@@ -30,7 +31,9 @@ The work later published on porous-glass passivation showed that thermally densi
 
 The basic problem was that the optical material itself did not absorb enough of the near-infrared nanosecond laser radiation to be modified efficiently. We therefore needed another way to absorb the light and convert it into a local source of energy close to the surface.
 
-The solution was to place the transparent sample in contact with a graphite or carbon target. The laser beam passed through the optical material and was absorbed by the carbon. That absorption created intense local heating, target ablation and microplasma at the interface. The important consequence was that the energy released at the target could then act back on the adjacent transparent material and modify its surface [1].
+The solution was to place the transparent sample in contact with a graphite or carbon target.  The laser beam passed through the optical material and was absorbed by the carbon. That absorption created intense local heating, target ablation and microplasma at the interface. The important consequence was that the energy released at the target could then act back on the adjacent transparent material and modify its surface [1].
+
+> Honestly, first time I have noticed that when placed a metal target next to the porous glass and focused beam - but the results was very rought - a huge sub-mm cavity ob the glass surface, full of impurities from the target.
 
 In other words, the carbon target was not the object we wanted to process. It was the absorber that made processing of the transparent optical material possible.
 
@@ -51,7 +54,7 @@ laser passes through the transparent optical material
 </tr>
 </table>
 
-The first absorber trials were deliberately simple. I remember testing activated charcoal before moving to more compact carbon materials, including carbon brushes.
+highlight somehow: The first absorber trials were deliberately simple. I remember testing activated charcoal before moving to more compact carbon materials, including carbon brushes.
 
 The attraction of the geometry was its simplicity. It allowed us to explore transparent-material modification with available nanosecond-laser hardware without first requiring a photomask, deposited absorbing film or ultrashort-pulse source.
 
