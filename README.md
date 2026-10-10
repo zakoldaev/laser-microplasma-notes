@@ -33,7 +33,7 @@ nanosecond NIR laser
 
 ## How the work developed in publications
 
-The publication trail follows the same path as the experiments. It starts with the first glass–graphite studies and porous-glass passivation, then moves toward controlled surface relief, microlenses and phase elements, and finally to a closer look at the microplasma itself and the stability of the processing conditions. Most of the papers I have uploaded in ResearchGate profile:https://www.researchgate.net/profile/Roman-Zakoldaev. 
+The publication trail follows the same path as the experiments. It starts with the first glass–graphite studies and porous-glass passivation, then moves toward controlled surface relief, microlenses and phase elements, and finally to a closer look at the microplasma itself and the stability of the processing conditions. Most of the papers I have uploaded in ResearchGate profile: https://www.researchgate.net/profile/Roman-Zakoldaev. 
 
 ### Establishing the glass–graphite method and first applications
 
@@ -49,12 +49,12 @@ The publication trail follows the same path as the experiments. It starts with t
 - G. K. Kostyuk, **R. A. Zakoldaev**, V. V. Koval, M. M. Sergeev, V. S. Rymkevich, “Laser microplasma as a tool to fabricate phase grating applied for laser beam splitting,” *Optics and Lasers in Engineering* 92 (2017), 63–69. [DOI](https://doi.org/10.1016/j.optlaseng.2016.12.013)
 - V. S. Rymkevich, **R. A. Zakoldaev**, M. M. Sergeev, G. K. Kostyuk, “Using laser-induced microplasma for multilevel phase plate fabrication,” *Journal of Instrument Engineering* 60 (2017), 431–439. [DOI](https://doi.org/10.17586/0021-3454-2017-60-5-431-439)
 - **R. A. Zakoldaev**, G. K. Kostyuk, V. S. Rymkevich, V. V. Koval, M. M. Sergeev, V. P. Veiko, E. B. Yakovlev, A. N. Sivers, “Fast Fabrication of Multilevel Phase Plates Used for Laser Beam Correction,” *Journal of Laser Micro/Nanoengineering* 12 (2017), 281–285. [DOI](https://doi.org/10.2961/jlmn.2017.03.0018)
+- V. Shkuratova, G. K. Kostyuk, M. M. Sergeev, **R. A. Zakoldaev**, E. B. Yakovlev, O. Medvedev, “Rapid fabrication of spiral phase plate on fused silica by laser-induced microplasma,” *Applied Physics B* 126 (2020), 61. [DOI](https://doi.org/10.1007/s00340-020-7410-x)
 
 ### Process physics and later development
 
 - V. P. Veiko, S. A. Volkov, **R. A. Zakoldaev**, M. M. Sergeev, A. A. Samokhvalov, G. K. Kostyuk, K. A. Milyaev, “Laser-induced microplasma as a tool for microstructuring transparent media,” *Quantum Electronics* 47 (2017), 842–848. [DOI](https://doi.org/10.1070/QEL16377)
 - V. V. Koval, M. M. Sergeev, **R. A. Zakoldaev**, G. K. Kostyuk, “Changes in the spectral characteristics of quartz-glass plates when they are processed with laser-induced plasma,” *Journal of Optical Technology* 84 (2017), 447–452. [DOI](https://doi.org/10.1364/JOT.84.000447)
-- V. Shkuratova, G. K. Kostyuk, M. M. Sergeev, **R. A. Zakoldaev**, E. B. Yakovlev, O. Medvedev, “Rapid fabrication of spiral phase plate on fused silica by laser-induced microplasma,” *Applied Physics B* 126 (2020), 61. [DOI](https://doi.org/10.1007/s00340-020-7410-x)
 - V. S. Rymkevich, M. M. Sergeev, **R. A. Zakoldaev**, “Laser microplasma as a spot tool for glass processing: Focusing conditions,” *Journal of Materials Processing Technology* 292 (2021), 117061. [DOI](https://doi.org/10.1016/j.jmatprotec.2021.117061)
 
 Full publication records: [Google Scholar](https://scholar.google.com/citations?user=TcIkX-kAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-6212-0532)
