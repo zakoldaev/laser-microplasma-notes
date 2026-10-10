@@ -1,16 +1,12 @@
 # Laser microplasma notes
 
-Research notes on **laser microplasma processing of transparent dielectric materials**, with a focus on porous glass, fused silica, birefringent crystals, and the fabrication of micro-optical surface structures.
+Research notes on **laser microplasma processing of transparent dielectric materials**, with a focus on porous glass, fused silica, birefringent crystals, and the fabrication of micro-optical surface elements.
 
 This repository follows one experimental line from the first glass–carbon experiments and porous-glass passivation to controlled surface relief and functional micro-optics. It is a research-story archive: the peer-reviewed papers remain the authoritative source for published results, while the notes add chronology, experimental context and clearly marked retrospective observations.
 
-> **A note on how to read these notes:** the archive combines published results with my recollection of how the experiments developed in the laboratory. Numerical results and scientific claims are tied to the cited papers; details about early ideas, practical choices, failed attempts and the sequence of experiments reflect my recollection unless a source is given.
-
 ### Terminology used in this archive
 
-The name of the process changed as the work developed. In the 2014–2016 conference abstracts and early papers we commonly used **laser-induced black-body heating (LIBBH)**, reflecting the thermal interpretation of the glass–graphite interaction. From 2017 onward, several papers used **laser-induced microplasma (LIMP)** and examined the plasma-mediated mechanism more directly.
-
-Throughout this repository I use **laser microplasma processing** as the common descriptive name for the full research line, while the original terminology is kept in the titles and discussion of individual papers.
+The name of the process changed as the work developed. In the 2014–2016 conference abstracts and early papers we commonly used **laser-induced black-body heating (LIBBH)**, reflecting the thermal interpretation of the glass–graphite interaction. From 2017 onward, several papers used **laser-induced microplasma (LIMP)** and examined the plasma-mediated mechanism more directly. Throughout this repository I use **laser microplasma processing** as the common descriptive name for the full research line.
 
 ## Start here
 
@@ -35,11 +31,9 @@ nanosecond NIR laser
 → modification of the adjacent glass surface
 ```
 
-The relative contributions of heating, target ablation, plasma pressure and material transfer were not fully resolved in the earliest experiments; that uncertainty later became a research topic of its own.
-
 ## How the work developed in publications
 
-The publication trail follows the same path as the experiments. It starts with the first glass–graphite studies and porous-glass passivation, then moves toward controlled surface relief, microlenses and phase elements, and finally to a closer look at the microplasma itself and the stability of the processing conditions.
+The publication trail follows the same path as the experiments. It starts with the first glass–graphite studies and porous-glass passivation, then moves toward controlled surface relief, microlenses and phase elements, and finally to a closer look at the microplasma itself and the stability of the processing conditions. Most of the papers I have uploaded in ResearchGate profile:https://www.researchgate.net/profile/Roman-Zakoldaev. 
 
 ### Establishing the glass–graphite method and first applications
 
