@@ -1,5 +1,7 @@
 # From controllable fused-silica relief to functional micro-optics — what the thesis actually showed
 
+> **Summary:** This note follows the thesis-stage experiments on fused silica: finding a workable nanosecond-laser processing window, controlling relief from sub-micrometre to several-micrometre depth, and turning that control into microlenses, random phase plates and diffraction phase gratings that were tested optically.
+
 This note starts where the porous-glass story ends. By the time I was writing my master’s thesis, the question was no longer simply whether the glass–graphite interaction could modify a transparent material. I wanted to know how far the same idea could be pushed on fused silica:
 
 > Can a relatively simple nanosecond-laser setup create controlled surface relief in fused silica and turn that relief into working optical elements?
@@ -72,7 +74,10 @@ We first found that fused silica had a useful processing window around **15 W** 
 
 For me, that is the real story of this stage of the project: not simply that several optical elements were fabricated, but that every optical test pushed the fabrication method toward the next question.
 
-The diffraction-grating branch is continued in [Note 03](03-phase-grating.md).
+> [!NOTE]
+> **Source:** this note is based on my Russian-language master’s thesis and the papers cited below. I am preparing a shorter English overview of the thesis; when that version is ready for public citation, I will link it here.
+
+Next: [Note 03 — fused-silica phase gratings](03-phase-grating.md) · Previous: [Note 01 — porous-glass sealing and passivation](01-porous-glass-to-surface-structuring.md) · [Research map](../research-map.md)
 
 ## References
 
