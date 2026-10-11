@@ -1,8 +1,8 @@
-# Porous-glass sealing and passivation — surface densification by laser microplasma processing
+# Porous-glass sealing and passivation — stabilizing the surface by laser microplasma processing
 
-This note covers the first practical material result in the archive: forming thermally modified surface regions on porous glass to slow aging while preserving the internal pore network.
+> **Summary:** This note describes the first practical application of the glass–graphite process: modifying only the near-surface region of porous glass so that its optical properties remained stable during long-term storage while the internal porous structure was preserved.
 
-The 2015 passivation paper described the result in terms of **thermal densification** using a graphite target [1]. In this repository, it is treated as the first application in the broader laser microplasma processing story because the same glass–graphite geometry later developed into LIBBH/LIMP studies and micro-optical fabrication [2].
+The 2015 passivation paper described the result in terms of **thermal densification** using a graphite target [1]. In this repository, it is treated as the first application in the broader laser microplasma processing story because the same glass–graphite geometry later developed into laser-induced black-body heating and laser-induced microplasma studies and then into micro-optical fabrication [2].
 
 ## The practical question
 
@@ -16,7 +16,7 @@ The experiment used porous glass in tight contact with compacted graphite. A pul
 
 There is little photographic documentation from this early stage. At the time, everyday phone cameras were not yet good enough for useful laboratory documentation, and most of the digital material around the project came later. If I recover photographs, scans or other material that genuinely belongs to this experiment, I will add it here.
 
-The published passivation study reports a wavelength of about 1.06 µm, pulse duration of 100 ns and repetition rate of 30–50 kHz for formation of the thermally modified surface region [1].
+The published passivation study reports a wavelength of about **1.06 µm**, a pulse duration of **100 ns** and a repetition rate of **30–50 kHz** for formation of the thermally modified surface region [1].
 
 ## What the paper demonstrated
 
@@ -25,14 +25,14 @@ The result was not simply a laser mark. The treatment produced a functional near
 The main findings were:
 
 - a modified near-surface region was observed after laser treatment;
-- the published cross-sectional images show a region extending roughly 30–35 µm under the reported multipulse conditions, but this dimension should not automatically be interpreted as the true depth of laser-induced densification;
+- the published cross-sectional images show a region extending roughly **30–35 µm** under the reported multipulse conditions, but this dimension should not automatically be interpreted as the true depth of laser-induced densification;
 - the internal porous structure remained below the modified surface region;
 - graphite contamination could be removed on the same laser system using a wet-cleaning step with distilled water;
 - optical stability during storage improved strongly compared with untreated porous glass [1].
 
-Looking back at those cross sections, there is an important ambiguity. Porous glass itself is produced by chemical leaching, which creates a porous near-surface region, and at the magnification used in the published cross-sectional images it is difficult to separate that pre-existing chemically modified region from the much thinner zone affected directly by the laser-driven interaction. The actual plasma- and heat-induced structural change may therefore have been confined to a substantially thinner, micron-scale surface layer. I now treat the reported 30–35 µm value as the extent of the visible cross-sectional region rather than a precise measurement of the laser-modified depth.
+Looking back at those cross sections, there is an important ambiguity. Porous glass itself is produced by chemical leaching, which creates a porous near-surface region, and at the magnification used in the published cross-sectional images it is difficult to separate that pre-existing chemically modified region from the much thinner zone affected directly by the laser-driven interaction. The actual plasma- and heat-induced structural change may therefore have been confined to a substantially thinner, micron-scale surface layer. I now treat the reported **30–35 µm** value as the extent of the visible cross-sectional region rather than a precise measurement of the laser-modified depth.
 
-The optical result is easier to state this way: the laser treatment caused an initial transmission decrease of less than about **5–10%** across the measured range. After that, the treated samples were stored in laboratory air at relative humidity above 70% for 10 months, with no significant further decrease in transmission reported over that period [1].
+The optical result is easier to state this way: the laser treatment caused an initial transmission decrease of less than about **5–10%** across the measured range. After that, the treated samples were stored in laboratory air at relative humidity above **70%** for **10 months**, with no significant further decrease in transmission reported over that period [1].
 
 ## Cleaning was part of the method
 
@@ -40,16 +40,18 @@ Graphite deposited during processing had to be removed. Wet laser cleaning in di
 
 ## First public presentation of the technology
 
-LPM 2014 in Vilnius was the first time I presented this technology at a conference. The conference record already shows both parts of the idea emerging: **laser densification of porous glass** and **LIBBH as a method for surface stabilization and modification of porous glass** [4,5]. The journal papers followed in 2015.
+The 15th International Symposium on Laser Precision Microfabrication in Vilnius in 2014 was the first time I presented this technology at a conference. The conference record already shows both parts of the idea emerging: **laser densification of porous glass** and **laser-induced black-body heating as a method for surface stabilization and modification of porous glass** [4,5]. The journal papers followed in 2015.
 
 For me, this was the point where the work first moved out of the laboratory and became a research direction that we could present publicly, discuss with the community and develop further.
 
 > [!IMPORTANT]
-> **TODO:** Add the original LPM 2014 presentation and a few photographs from the conference when I recover and prepare them for the repository.
+> **TODO:** Add the original 2014 conference presentation and a few photographs from the conference when I recover and prepare them for the repository.
 
-## Connection to the next note
+## Where the story goes next
 
-[Note 02](02-master-thesis-summary.md) uses the master’s thesis as a map of the next stage: process-window studies in fused silica, microlens arrays, random phase plates, diffraction gratings and beam shaping.
+[Note 02](02-master-thesis-summary.md) moves to fused silica and asks a different question: can the same target-assisted nanosecond process create controlled relief and working micro-optical elements?
+
+Previous: [Note 00 — glass–carbon origin story](00-historical-context-2013-2014.md) · [Research map](../research-map.md)
 
 ## References
 
