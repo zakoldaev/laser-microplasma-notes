@@ -34,15 +34,43 @@ The lens profile also indicated that an additional smoothing step could be usefu
 
 The microlens experiments therefore identified both the optical function and the main limitation of the initial surface profile, which directly motivated the next processing and optical modifications.
 
-## Random phase plates and beam coherence
+## Random phase plates and beam homogenization
 
-The next structures were random phase plates intended to redistribute an inhomogeneous beam into a more uniform intensity pattern.
+A random phase plate is a binary phase element used to redistribute an inhomogeneous laser beam. Instead of blocking part of the beam, the plate divides its aperture into many small elements with two optical phase levels. In the simplest design, approximately half of the elements introduce no additional phase shift and the other half introduce a phase shift of **π radians**. After a collective lens, the elementary beams overlap in the focal plane and their diffraction patterns interfere, redistributing energy away from the original central peak [10,11].
 
-The fabricated elements used random square features with lateral sizes between **250 and 680 µm**. The relief depth was chosen to produce approximately the required phase shift: around **0.685–0.700 µm** for operation near **635 nm**, and around **1.185–1.200 µm** for operation near **1.064 µm**.
+For a plate made by forming relief in a transparent material, a π phase shift is obtained when the optical path difference between the two levels is half a wavelength. The required relief depth can therefore be estimated as
 
-Among plates with element sizes around **340, 500 and 680 µm**, the **500 µm** structure produced the most uniform distribution in the initial optical test. The same element was then tested with a picosecond laser at **532 nm**.
+\[
+h_{\pi}=\frac{\lambda}{2(n-1)},
+\]
 
-With the more coherent beam, interference fringes appeared in the homogenized field. Changing the random-element size changed the fringe structure, and the best result in that series was obtained with the **250 µm** element. The experiment showed that beam coherence became a major factor in the performance of the phase plate.
+where \(\lambda\) is the operating wavelength and \(n\) is the refractive index of the phase-plate material. This relation was used in the thesis to select the target depth of the fused-silica structures.
+
+The lateral size of each random element also determines the optical response. For an element size \(d_e\), a collective lens with focal length \(f\), and wavelength \(\lambda\), the approximate width of the diffraction envelope produced by one element is
+
+\[
+d_p \approx \frac{2f\lambda}{d_e}.
+\]
+
+The characteristic speckle size in the focal plane depends mainly on the illuminated beam diameter \(D\):
+
+\[
+d_{\mathrm{speckle}} \approx \frac{2f\lambda}{D}.
+\]
+
+The number of elementary contributions overlapping in the focal plane can be estimated from the number of phase elements illuminated by the beam. For beam dimensions \(D_x\) and \(D_y\), and phase-element dimensions \(d_x\) and \(d_y\),
+
+\[
+N \approx \frac{D_xD_y}{d_xd_y}.
+\]
+
+For square elements and an approximately circular or square illuminated area, this gives the useful scaling \(N\sim(D/d_e)^2\). Smaller phase elements therefore increase the number of elementary beams contributing to the final distribution, although the final homogenization also depends strongly on the spatial coherence of the source [10,11].
+
+The fabricated fused-silica plates used random square elements with lateral sizes between **250 and 680 µm**. The measured relief depths were about **0.685–0.700 µm** for operation near **635 nm**, and about **1.185–1.200 µm** for operation near **1.064 µm**. These values followed the π-phase-depth calculation above.
+
+In the first optical tests, the beam was expanded to about **10 mm** and focused with a collective lens having a focal length of **190 mm**. For an element size of **500 µm**, the thesis estimated approximately **256 elementary beams** contributing in the focal plane. Among plates with element sizes of about **340, 500 and 680 µm**, the **500 µm** structure produced the most uniform distribution in that initial test.
+
+The same approach was then tested with a more coherent picosecond laser at **532 nm**. In this case, interference fringes became pronounced and the optimum element size shifted; the best result in that series was obtained with the **250 µm** plate. The comparison showed that geometric parameters alone are not sufficient to predict performance: the coherence of the input beam strongly affects the final intensity distribution.
 
 The measured power change through the phase-plate system was approximately **6.5–9.4%**, remaining below about **10%** in the tested cases. The structures were also tested directly in laser processing, where the phase plate changed the intensity distribution in the processed spot [1].
 
@@ -88,3 +116,5 @@ Next: [Note 03 — fused-silica phase gratings](03-phase-grating.md) · Previous
 7. S. N. Khonina, N. L. Kazanskiy, M. A. Butt, “Exploring Diffractive Optical Elements and Their Potential in Free Space Optics and Imaging — A Comprehensive Review,” *Laser & Photonics Reviews* 18 (2024), 2400377. https://doi.org/10.1002/lpor.202400377
 8. Y. Tang et al., “Extending the operational limit of a cooled spatial light modulator exposed to 200 W average power for holographic picosecond laser materials processing,” *Optics & Laser Technology* 181 (2025), 111589. https://doi.org/10.1016/j.optlastec.2024.111589
 9. J. Cheng et al., “Challenges of optical manufacturing techniques applied in improving the laser damage resistance of hard-brittle fused silica optics,” *Optics & Laser Technology* 192 (2025), 113475. https://doi.org/10.1016/j.optlastec.2025.113475
+10. C. L. S. Lewis, I. Weaver, L. A. Doyle, G. W. Martin, T. Morrow, D. A. Pepler, C. N. Danson, I. N. Ross, “Use of a random phase plate as a KrF laser beam homogenizer for thin film deposition applications,” *Review of Scientific Instruments* 70 (1999), 2116.
+11. C. Kopp, L. Ravel, P. Meyrueis, “Efficient beamshaper homogenizer design combining diffractive optical elements, microlens array and random phase plate,” *Journal of Optics A: Pure and Applied Optics* 1 (1999), 398.
