@@ -1,6 +1,6 @@
 # Laser microplasma processing for transparent dielectrics: glass–carbon origin story
 
-This note introduces the basic idea behind the archive: a transparent glass sample, an absorbing carbon target and a nanosecond laser beam used to create a localized high-temperature interaction at their interface.
+> **Summary:** This note explains how the research line began: first with a rough metal-target experiment, then with carbon absorbers that made it possible to modify transparent glass using the nanosecond laser equipment already available in the laboratory.
 
 ## The starting question
 
@@ -75,7 +75,7 @@ The next papers answered these questions step by step and moved the work from po
 
 The first useful result was porous-glass passivation. The next step was to ask whether the same target-assisted interaction could become a fabrication tool for dense glass and, eventually, for functional micro-optical elements.
 
-Continue with [Note 01 — porous-glass sealing and passivation](01-porous-glass-to-surface-structuring.md).
+Continue with [Note 01 — porous-glass sealing and passivation](01-porous-glass-to-surface-structuring.md), or return to the [research map](../research-map.md).
 
 ## References
 
