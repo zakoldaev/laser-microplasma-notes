@@ -13,11 +13,11 @@ The name of the process changed as the work developed. In the 2014–2016 confer
 | Note | Topic |
 | --- | --- |
 | 00 | [Laser microplasma processing for transparent dielectrics — glass–carbon origin story](notes/00-historical-context-2013-2014.md) |
-| 01 | [Porous-glass sealing and passivation — surface densification by laser microplasma processing](notes/01-porous-glass-to-surface-structuring.md) |
-| 02 | [Glass micro-optics by laser microplasma processing — thesis map, surface relief and beam shaping](notes/02-master-thesis-summary.md) |
+| 01 | [Porous-glass sealing and passivation — stabilizing the surface by laser microplasma processing](notes/01-porous-glass-to-surface-structuring.md) |
+| 02 | [From controllable fused-silica relief to functional micro-optics — what the thesis actually showed](notes/02-master-thesis-summary.md) |
 | 03 | [Fused-silica phase gratings — laser microplasma processing for beam splitting](notes/03-phase-grating.md) |
 
-Read the notes in order if you want the development as one story. Note 00 introduces the idea and laboratory context; Note 01 covers the first practical application in porous glass; Note 02 maps the transition to functional micro-optics; Note 03 follows the phase-grating branch in more detail.
+Read the notes in order if you want the development as one story. If you arrive with a specific question instead, use the [research map](research-map.md) to jump directly to the note that contains the answer.
 
 ## Basic processing geometry
 
@@ -58,3 +58,6 @@ The publication trail follows the same path as the experiments. It starts with t
 - V. S. Rymkevich, M. M. Sergeev, **R. A. Zakoldaev**, “Laser microplasma as a spot tool for glass processing: Focusing conditions,” *Journal of Materials Processing Technology* 292 (2021), 117061. [DOI](https://doi.org/10.1016/j.jmatprotec.2021.117061)
 
 Full publication records: [Google Scholar](https://scholar.google.com/citations?user=TcIkX-kAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-6212-0532)
+
+> [!NOTE]
+> Before making the repository a formal public research resource, a content-reuse license should be chosen. A permissive attribution license such as CC BY 4.0 is one option, but no license is assigned here yet.
