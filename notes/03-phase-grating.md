@@ -8,7 +8,7 @@ The 2017 paper is also useful for understanding the terminology of this archive.
 
 By this stage, changing the glass surface was no longer enough. The relief had to perform a predictable optical function.
 
-The sequence was simple:
+The sequence was:
 
 ```text
 laser processing at the glass–graphite interface
@@ -28,34 +28,34 @@ The published study used an ytterbium-fiber laser at **1.064 µm** and the same 
 
 The gratings had an approximately sinusoidal surface profile, with relief depths in the range of roughly **0.5–2 µm**. Fabrication time was typically about **1–5 min**, depending on grating size and period [1].
 
-That depth range matters because the grating works mainly through optical phase. A visible groove is not enough; the relief has to be deep and regular enough to redistribute the transmitted light into diffraction orders.
+The relief depth was important because the grating worked primarily through optical phase. A visible groove alone was not sufficient; the profile had to be sufficiently regular and deep to redistribute the transmitted light into diffraction orders.
 
-## The optical test was the real result
+## Optical testing
 
-After fabrication, the grating was not judged only by microscopy or profilometry. Its diffraction pattern was measured and compared with calculation, and the same element was then used in a beam-splitting configuration [1].
+After fabrication, the grating was characterized not only by microscopy and profilometry but also by its optical response. The measured diffraction pattern was compared with calculation, and the same element was then used in a beam-splitting configuration [1].
 
-For me, this is the important part of the experiment. The chain from fabrication to optical function was complete:
+The experiment therefore connected the full sequence from fabrication to function:
 
 1. create periodic relief in fused silica;
 2. measure the resulting diffraction;
 3. compare experiment with calculation;
 4. use the element as a beam splitter.
 
-That moved the method from surface microstructuring into functional phase optics.
+This demonstrated that the process could be used for fabrication of a functional phase-optical element rather than only for surface modification.
 
 ## What was still not under full control
 
-A working grating did not mean that the process itself was fully understood. Reproducibility still depended on focusing conditions, the glass–target gap, surface curvature and the condition of the graphite target. Those questions were studied later in more detail, especially the sensitivity of the interaction to focusing and target geometry [6].
+A working grating did not mean that the fabrication process was fully understood or optimized. Reproducibility still depended on focusing conditions, the glass–target gap, surface curvature and the condition of the graphite target. Those factors were studied later in more detail, particularly the sensitivity of the interaction to focusing and target geometry [6].
 
-The physical interpretation was also still developing. Later measurements of confined laser-induced microplasma showed that confinement changed the plasma conditions substantially compared with free expansion, including stronger pressure effects and higher particle temperatures. That supported the view that the interaction could not be described as simple heat transfer alone [4].
+The physical interpretation was also still developing. Later measurements of confined laser-induced microplasma showed that confinement changed the plasma conditions substantially compared with free expansion, including stronger pressure effects and higher particle temperatures. This supported the interpretation that the interaction could not be described as simple heat transfer alone [4].
 
-## The next step: more complex phase profiles
+## Extending the relief to more complex phase profiles
 
-Once a periodic grating could be fabricated and used optically, the next question was whether the same depth-control idea could be extended beyond a single repeating profile.
+Once periodic gratings could be fabricated and tested optically, the same depth-control concept was extended to more complex phase profiles.
 
 In 2017 the process was used for multilevel phase plates [2], and automated fabrication was then applied to multilevel elements for laser-beam correction [3]. The same research line later reached spiral phase plates on fused silica for optical-vortex generation [5].
 
-The progression became:
+The development can be summarized as:
 
 ```text
 periodic relief
@@ -65,13 +65,13 @@ periodic relief
 → spiral phase plate / vortex generation
 ```
 
-This is why the grating experiment is more than a single device example. It was the point where controllable relief became a platform for progressively more complex phase functions.
+The phase-grating experiment was therefore an intermediate step between simple periodic structuring and more complex permanent phase optics.
 
-## Why this branch still matters
+## Current relevance
 
-A fixed grating is much less flexible than a programmable spatial light modulator, but it also solves a different problem. Once fabricated, the fused-silica element is passive, compact and permanent, with no electronics or refresh cycle. For high-power or long-term optical systems, those properties can still be valuable.
+A fixed grating is less flexible than a programmable spatial light modulator, but the two approaches address different requirements. A fused-silica grating is passive, compact and permanent, with no electronics or refresh cycle. These properties remain useful in systems where stable alignment, long-term operation or higher optical power handling are important.
 
-The broader fabrication question is also still relevant: producing controlled, low-defect relief directly in fused silica remains difficult. So the historical value of this work is not only the grating design itself, but the demonstration that a relatively simple target-assisted nanosecond process could create a functional phase element directly in a hard transparent optical material.
+The fabrication problem also remains relevant. Producing controlled, low-defect relief directly in fused silica is still technically demanding. The main significance of this work is therefore both the optical function of the grating and the demonstration that a relatively simple target-assisted nanosecond process could produce a permanent phase element directly in a hard transparent optical material.
 
 Previous: [Note 02 — fused-silica relief and micro-optics](02-master-thesis-summary.md) · [Research map](../research-map.md)
 
