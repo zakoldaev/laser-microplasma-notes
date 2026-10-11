@@ -54,6 +54,8 @@ The thesis reports gratings with periods from about **55 to 400 µm** and relief
 
 The optical response was then measured in the focal plane of a lens and compared with calculation. The agreement was good enough to continue to an application test: the grating was used for simultaneous processing of a **20 nm titanium film**. Depending on the total patterned area, fabrication and cleaning of these diffraction elements took roughly **1–10 min** [5].
 
+This branch continued after the thesis into multilevel phase plates for beam correction, where the same idea of controlling permanent surface relief was pushed toward more complex phase profiles [6].
+
 This branch did not become historical in the same way that a simple fixed homogenizer partly did. Diffractive optical elements are still widely used for beam splitting, shaping, imaging and free-space optical systems [7]. What has changed is the design landscape: programmable modulators, metasurfaces and more advanced lithographic fabrication now offer many additional routes.
 
 ## Why fused silica is still interesting — and still difficult
