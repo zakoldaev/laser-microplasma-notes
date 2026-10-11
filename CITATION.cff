@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this research archive, please cite it. A DOI-based citation will be added after the first archived release."
+title: "Laser microplasma notes"
+type: dataset
+authors:
+  - family-names: Zakoldaev
+    given-names: Roman A.
+    orcid: "https://orcid.org/0000-0001-6212-0532"
+repository-code: "https://github.com/zakoldaev/laser-microplasma-notes"
+url: "https://github.com/zakoldaev/laser-microplasma-notes"
+license: CC-BY-4.0
+keywords:
+  - laser microplasma processing
+  - fused silica
+  - porous glass
+  - micro-optics
+  - laser processing
+  - diffraction gratings
+  - microlens arrays
+  - phase optics
+abstract: >-
+  An evolving research archive documenting the development of laser microplasma
+  processing of transparent dielectric materials, from early glass-carbon
+  experiments and porous-glass passivation to controlled fused-silica surface
+  relief and functional micro-optical elements. Peer-reviewed papers remain the
+  authoritative source for published results; these notes add chronology,
+  experimental context, numerical ranges, retrospective interpretation and links
+  between stages of the research.
