@@ -62,5 +62,8 @@ The publication trail follows the same path as the experiments. It starts with t
 
 Full publication records: [Google Scholar](https://scholar.google.com/citations?user=TcIkX-kAAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-6212-0532)
 
-> [!NOTE]
-> Before making the repository a formal public research resource, a content-reuse license should be chosen. A permissive attribution license such as CC BY 4.0 is one option, but no license is assigned here yet.
+## License
+
+Unless otherwise noted, the original text, diagrams, photographs and other original content in this repository are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
+
+Third-party material, publisher-owned figures and content carrying a separate source or license are **not** relicensed here; their original attribution and licensing terms continue to apply.
