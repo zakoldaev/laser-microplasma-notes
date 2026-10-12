@@ -28,18 +28,6 @@ The historical notes are separated from a second branch of the archive: [**Rethi
 
 These are exploratory design notes, not additions to the claims of the original papers.
 
-## Basic processing geometry
-
-The common experimental geometry is:
-
-```text
-nanosecond NIR laser
-→ transparent glass
-→ absorbing graphite/carbon target
-→ localized heating, ablation and confined microplasma
-→ modification of the adjacent glass surface
-```
-
 ## How the work developed in publications
 
 The publication trail follows the same path as the experiments. It starts with the first glass–graphite studies and porous-glass passivation, then moves toward controlled surface relief, microlenses and phase elements, and finally to a closer look at the microplasma itself and the stability of the processing conditions. Many of these papers are also available through my [ResearchGate profile](https://www.researchgate.net/profile/Roman-Zakoldaev).
