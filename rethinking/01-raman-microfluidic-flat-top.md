@@ -56,13 +56,18 @@ These values are **simulation outputs, not experimental measurements**.
 
 ### A practical power comparison
 
-Suppose the Raman source is a **785 nm single-mode laser delivering 100 mW** into the modeled optical system. In the present calculation, about 99% of the Gaussian-beam power and about 83% of the shaped-beam power fall inside the same 6 µm-diameter useful region.
+As a simple example, assume a **785 nm single-mode laser with 100 mW entering the modeled optical system**. The calculation places about **99.3%** of the Gaussian power and **83.0%** of the phase-shaped power inside the same 6 µm-diameter region.
 
-That corresponds to an average power density of roughly **350 kW/cm²** for the Gaussian case and **290 kW/cm²** for the shaped case, averaged over the 6 µm-diameter disk.
+Averaged over that region, this corresponds to approximately:
 
-So the shaped beam does not need orders of magnitude more laser power to recover the same average excitation density. In this model, increasing the source from **100 mW to about 120 mW** would compensate for the redistributed power and bring the average power density in the useful region back to approximately the Gaussian value.
+```text
+Gaussian focus:       ~351 kW/cm²
+phase-shaped output:  ~293 kW/cm²
+```
 
-This is different from matching the sharp on-axis Gaussian peak. The purpose of the phase plate is precisely to trade some peak intensity for a broader and more uniform excitation region.
+To recover the same **average** excitation density across the 6 µm region, the phase-shaped case would therefore require about **120 mW instead of 100 mW** — roughly a 20% increase in incident power in this model.
+
+This comparison is intentionally based on the average power density over the useful probe, not on the sharp on-axis peak of the Gaussian focus. The phase plate is meant to trade peak intensity for a broader, more uniform excitation region. Real experiments would also need to account for transmission and insertion losses of the fabricated plate and the rest of the optical train.
 
 ## Why this is interesting
 
