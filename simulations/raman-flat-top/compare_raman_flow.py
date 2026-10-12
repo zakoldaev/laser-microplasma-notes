@@ -1,8 +1,12 @@
-"""Compare Gaussian and quasi-flat-top Raman probes for particles in flow.
+"""Compare Gaussian and soft-top-hat Raman probes for particles in flow.
 
 This is an intentionally simple application-level model. It asks one question:
 how much does the integrated Raman-event amplitude change when nominally
 identical particles cross the probe at different lateral positions?
+
+The shaped-beam model now uses a flat central core followed by a smooth cosine
+roll-off. This better represents the design target used by the accompanying
+LIMP phase-plate optimizer than an ideal hard-edged top-hat.
 
 Only NumPy and Matplotlib are required.
 """
@@ -16,8 +20,11 @@ import matplotlib.pyplot as plt
 CHANNEL_WIDTH_UM = 10.0
 PARTICLE_STREAM_SIGMA_UM = 1.0   # hydrodynamic focusing; set larger for broad flow
 GAUSSIAN_RADIUS_UM = 2.5         # excitation 1/e^2 intensity radius
-FLAT_TOP_DIAMETER_UM = 5.0
-FLAT_TOP_ORDER = 8               # super-Gaussian order; larger -> sharper edge
+
+# Current shaped-probe target used in the phase-plate design.
+SOFT_TOP_CORE_DIAMETER_UM = 4.2
+SOFT_TOP_USEFUL_DIAMETER_UM = 6.0
+
 DETECTION_RADIUS_UM = 2.5        # Gaussian confocal collection 1/e^2 radius
 N_PARTICLES = 100_000
 RANDOM_SEED = 7
@@ -34,11 +41,25 @@ def gaussian_intensity(x, y, radius_um):
     return np.exp(-2.0 * (x * x + y * y) / radius_um**2)
 
 
-def flat_top_intensity(x, y, diameter_um, order=8):
-    """Quasi-flat-top intensity represented by a radial super-Gaussian."""
-    radius = diameter_um / 2.0
+def soft_top_intensity(x, y, core_diameter_um, useful_diameter_um):
+    """Flat core with a smooth cosine-squared radial roll-off.
+
+    Intensity is 1 inside the core, falls smoothly between the core and useful
+    radii, and is 0 outside the useful radius.
+    """
+    core_radius = core_diameter_um / 2.0
+    useful_radius = useful_diameter_um / 2.0
+    if useful_radius <= core_radius:
+        raise ValueError("Useful diameter must be larger than core diameter.")
+
     r = np.sqrt(x * x + y * y)
-    return np.exp(-2.0 * (r / radius) ** order)
+    I = np.zeros_like(r, dtype=float)
+
+    I[r <= core_radius] = 1.0
+    transition = (r > core_radius) & (r < useful_radius)
+    u = (r[transition] - core_radius) / (useful_radius - core_radius)
+    I[transition] = np.cos(0.5 * np.pi * u) ** 2
+    return I
 
 
 def collection_weight(x, y, radius_um):
@@ -59,8 +80,11 @@ dx = x[1] - x[0]
 
 profiles = {
     "Gaussian": lambda X, Y: gaussian_intensity(X, Y, GAUSSIAN_RADIUS_UM),
-    "Flat-top": lambda X, Y: flat_top_intensity(
-        X, Y, FLAT_TOP_DIAMETER_UM, FLAT_TOP_ORDER
+    "Soft top-hat": lambda X, Y: soft_top_intensity(
+        X,
+        Y,
+        SOFT_TOP_CORE_DIAMETER_UM,
+        SOFT_TOP_USEFUL_DIAMETER_UM,
     ),
 }
 
@@ -100,10 +124,12 @@ for name in profiles:
 
     print(f"\n{name}")
     print(f"  mean relative event signal : {signals.mean():.4f}")
-    print(f"  coefficient of variation  : {signals.std() / signals.mean():.4f}")
-    print(f"  median                     : {np.median(signals):.4f}")
-    print(f"  10th-90th percentile       : "
-          f"{np.percentile(signals, 10):.4f} - {np.percentile(signals, 90):.4f}")
+    print(f"  coefficient of variation   : {signals.std() / signals.mean():.4f}")
+    print(f"  median                      : {np.median(signals):.4f}")
+    print(
+        f"  10th-90th percentile        : "
+        f"{np.percentile(signals, 10):.4f} - {np.percentile(signals, 90):.4f}"
+    )
 
 # -----------------------------------------------------------------------------
 # PLOTS
@@ -134,5 +160,8 @@ plt.tight_layout()
 plt.savefig("raman_flow_event_distribution.png", dpi=180)
 plt.show()
 
+print("\nShaped-probe target")
+print(f"  flat-core diameter  : {SOFT_TOP_CORE_DIAMETER_UM:.2f} µm")
+print(f"  useful diameter     : {SOFT_TOP_USEFUL_DIAMETER_UM:.2f} µm")
 print("\nSaved: raman_flow_position_dependence.png")
 print("Saved: raman_flow_event_distribution.png")
