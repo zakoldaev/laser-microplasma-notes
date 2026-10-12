@@ -2,7 +2,7 @@
 
 These scripts support the exploratory note [From random phase plates to a microfluidic Raman probe](../../rethinking/01-raman-microfluidic-flat-top.md).
 
-They are intentionally compact. The goal is not to reproduce a commercial Raman microscope in full detail, but to make the central design questions easy to inspect and modify.
+The purpose is not to reproduce a complete commercial Raman microscope. The goal is to make the beam-shaping problem transparent and reproducible: **propose the optical inputs, define the output we want, optimize a LIMP-fabricable phase plate, and inspect the actual result rather than only the ideal target.**
 
 ## Requirements
 
@@ -12,57 +12,66 @@ Python 3 with:
 pip install numpy scipy matplotlib
 ```
 
-## Current recommended first-build design
+## Proposed input parameters
 
-For the present 785 nm microfluidic-Raman concept, the default design has been updated to:
-
-```text
-input beam diameter:   12 mm
-annular zones:         64
-phase/depth levels:    12
-flat core:             ~4.2 µm diameter
-useful probe:          ~6 µm diameter
-zone width:            ~100 µm
-nominal depth step:    ~140 nm
-full 2π relief:        ~1.73 µm
-```
-
-The same script can be rerun with a 10 mm input beam simply by changing `PUPIL_DIAMETER_MM`.
-
-### Why 64 zones?
-
-With a 12 mm illuminated diameter, 64 equal radial zones correspond to about **94 µm per annulus**, rounded to **~100 µm** in the discussion. With a 10 mm beam, the same design gives about 78 µm per annulus. Both values remain far larger than a few-micrometre LIMP writing capability, so the geometry gives the optimizer substantially more phase freedom without approaching the minimum lateral fabrication scale.
-
-### Why 12 depth levels?
-
-At 785 nm the fused-silica full-2π relief in the model is about **1.73 µm**. Twelve phase states therefore give a nominal depth increment of about **0.14 µm (~140 nm)**. This remains comfortably larger than the ~50 nm depth-control scale demonstrated in the earlier LIMP work, while giving a finer phase approximation than the previous eight-level design.
-
-A 16-level design would reduce the depth spacing to roughly 0.11 µm. That may still be practical, but it leaves less margin for local depth error, calibration drift and roughness. For a first fabrication, **64 zones / 12 levels** is therefore the present compromise between optical freedom and fabrication margin.
-
-## Why the target is now a soft top-hat
-
-The earlier hard-edged top-hat optimization produced visible radial ringing. This is expected when a finite circular pupil is forced to create an abrupt intensity edge.
-
-The updated model instead targets:
+The current example is intended as a realistic first design for a 785 nm Raman probe in microfluidic flow:
 
 ```text
-flat central core
-→ smooth radial roll-off
-→ low first sidelobe
+wavelength:                785 nm
+material:                  fused silica, n ≈ 1.453
+objective NA:              0.40
+illuminated beam diameter: 12 mm
+Gaussian amplitude radius: 4.8 mm
+annular zones:             64
+phase/depth levels:        12
 ```
 
-The default target is approximately **4.2 µm flat-core diameter** followed by a smooth transition so that the useful probe is about **6 µm diameter**.
-
-The optimizer now balances four quantities:
+For fabrication discussion, the exact values are intentionally rounded:
 
 ```text
-core flatness
-+ soft-edge agreement
-+ useful energy inside the probe
-+ first-sidelobe suppression
+zone width:      ~100 µm
+relief step:     ~140 nm
+full 2π relief:  ~1.73 µm
 ```
 
-The intention is not to generate a mathematically perfect top-hat at any cost. The useful Raman design is the one that is flat enough to reduce trajectory sensitivity while still retaining enough excitation power inside the microfluidic detection region.
+The model can be rerun with a 10 mm beam by changing `PUPIL_DIAMETER_MM`. Useful design sweeps include 10–12 mm beam diameter, 48–80 zones and 8–16 phase levels.
+
+## Desired output
+
+The requested output is **not a perfectly sharp top hat**. A hard edge tends to create radial ringing when generated from a finite circular pupil.
+
+The present target is therefore:
+
+```text
+flat-core diameter:    ~4.2 µm
+useful probe diameter: ~6.0 µm
+edge:                  smooth roll-off
+```
+
+The optimization balances:
+
+```text
+flat central intensity
++ agreement with the soft edge
++ optical energy retained inside the useful probe
++ suppression of the first sidelobe
+```
+
+The ideal soft-top-hat target is used internally by the optimizer. The main comparison figure deliberately shows the **actual optimized output**, not the ideal target curve.
+
+## Current example result
+
+With the default 12 mm / 64-zone / 12-level settings and fixed random seed, the illustrative scalar calculation gives approximately:
+
+```text
+energy inside useful 6 µm probe: ~0.83
+CV inside flat core:             ~0.011
+min/max intensity in flat core:  ~0.95
+first-sidelobe energy:           ~0.088
+soft-edge RMSE:                  ~0.049
+```
+
+These numbers are numerical-model outputs, not experimental measurements. They show that the optimized profile can be much flatter than the Gaussian focus while retaining most of the modeled energy inside the useful probe.
 
 ## 1. Compare Gaussian and shaped probes in flow
 
@@ -72,20 +81,20 @@ Run:
 python compare_raman_flow.py
 ```
 
-The script models a particle crossing a confocal Raman probe in a microfluidic channel. Raman event amplitude is approximated by the line integral of the excitation intensity multiplied by a Gaussian confocal collection weighting.
+This application-level model estimates how the integrated Raman-event amplitude changes when nominally identical particles cross a confocal probe at different lateral positions.
 
-At the top of the file you can change:
+Editable parameters include:
 
 - channel width;
 - particle-stream width;
 - Gaussian beam radius;
-- desired flat-top diameter;
+- shaped-probe dimensions;
 - confocal detection radius;
 - number of simulated particles.
 
-The useful comparison is not only peak signal. The script reports the mean Raman-event signal and the coefficient of variation across particle trajectories.
+The useful metric is not only peak intensity. The script reports the mean event signal and coefficient of variation across particle trajectories.
 
-## 2. Optimize an annular LIMP phase plate
+## 2. Optimize the LIMP phase plate
 
 Run:
 
@@ -93,45 +102,69 @@ Run:
 python optimize_limp_phase_plate.py
 ```
 
-The script uses a scalar radial diffraction model and searches over discrete annular phase levels. The phase plate consists of concentric annular zones, each assigned one of a finite number of relief depths.
+The script uses a scalar axisymmetric diffraction model and a discrete optimizer. The top of the file is divided into clear parameter blocks:
 
-The default inputs are now:
-
-```python
-PUPIL_DIAMETER_MM = 12.0
-N_ZONES = 64
-N_PHASE_LEVELS = 12
-FLAT_CORE_DIAMETER_UM = 4.2
-USEFUL_DIAMETER_UM = 6.0
+```text
+USER INPUTS: OPTICAL SYSTEM
+USER INPUTS: DESIRED OUTPUT
+USER INPUTS: FABRICATION DESIGN
+USER INPUTS: OPTIMIZER
 ```
 
-Editable parameters at the top include:
+The most useful variables to edit are:
 
-- wavelength;
-- numerical aperture;
-- illuminated pupil diameter;
-- input Gaussian-beam radius;
-- flat-core diameter;
-- useful-probe diameter;
-- soft-edge position and width;
-- number of annular zones;
-- number of phase/depth levels;
-- assumed depth error;
-- surface roughness;
-- relative weights assigned to flatness, edge smoothness, useful energy and sidelobe suppression.
+```python
+WAVELENGTH_NM = 785.0
+NA = 0.40
+PUPIL_DIAMETER_MM = 12.0
+INPUT_GAUSSIAN_RADIUS_MM = 4.8
 
-For a future fabrication decision, useful comparison cases are:
+FLAT_CORE_DIAMETER_UM = 4.2
+USEFUL_DIAMETER_UM = 6.0
+SOFT_EDGE_CENTER_UM = 2.65
+SOFT_EDGE_WIDTH_UM = 0.22
+
+N_ZONES = 64
+N_PHASE_LEVELS = 12
+```
+
+The objective-function weights can also be changed if a user wants to prioritize flatness, energy efficiency, edge smoothness or sidelobe suppression differently.
+
+## Files generated by the optimizer
+
+Each run produces four outputs:
+
+```text
+figure_a_phaseplate_and_focal_field.png
+figure_b_gaussian_vs_optimized_output.png
+optimized_phaseplate_design.csv
+optimized_phaseplate_metrics.csv
+```
+
+`figure_a_phaseplate_and_focal_field.png` contains two separate panels: the 2-D multilevel relief map and the actual simulated focal field.
+
+`figure_b_gaussian_vs_optimized_output.png` contains **only two curves**: the Gaussian focus and the actual optimized phase-shaped output. Both are normalized to their own peak so the profile shapes can be compared directly.
+
+`optimized_phaseplate_design.csv` gives every annulus, its inner/outer radius, integer phase code and relief depth. This is the most useful file when translating the simulation into a fabrication plan.
+
+`optimized_phaseplate_metrics.csv` records the main numerical comparison between the Gaussian and shaped cases.
+
+## How to explore another design
+
+A reader can start with the default case and then change one group of inputs at a time. For example:
 
 ```text
 beam diameter:  10, 12 mm
 zones:          48, 64, 80
 phase levels:   8, 12, 16
+flat core:      3–5 µm
+useful probe:   5–8 µm
 ```
 
-The current default is **12 mm / 64 zones / 12 levels**.
+The code will then regenerate the plate, the actual focal field, the Gaussian-versus-shaped comparison and the fabrication table.
 
 ## What the model does not yet include
 
-The model is scalar and axisymmetric. It does not include polarization, vectorial high-NA focusing, the exact microscope objective pupil, refractive-index interfaces in a real microfluidic chip, aberrations, Raman collection through the full optical train, or a measured LIMP surface map.
+The model is scalar and axisymmetric. It does not yet include polarization, vectorial high-NA focusing, the exact microscope-objective pupil, refractive-index interfaces in a real microfluidic chip, system aberrations, Raman collection through the full optical train, or a measured LIMP surface map.
 
-Those effects should be added when the actual microscope and microfluidic geometry are known. The present scripts are intended for design exploration and for making the assumptions explicit.
+Those effects should be added before treating the output as a final fabrication design. The present scripts are intended as a reproducible design study and a starting point for an experiment.
