@@ -25,9 +25,11 @@ Read the notes in order if you want the development as one story. If you arrive 
 
 ## Rethinking the results
 
-The historical notes are separated from a second branch of the archive: [**Rethinking the results**](rethinking/README.md). This section asks what I would do now with the same fabrication platform using current numerical tools and new application questions. The first example revisits multilevel phase plates as a possible way to shape a confocal Raman probe for particles flowing in a microfluidic channel, with simple reproducible simulations in [`simulations/raman-flat-top`](simulations/raman-flat-top/README.md).
+The original experiments gradually moved from surface modification to functional micro-optics. Years later, that leaves a different question: **what could the same fabrication platform be useful for now?**
 
-These are exploratory design notes, not additions to the claims of the original papers.
+The [**Rethinking the results**](rethinking/README.md) branch starts from demonstrated capabilities, then follows them into new problems using current numerical tools and application needs. The first example takes the old multilevel phase-plate idea and asks whether it could create a flatter Raman probe for particles moving through a microfluidic channel. The design can be explored directly in the reproducible [`raman-flat-top` simulations](simulations/raman-flat-top/README.md).
+
+These notes are deliberately forward-looking: they connect the earlier work to possible next experiments without changing the claims of the original papers.
 
 ## License
 
