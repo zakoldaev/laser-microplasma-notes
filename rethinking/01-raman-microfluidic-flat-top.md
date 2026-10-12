@@ -48,18 +48,36 @@ For this application I would not begin with a classical random phase plate. A ra
 
 > design the **LIMP-fabricable multilevel phase profile** that transforms the input beam into the required micro-scale intensity distribution while keeping sidelobes and sensitivity to fabrication errors low.
 
-A first constrained numerical design used:
+### Recommended first-build geometry
 
-- fused silica at 785 nm;
-- 8 discrete phase/depth levels;
-- a 5 mm illuminated pupil;
-- a target probe diameter of about 5 µm;
-- concentric annular zones as a deliberately simple fabrication geometry;
-- current working fabrication constraints of about 50 nm depth uncertainty and tens-of-nanometres surface roughness.
+If I wanted to fabricate one plate from the present design study, I would start with **20 concentric annular zones and 8 discrete phase/depth levels**.
 
-The resulting candidate is a deterministic annular multilevel phase plate rather than a random square-cell pattern. For the illustrative parameters, the full 2π fused-silica relief is about 1.73 µm and the 8-level depth increment is about 0.22 µm, comfortably larger than the depth step demonstrated in the earlier LIMP work.
+For the illustrative 5 mm illuminated pupil, 20 zones give a radial zone width of about **125 µm**. This is intentionally conservative relative to a LIMP lateral writing capability of a few micrometres: the optical design has enough independent degrees of freedom to reshape the focal field, while each annulus remains much wider than the minimum writable line and should therefore be comparatively easy to reproduce.
 
-The present calculation should be treated as a starting geometry, not a final optic. The optimum depends directly on the real microscope objective, entrance beam, focal geometry and required probe diameter.
+I would also keep **8 depth levels** for the first fabrication rather than immediately increasing the number. At 785 nm, taking fused silica with refractive index about 1.453, the full 2π relief is approximately **1.73 µm**. Eight equally spaced phase states therefore correspond to a nominal relief increment of about **0.217 µm**. The usable depth levels are approximately:
+
+\[
+0,\ 0.217,\ 0.433,\ 0.650,\ 0.866,\ 1.083,\ 1.300,\ 1.516\ \mu\mathrm{m}.
+\]
+
+That spacing is several times larger than the roughly 50 nm depth-control scale demonstrated in the earlier LIMP work, leaving a useful fabrication margin. More levels are possible, but they reduce the separation between neighbouring depths and therefore become more sensitive to calibration drift, roughness and local depth errors.
+
+The choice of **20 zones / 8 levels is therefore my present recommended first-build compromise**, not a claim of a universal mathematical optimum. Fewer zones reduce control over the focal profile; many more zones increase fabrication complexity without necessarily producing a meaningful improvement. Likewise, fewer than 8 phase levels noticeably coarsen the phase approximation, while 16 or more levels may be worth testing numerically only after the actual depth reproducibility of the current LIMP process is confirmed.
+
+For these illustrative parameters the numerical optimizer produced a deterministic annular phase plate rather than a random square-cell pattern. The current solution uses a maximum relief of about **1.52 µm** and is designed for a ~5 µm quasi-flat-top probe at 785 nm.
+
+### If I wanted to fabricate it later
+
+Before making the optic, I would rerun the optimizer with the real microscope parameters and compare a small design sweep around the current recommendation:
+
+- **zones:** 12, 16, 20, 24 and 32;
+- **phase levels:** 4, 8 and 16;
+- actual incident beam diameter and Gaussian radius;
+- actual objective numerical aperture;
+- measured LIMP depth calibration and roughness;
+- required probe diameter in the microfluidic channel.
+
+If those inputs remain close to the present illustrative case, **20 zones and 8 levels would be the starting design I would fabricate first**.
 
 ## Reproducible simulations
 
