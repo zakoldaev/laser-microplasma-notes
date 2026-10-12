@@ -30,7 +30,11 @@ flat-core diameter:        ~4.2 µm
 useful probe diameter:     ~6 µm
 ```
 
-The soft edge is important. Forcing a sharp top-hat produced strong radial ringing in the first simulations. Giving the field a smooth roll-off made it possible to keep the central region flat while retaining useful energy and suppressing the first sidelobe.
+The soft edge is important. Forcing a sharp top-hat produced strong radial ringing in the first simulations. Giving the field a smooth roll-off made it possible to keep the central region flat while retaining useful energy and limiting the ringing outside it.
+
+![64-zone / 12-level phase-plate relief map and simulated focal field](../images/rethinking-01-phaseplate-and-focal-field.svg)
+
+*Proposed 64-zone / 12-level phase plate and the corresponding simulated focal field for the current 785 nm example.*
 
 ## What the present model gives
 
@@ -40,10 +44,13 @@ For the default 64-zone / 12-level case, the scalar model gives approximately:
 energy inside the useful 6 µm probe:  ~0.83
 CV inside the flat core:               ~0.011
 min/max intensity in the flat core:    ~0.95
-first-sidelobe energy:                  ~0.088
 ```
 
-The optimized output is not a mathematically perfect top-hat. Small ripple remains in the plateau and weak sidelobes remain outside it. That is the useful result: the design is already much flatter than a Gaussian focus without pretending that the ideal target is exactly achieved.
+The optimized output is not a mathematically perfect top-hat. Small ripple remains in the plateau and weak structure remains outside it. The useful result is that the central region becomes much flatter than the Gaussian focus while most of the modeled energy remains in the useful probe.
+
+![Gaussian focus compared with the optimized phase-shaped output](../images/rethinking-01-gaussian-vs-optimized-output.svg)
+
+*Gaussian reference and the actual optimized phase-shaped output. Each profile is normalized to its own peak to compare the shapes directly.*
 
 These values are **simulation outputs, not experimental measurements**.
 
@@ -63,6 +70,6 @@ for nominally identical particles under controlled flow.
 
 The next step is straightforward: fabricate the optimized relief, measure the real surface profile, image the focal field, and compare Raman burst distributions from the same particle suspension with and without the phase plate.
 
-The simulation is intentionally editable. Beam diameter, numerical aperture, number of zones, number of depth levels and the requested output profile can all be changed before fabrication.
+The Python script is meant to be more than a record of this one example. It can serve as a small design tool: change the beam, numerical aperture, number of zones, number of depth levels or requested output profile, rerun it, and generate a new candidate plate before fabrication.
 
 Reproducible code and proposed input parameters are in [`simulations/raman-flat-top`](../simulations/raman-flat-top/README.md).
