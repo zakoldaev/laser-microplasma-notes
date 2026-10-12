@@ -2,10 +2,10 @@
 
 > **What would I build now with the same fabrication platform, today's numerical tools, and new application questions?**
 
-The historical notes stay tied to the published experiments. Here I use those demonstrated capabilities as a starting point for new optical designs and experiments that were not part of the original papers.
+The historical notes stay tied to the published experiments. This is a separate forward-looking branch of the archive: each note starts from a demonstrated capability, then follows a new design question, simulation or possible experiment in its own direction.
 
-## Current ideas
+## Notes in this branch
 
-- [01 — From beam correction to a Raman micro-probe](01-raman-microfluidic-flat-top.md) — rethinks the multilevel fused-silica phase plate as a compact way to create a flatter Raman excitation volume for particles flowing through a microfluidic channel.
+- [01 — From beam correction to a Raman micro-probe](01-raman-microfluidic-flat-top.md) — rethinks the multilevel fused-silica phase plate as a compact beam-shaping element, using Raman flow measurements as one worked example.
 
-These are working hypotheses. Simulations are included where useful, but the point is to make the next experiment clear rather than to turn retrospective ideas into new claims about the earlier work.
+These are working hypotheses rather than extensions of the original publications. Simulations are included where useful so the assumptions can be changed and the same ideas can be explored for other optical problems.
