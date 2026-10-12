@@ -27,10 +27,11 @@ This page is a question-based guide to the archive. It is meant for readers who 
 | How was a fused-silica phase grating used as a real optical component? | [Note 03 — phase gratings and beam splitting](notes/03-phase-grating.md) |
 | What fabrication ranges were reported in the dedicated phase-grating study? | [Note 03](notes/03-phase-grating.md) — **1.064 µm** excitation, pulse durations about **4–200 ns**, repetition rates about **10–100 kHz**, relief roughly **0.5–2 µm** |
 | How did the work progress beyond simple gratings? | [Note 03](notes/03-phase-grating.md) — multilevel phase plates, beam correction and later spiral phase plates for vortex generation |
+| Where is the publication trail for the full research line? | [Note 04 — publication trail](notes/04-publication-trail.md) |
 | Why is fused silica still relevant to this research line? | [Note 02](notes/02-master-thesis-summary.md) and [Note 03](notes/03-phase-grating.md) — permanent, low-defect structuring of this hard transparent optical material remains a non-trivial fabrication problem |
 
 ## Reading the archive as one story
 
-If you prefer chronology rather than question-based navigation, start with [Note 00](notes/00-historical-context-2013-2014.md), continue to [Note 01](notes/01-porous-glass-to-surface-structuring.md), then [Note 02](notes/02-master-thesis-summary.md), and finish the current sequence with [Note 03](notes/03-phase-grating.md).
+If you prefer chronology rather than question-based navigation, start with [Note 00](notes/00-historical-context-2013-2014.md), continue to [Note 01](notes/01-porous-glass-to-surface-structuring.md), then [Note 02](notes/02-master-thesis-summary.md) and [Note 03](notes/03-phase-grating.md), and finish with [Note 04 — the publication trail](notes/04-publication-trail.md).
 
-The [README](README.md) contains the terminology guide and the focused publication trail for the full research line. Exploratory present-day ideas are collected separately under [Rethinking the results](rethinking/README.md).
+The [README](README.md) contains the terminology guide. Exploratory present-day ideas are collected separately under [Rethinking the results](rethinking/README.md).
