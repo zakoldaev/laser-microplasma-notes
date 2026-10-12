@@ -13,6 +13,14 @@ The name of the process changed as the work developed. In the 2014–2016 confer
 
 ## Start here
 
+The repository has two connected branches: the historical notes follow what was actually done and published, while [**Rethinking the results**](rethinking/README.md) contains independent forward-looking notes that start from those demonstrated capabilities and ask what they could be useful for now.
+
+> **Rethinking the results → [open the branch](rethinking/README.md)**
+>
+> New design questions, simulations and possible next experiments. Each note stands on its own and can develop in a different direction.
+
+### Historical notes
+
 | Note | Topic |
 | --- | --- |
 | 00 | [Laser microplasma processing for transparent dielectrics — glass–carbon origin story](notes/00-historical-context-2013-2014.md) |
@@ -21,7 +29,7 @@ The name of the process changed as the work developed. In the 2014–2016 confer
 | 03 | [Fused-silica phase gratings — laser microplasma processing for beam splitting](notes/03-phase-grating.md) |
 | 04 | [Publication trail — how the work developed](notes/04-publication-trail.md) |
 
-Read the notes in order if you want the development as one story. If you arrive with a specific question instead, use the [research map](research-map.md) to jump directly to the note that contains the answer.
+Read the historical notes in order if you want the development as one story. If you arrive with a specific question instead, use the [research map](research-map.md) to jump directly to the note that contains the answer.
 
 ## Rethinking the results
 
