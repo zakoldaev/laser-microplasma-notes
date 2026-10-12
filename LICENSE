@@ -14,6 +14,30 @@ Under the following terms:
 - Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
 - No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 
+## How to give credit
+
+If you reuse material from this repository, the attribution does not need to be complicated. A clear credit with the author, repository, link, and license is usually enough.
+
+A simple example for a website, presentation, figure caption, or report is:
+
+> Adapted from Roman Zakoldaev, *Laser microplasma notes*, GitHub, https://github.com/zakoldaev/laser-microplasma-notes, licensed under CC BY 4.0.
+
+If you copied material without changing it, use **“Source:”** instead of **“Adapted from:”**.
+
+For an academic reference, a fuller citation can be written as:
+
+> Zakoldaev, R. (2026). *Laser microplasma notes*. GitHub repository. https://github.com/zakoldaev/laser-microplasma-notes
+
+If you use a specific note, it is even better to name that note and link directly to it, for example:
+
+> Roman Zakoldaev, “From beam correction to a Raman micro-probe,” in *Laser microplasma notes*, GitHub, 2026, CC BY 4.0.
+
+If you modify a figure, diagram, text passage, or simulation, please make that clear, for example:
+
+> Adapted from Roman Zakoldaev, *Laser microplasma notes* (CC BY 4.0); modified by the present author.
+
+For academic software and data workflows, the repository also contains `CITATION.cff`, which GitHub can use to generate citation information through the **Cite this repository** option when available.
+
 No warranties are given. The license may not give you all of the permissions necessary for your intended use. Other rights such as publicity, privacy, or moral rights may limit how you use the material.
 
 Third-party material, publisher-owned figures, excerpts, and content otherwise identified with a separate source or license are not relicensed by this file and remain subject to their original terms.
