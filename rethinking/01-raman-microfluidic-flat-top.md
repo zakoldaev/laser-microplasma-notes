@@ -54,6 +54,16 @@ The optimized output is not a mathematically perfect top-hat. Small ripple remai
 
 These values are **simulation outputs, not experimental measurements**.
 
+### A practical power comparison
+
+Suppose the Raman source is a **785 nm single-mode laser delivering 100 mW** into the modeled optical system. In the present calculation, about 99% of the Gaussian-beam power and about 83% of the shaped-beam power fall inside the same 6 µm-diameter useful region.
+
+That corresponds to an average power density of roughly **350 kW/cm²** for the Gaussian case and **290 kW/cm²** for the shaped case, averaged over the 6 µm-diameter disk.
+
+So the shaped beam does not need orders of magnitude more laser power to recover the same average excitation density. In this model, increasing the source from **100 mW to about 120 mW** would compensate for the redistributed power and bring the average power density in the useful region back to approximately the Gaussian value.
+
+This is different from matching the sharp on-axis Gaussian peak. The purpose of the phase plate is precisely to trade some peak intensity for a broader and more uniform excitation region.
+
 ## Why this is interesting
 
 A permanent fused-silica element has no moving parts, needs no active control and can sit directly in a fixed optical train. For a microfluidic Raman system, the practical question is whether this flatter probe reduces event-to-event variation enough to compensate for the lower peak intensity compared with a Gaussian focus.
