@@ -29,7 +29,7 @@ The original experiments gradually moved from surface modification to functional
 
 > **What could the same fabrication platform be useful for now?**
 
-The [**Rethinking the results**](rethinking/README.md) branch starts from demonstrated capabilities, then follows them into new problems using current numerical tools and application needs. The first example takes the old multilevel phase-plate idea and asks whether it could create a flatter Raman probe for particles moving through a microfluidic channel. The design can be explored directly in the reproducible [`raman-flat-top` simulations](simulations/raman-flat-top/README.md).
+The [**Rethinking the results**](rethinking/README.md) branch starts from demonstrated capabilities and follows them into new problems using current numerical tools and application needs. The aim is not to prescribe one application, but to show how the earlier fabrication ideas can be revisited, redesigned and tested in new contexts. Reproducible simulations are included where useful so other readers can change the assumptions and explore their own directions.
 
 These notes are deliberately forward-looking: they connect the earlier work to possible next experiments without changing the claims of the original papers.
 
