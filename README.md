@@ -22,6 +22,12 @@ The name of the process changed as the work developed. In the 2014–2016 confer
 
 Read the notes in order if you want the development as one story. If you arrive with a specific question instead, use the [research map](research-map.md) to jump directly to the note that contains the answer.
 
+## Rethinking the results
+
+The historical notes are separated from a second branch of the archive: [**Rethinking the results**](rethinking/README.md). This section asks what I would do now with the same fabrication platform using current numerical tools and new application questions. The first example revisits multilevel phase plates as a possible way to shape a confocal Raman probe for particles flowing in a microfluidic channel, with simple reproducible simulations in [`simulations/raman-flat-top`](simulations/raman-flat-top/README.md).
+
+These are exploratory design notes, not additions to the claims of the original papers.
+
 ## Basic processing geometry
 
 The common experimental geometry is:
