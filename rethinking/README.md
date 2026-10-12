@@ -1,6 +1,6 @@
 # Rethinking the results
 
-This section asks a simple question: **what would I do now with the same fabrication platform?**
+> **What would I build now with the same fabrication platform, today's numerical tools, and new application questions?**
 
 The historical notes stay tied to the published experiments. Here I use those demonstrated capabilities as a starting point for new optical designs and experiments that were not part of the original papers.
 
