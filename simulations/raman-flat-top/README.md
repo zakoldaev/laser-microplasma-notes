@@ -14,25 +14,55 @@ pip install numpy scipy matplotlib
 
 ## Current recommended first-build design
 
-For the illustrative 785 nm, 5 µm-probe case used in this repository, the present recommendation is **20 concentric annular zones and 8 discrete phase/depth levels**.
-
-Why 20 zones? With a 5 mm illuminated pupil, 20 equal radial zones correspond to about **125 µm per annulus**. This gives the optimizer enough independent phase regions to reshape the focal profile while keeping every fabricated feature far wider than a few-micrometre LIMP writing limit. It is therefore a deliberately conservative geometry for a first physical optic.
-
-Why 8 levels? At 785 nm the fused-silica full-2π relief in the present model is about **1.73 µm**, so 8 phase states are separated by about **0.217 µm in depth**. That spacing is comfortably larger than the ~50 nm depth-control scale demonstrated in the earlier LIMP work. The nominal relief levels are approximately:
+For the present 785 nm microfluidic-Raman concept, the default design has been updated to:
 
 ```text
-0.000, 0.217, 0.433, 0.650,
-0.866, 1.083, 1.300, 1.516 µm
+input beam diameter:   12 mm
+annular zones:         64
+phase/depth levels:    12
+flat core:             ~4.2 µm diameter
+useful probe:          ~6 µm diameter
+zone width:            ~100 µm
+nominal depth step:    ~140 nm
+full 2π relief:        ~1.73 µm
 ```
 
-This should be read as the **recommended first-build compromise**, not a universal optimum. If the optic is going to be fabricated, rerun the model with the real beam and microscope parameters and compare a small sweep such as:
+The same script can be rerun with a 10 mm input beam simply by changing `PUPIL_DIAMETER_MM`.
+
+### Why 64 zones?
+
+With a 12 mm illuminated diameter, 64 equal radial zones correspond to about **94 µm per annulus**, rounded to **~100 µm** in the discussion. With a 10 mm beam, the same design gives about 78 µm per annulus. Both values remain far larger than a few-micrometre LIMP writing capability, so the geometry gives the optimizer substantially more phase freedom without approaching the minimum lateral fabrication scale.
+
+### Why 12 depth levels?
+
+At 785 nm the fused-silica full-2π relief in the model is about **1.73 µm**. Twelve phase states therefore give a nominal depth increment of about **0.14 µm (~140 nm)**. This remains comfortably larger than the ~50 nm depth-control scale demonstrated in the earlier LIMP work, while giving a finer phase approximation than the previous eight-level design.
+
+A 16-level design would reduce the depth spacing to roughly 0.11 µm. That may still be practical, but it leaves less margin for local depth error, calibration drift and roughness. For a first fabrication, **64 zones / 12 levels** is therefore the present compromise between optical freedom and fabrication margin.
+
+## Why the target is now a soft top-hat
+
+The earlier hard-edged top-hat optimization produced visible radial ringing. This is expected when a finite circular pupil is forced to create an abrupt intensity edge.
+
+The updated model instead targets:
 
 ```text
-zones:        12, 16, 20, 24, 32
-phase levels: 4, 8, 16
+flat central core
+→ smooth radial roll-off
+→ low first sidelobe
 ```
 
-If the real setup remains close to the illustrative case, **20 zones / 8 levels is the configuration to fabricate first**.
+The default target is approximately **4.2 µm flat-core diameter** followed by a smooth transition so that the useful probe is about **6 µm diameter**.
+
+The optimizer now balances four quantities:
+
+```text
+core flatness
++ soft-edge agreement
++ useful energy inside the probe
++ first-sidelobe suppression
+```
+
+The intention is not to generate a mathematically perfect top-hat at any cost. The useful Raman design is the one that is flat enough to reduce trajectory sensitivity while still retaining enough excitation power inside the microfluidic detection region.
 
 ## 1. Compare Gaussian and shaped probes in flow
 
@@ -63,7 +93,17 @@ Run:
 python optimize_limp_phase_plate.py
 ```
 
-The script uses a scalar radial diffraction model and searches over discrete annular phase levels. It is a deliberately simple fabrication-aware model: the phase plate consists of concentric annular zones, each assigned one of a finite number of relief depths.
+The script uses a scalar radial diffraction model and searches over discrete annular phase levels. The phase plate consists of concentric annular zones, each assigned one of a finite number of relief depths.
+
+The default inputs are now:
+
+```python
+PUPIL_DIAMETER_MM = 12.0
+N_ZONES = 64
+N_PHASE_LEVELS = 12
+FLAT_CORE_DIAMETER_UM = 4.2
+USEFUL_DIAMETER_UM = 6.0
+```
 
 Editable parameters at the top include:
 
@@ -71,13 +111,24 @@ Editable parameters at the top include:
 - numerical aperture;
 - illuminated pupil diameter;
 - input Gaussian-beam radius;
-- desired flat-top diameter;
+- flat-core diameter;
+- useful-probe diameter;
+- soft-edge position and width;
 - number of annular zones;
 - number of phase/depth levels;
 - assumed depth error;
-- surface roughness.
+- surface roughness;
+- relative weights assigned to flatness, edge smoothness, useful energy and sidelobe suppression.
 
-The optimizer minimizes intensity variation inside the desired probe while penalizing light immediately outside it. It then evaluates fabrication tolerance with Monte-Carlo depth errors.
+For a future fabrication decision, useful comparison cases are:
+
+```text
+beam diameter:  10, 12 mm
+zones:          48, 64, 80
+phase levels:   8, 12, 16
+```
+
+The current default is **12 mm / 64 zones / 12 levels**.
 
 ## What the model does not yet include
 
