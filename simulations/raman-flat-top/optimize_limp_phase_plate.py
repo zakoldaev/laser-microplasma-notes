@@ -2,9 +2,19 @@
 
 The model is scalar and axisymmetric. A Gaussian input beam illuminates a fused-
 silica phase plate divided into concentric annular zones. Each zone can take one
-of a finite number of phase/depth levels. A small discrete optimizer searches
-for a profile that is approximately flat inside the requested Raman probe and
-penalizes light immediately outside it.
+of a finite number of phase/depth levels.
+
+The default design is intended for a 785 nm Raman probe in microfluidic flow.
+Instead of forcing a hard-edged top-hat, the optimizer targets a flat central
+core followed by a smooth roll-off. The objective balances four quantities:
+
+1. flatness inside the central core;
+2. agreement with the soft edge;
+3. optical energy retained inside the useful Raman probe;
+4. light in the first sidelobe region.
+
+The inputs are grouped below so the script can be reused for another wavelength,
+beam diameter, target probe size, number of zones or number of relief levels.
 
 Dependencies: numpy, scipy, matplotlib
 """
@@ -19,22 +29,40 @@ from scipy.special import j0
 WAVELENGTH_NM = 785.0
 REFRACTIVE_INDEX = 1.453
 NA = 0.40
-PUPIL_DIAMETER_MM = 5.0
-INPUT_GAUSSIAN_RADIUS_MM = 2.0  # field-amplitude 1/e radius
-TARGET_DIAMETER_UM = 5.0
 
-N_ZONES = 20
-N_PHASE_LEVELS = 8
+# Expanded beam / illuminated phase-plate aperture.
+# A 10 mm beam can also be tested simply by changing this value.
+PUPIL_DIAMETER_MM = 12.0
+INPUT_GAUSSIAN_RADIUS_MM = 4.8  # field-amplitude 1/e radius
+
+# Soft-top-hat target in the sample plane.
+# Default: about 4.2 µm flat core and about 6 µm useful probe diameter.
+FLAT_CORE_DIAMETER_UM = 4.2
+USEFUL_DIAMETER_UM = 6.0
+SOFT_EDGE_CENTER_UM = 2.65
+SOFT_EDGE_WIDTH_UM = 0.22
+
+# Recommended first-build design.
+N_ZONES = 64
+N_PHASE_LEVELS = 12
+
+# Fabrication-tolerance assumptions.
 DEPTH_ERROR_NM = 50.0
 SURFACE_RA_NM = 37.5
 
-# Optimizer settings. Increase restarts for a more thorough search.
-N_RESTARTS = 8
-MAX_GREEDY_PASSES = 6
+# Optimizer settings. Increase restarts/passes for a more thorough search.
+N_RESTARTS = 6
+MAX_GREEDY_PASSES = 5
 RANDOM_SEED = 20261012
 
 # Focal-plane range used to assess the design.
 FOCAL_RADIUS_UM = 12.0
+
+# Objective weights: flat core + smooth edge + enough energy.
+W_CORE_FLATNESS = 1.25
+W_EDGE_SHAPE = 0.85
+W_USEFUL_ENERGY = 1.25
+W_SIDELOBE = 0.65
 
 # -----------------------------------------------------------------------------
 # PREPARE RADIAL DIFFRACTION MODEL
@@ -46,7 +74,11 @@ rmax = D / 2.0
 f = D / (2.0 * NA)  # paraxial relation D ≈ 2 f NA
 beam_radius = INPUT_GAUSSIAN_RADIUS_MM * 1e-3
 
-target_radius = TARGET_DIAMETER_UM * 1e-6 / 2.0
+core_radius = FLAT_CORE_DIAMETER_UM * 1e-6 / 2.0
+useful_radius = USEFUL_DIAMETER_UM * 1e-6 / 2.0
+edge_center = SOFT_EDGE_CENTER_UM * 1e-6
+edge_width = SOFT_EDGE_WIDTH_UM * 1e-6
+
 zone_edges = np.linspace(0.0, rmax, N_ZONES + 1)
 zone_width = zone_edges[1] - zone_edges[0]
 
@@ -73,8 +105,17 @@ for z in range(N_ZONES):
     )
 
 phase_values = 2.0 * np.pi * np.arange(N_PHASE_LEVELS) / N_PHASE_LEVELS
-inside = rho <= target_radius
-guard = (rho > target_radius) & (rho <= 2.4 * target_radius)
+core = rho <= core_radius
+transition = (rho > core_radius) & (rho <= useful_radius)
+sidelobe_region = (rho > useful_radius) & (rho <= 2.0 * useful_radius)
+useful = rho <= useful_radius
+
+# Soft target: unit intensity in the core, then a logistic roll-off.
+target = np.ones_like(rho)
+edge_mask = rho > core_radius
+target[edge_mask] = 1.0 / (
+    1.0 + np.exp(np.clip((rho[edge_mask] - edge_center) / edge_width, -60, 60))
+)
 
 
 def field_from_codes(codes):
@@ -86,22 +127,49 @@ def intensity_from_codes(codes):
     return np.abs(field_from_codes(codes)) ** 2
 
 
-def score(codes):
-    """Flatness inside target + penalty for nearby sidelobes."""
-    I = intensity_from_codes(codes)
-    mean_inside = np.sum(I[inside] * area_weight[inside]) / np.sum(area_weight[inside])
-    if mean_inside <= 0:
-        return 1e12
-    In = I / mean_inside
+def metrics(I):
+    """Return useful energy and shape metrics for one radial intensity profile."""
+    total_energy = np.sum(I * area_weight)
+    useful_energy = np.sum(I[useful] * area_weight[useful]) / total_energy
 
-    flat_rmse = np.sqrt(
-        np.sum((In[inside] - 1.0) ** 2 * area_weight[inside])
-        / np.sum(area_weight[inside])
+    core_mean = np.sum(I[core] * area_weight[core]) / np.sum(area_weight[core])
+    In = I / core_mean
+
+    core_cv = np.sqrt(
+        np.sum((In[core] - 1.0) ** 2 * area_weight[core])
+        / np.sum(area_weight[core])
     )
-    nearby_light = (
-        np.sum(In[guard] * area_weight[guard]) / np.sum(area_weight[guard])
+
+    if np.any(transition):
+        edge_rmse = np.sqrt(
+            np.sum((In[transition] - target[transition]) ** 2 * area_weight[transition])
+            / np.sum(area_weight[transition])
+        )
+    else:
+        edge_rmse = 0.0
+
+    sidelobe_energy = (
+        np.sum(I[sidelobe_region] * area_weight[sidelobe_region]) / total_energy
+        if np.any(sidelobe_region)
+        else 0.0
     )
-    return flat_rmse + 0.55 * nearby_light
+
+    core_minmax = I[core].min() / I[core].max()
+    return useful_energy, core_cv, edge_rmse, sidelobe_energy, core_minmax
+
+
+def score(codes):
+    """Balanced objective: flat core + smooth edge + enough energy."""
+    useful_energy, core_cv, edge_rmse, sidelobe_energy, _ = metrics(
+        intensity_from_codes(codes)
+    )
+
+    return (
+        W_CORE_FLATNESS * core_cv
+        + W_EDGE_SHAPE * edge_rmse
+        + W_USEFUL_ENERGY * (1.0 - useful_energy)
+        + W_SIDELOBE * sidelobe_energy
+    )
 
 
 # -----------------------------------------------------------------------------
@@ -153,21 +221,6 @@ depths = best_codes * depth_step
 I_ref = intensity_from_codes(np.zeros(N_ZONES, dtype=int))
 I_opt = intensity_from_codes(best_codes)
 
-
-def metrics(I):
-    total = np.sum(I * area_weight)
-    in_energy = np.sum(I[inside] * area_weight[inside]) / total
-
-    vals = I[inside]
-    w = area_weight[inside]
-    mean = np.sum(vals * w) / np.sum(w)
-    cv = np.sqrt(np.sum((vals - mean) ** 2 * w) / np.sum(w)) / mean
-
-    normalized = vals / vals.max()
-    uniformity = normalized.min() / normalized.max()
-    return in_energy, cv, uniformity
-
-
 # -----------------------------------------------------------------------------
 # MONTE-CARLO DEPTH TOLERANCE
 # -----------------------------------------------------------------------------
@@ -193,33 +246,38 @@ roughness_coherent_efficiency = np.exp(-sigma_phi**2)
 # RESULTS
 # -----------------------------------------------------------------------------
 print("\nOptical assumptions")
-print(f"  wavelength                 : {WAVELENGTH_NM:.1f} nm")
-print(f"  NA                         : {NA:.3f}")
-print(f"  effective focal length     : {f * 1e3:.3f} mm")
-print(f"  illuminated pupil diameter : {PUPIL_DIAMETER_MM:.3f} mm")
-print(f"  desired probe diameter     : {TARGET_DIAMETER_UM:.3f} µm")
+print(f"  wavelength                  : {WAVELENGTH_NM:.1f} nm")
+print(f"  NA                          : {NA:.3f}")
+print(f"  effective focal length      : {f * 1e3:.3f} mm")
+print(f"  illuminated pupil diameter  : {PUPIL_DIAMETER_MM:.3f} mm")
+print(f"  flat-core diameter          : {FLAT_CORE_DIAMETER_UM:.3f} µm")
+print(f"  useful-probe diameter       : {USEFUL_DIAMETER_UM:.3f} µm")
 
 print("\nFabrication design")
-print(f"  annular zones              : {N_ZONES}")
-print(f"  zone width                 : {zone_width * 1e6:.1f} µm")
-print(f"  phase/depth levels         : {N_PHASE_LEVELS}")
-print(f"  full 2π relief depth       : {h_2pi * 1e6:.3f} µm")
-print(f"  nominal depth increment    : {depth_step * 1e9:.1f} nm")
-print(f"  optimizer score            : {best_score:.5f}")
+print(f"  annular zones               : {N_ZONES}")
+print(f"  zone width                  : {zone_width * 1e6:.1f} µm")
+print(f"  phase/depth levels          : {N_PHASE_LEVELS}")
+print(f"  full 2π relief depth        : {h_2pi * 1e6:.3f} µm")
+print(f"  nominal depth increment     : {depth_step * 1e9:.1f} nm")
+print(f"  optimizer score             : {best_score:.5f}")
 
 for label, I in [("Gaussian / no plate", I_ref), ("Optimized phase plate", I_opt)]:
-    energy, cv, uniformity = metrics(I)
+    useful_energy, core_cv, edge_rmse, sidelobe_energy, core_minmax = metrics(I)
     print(f"\n{label}")
-    print(f"  energy in target disk      : {energy:.4f}")
-    print(f"  CV inside target disk      : {cv:.4f}")
-    print(f"  min/max radial uniformity  : {uniformity:.4f}")
+    print(f"  energy in useful probe      : {useful_energy:.4f}")
+    print(f"  CV in flat core             : {core_cv:.4f}")
+    print(f"  soft-edge RMSE              : {edge_rmse:.4f}")
+    print(f"  first-sidelobe energy       : {sidelobe_energy:.4f}")
+    print(f"  min/max in flat core        : {core_minmax:.4f}")
 
 print("\nDepth-error Monte Carlo")
-print(f"  assumed zone error         : ±{DEPTH_ERROR_NM:.1f} nm")
-print(f"  median CV                  : {np.median(mc_metrics[:,1]):.4f}")
-print(f"  5th-95th percentile CV     : {np.percentile(mc_metrics[:,1],5):.4f} - "
-      f"{np.percentile(mc_metrics[:,1],95):.4f}")
-print(f"  roughness coherent factor  : {roughness_coherent_efficiency:.4f}")
+print(f"  assumed zone error          : ±{DEPTH_ERROR_NM:.1f} nm")
+print(f"  median core CV              : {np.median(mc_metrics[:,1]):.4f}")
+print(
+    f"  5th-95th percentile core CV: {np.percentile(mc_metrics[:,1],5):.4f} - "
+    f"{np.percentile(mc_metrics[:,1],95):.4f}"
+)
+print(f"  roughness coherent factor   : {roughness_coherent_efficiency:.4f}")
 
 print("\nZone design")
 print("zone, inner_mm, outer_mm, phase_code, depth_um")
@@ -232,30 +290,37 @@ for z in range(N_ZONES):
 # -----------------------------------------------------------------------------
 # PLOTS
 # -----------------------------------------------------------------------------
+# Normalize both profiles by the mean intensity in the requested flat core.
+def core_normalized(I):
+    mean_core = np.sum(I[core] * area_weight[core]) / np.sum(area_weight[core])
+    return I / mean_core
+
 plt.figure(figsize=(7.4, 4.8))
-plt.plot(rho * 1e6, I_ref / I_ref.max(), label="Gaussian / no plate")
-plt.plot(rho * 1e6, I_opt / I_opt.max(), label="Optimized multilevel plate")
-plt.axvline(target_radius * 1e6, linestyle="--", linewidth=1, label="target radius")
+plt.plot(rho * 1e6, core_normalized(I_ref), label="Gaussian / no plate")
+plt.plot(rho * 1e6, core_normalized(I_opt), label="Optimized multilevel plate")
+plt.plot(rho * 1e6, target, "--", label="soft top-hat target")
+plt.axvline(core_radius * 1e6, linestyle=":", linewidth=1, label="flat-core radius")
+plt.axvline(useful_radius * 1e6, linestyle="--", linewidth=1, label="useful radius")
 plt.xlabel("Radius in sample plane (µm)")
-plt.ylabel("Normalized intensity")
-plt.title("LIMP-fabricable Raman beam shaping")
-plt.xlim(0, min(10.0, FOCAL_RADIUS_UM))
-plt.ylim(0, 1.05)
+plt.ylabel("Intensity normalized to flat-core mean")
+plt.title("Gaussian vs LIMP-shaped Raman probe")
+plt.xlim(0, min(8.0, FOCAL_RADIUS_UM))
+plt.ylim(0, 1.8)
 plt.grid(alpha=0.3)
 plt.legend()
 plt.tight_layout()
-plt.savefig("optimized_limp_raman_profile.png", dpi=180)
+plt.savefig("gaussian_vs_soft_tophat_raman.png", dpi=180)
 
 zone_centers = 0.5 * (zone_edges[:-1] + zone_edges[1:])
 plt.figure(figsize=(7.4, 4.8))
 plt.step(zone_centers * 1e3, depths * 1e6, where="mid")
 plt.xlabel("Radial position on plate (mm)")
 plt.ylabel("Relief depth (µm)")
-plt.title("Optimized annular multilevel phase plate")
+plt.title("64-zone / 12-level LIMP phase plate")
 plt.grid(alpha=0.3)
 plt.tight_layout()
 plt.savefig("optimized_limp_phaseplate_depths.png", dpi=180)
 plt.show()
 
-print("\nSaved: optimized_limp_raman_profile.png")
+print("\nSaved: gaussian_vs_soft_tophat_raman.png")
 print("Saved: optimized_limp_phaseplate_depths.png")
