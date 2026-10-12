@@ -12,6 +12,28 @@ Python 3 with:
 pip install numpy scipy matplotlib
 ```
 
+## Current recommended first-build design
+
+For the illustrative 785 nm, 5 µm-probe case used in this repository, the present recommendation is **20 concentric annular zones and 8 discrete phase/depth levels**.
+
+Why 20 zones? With a 5 mm illuminated pupil, 20 equal radial zones correspond to about **125 µm per annulus**. This gives the optimizer enough independent phase regions to reshape the focal profile while keeping every fabricated feature far wider than a few-micrometre LIMP writing limit. It is therefore a deliberately conservative geometry for a first physical optic.
+
+Why 8 levels? At 785 nm the fused-silica full-2π relief in the present model is about **1.73 µm**, so 8 phase states are separated by about **0.217 µm in depth**. That spacing is comfortably larger than the ~50 nm depth-control scale demonstrated in the earlier LIMP work. The nominal relief levels are approximately:
+
+```text
+0.000, 0.217, 0.433, 0.650,
+0.866, 1.083, 1.300, 1.516 µm
+```
+
+This should be read as the **recommended first-build compromise**, not a universal optimum. If the optic is going to be fabricated, rerun the model with the real beam and microscope parameters and compare a small sweep such as:
+
+```text
+zones:        12, 16, 20, 24, 32
+phase levels: 4, 8, 16
+```
+
+If the real setup remains close to the illustrative case, **20 zones / 8 levels is the configuration to fabricate first**.
+
 ## 1. Compare Gaussian and shaped probes in flow
 
 Run:
