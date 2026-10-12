@@ -36,57 +36,84 @@ S \propto \int I_{\mathrm{exc}}(x,y,z)\,C_{\mathrm{det}}(x,y,z)\,\rho(x,y,z)\,dV
 
 A shaped excitation area much larger than the confocal collection volume wastes optical power. The target should therefore be a **small micro-flat-top matched to the microfluidic stream and confocal detection volume**, not a large homogenized beam.
 
-## First design question
+## Updated design target: flat core + smooth edges + enough energy
 
-For an illustrative 785 nm Raman system, I would start by comparing a normal Gaussian probe with shaped probes around 3–8 µm diameter for a hydrodynamically focused particle stream. A simple trajectory model already shows the expected trade-off: a very small flat-top preserves high intensity but remains sensitive to trajectory; a very large flat-top improves uniformity but spreads too much power outside the useful confocal volume. In the first exploratory calculation, a probe around **5 µm diameter** gave a useful compromise.
+The first 20-zone / 8-level calculation was useful for establishing that a permanent LIMP-fabricated element could flatten the central Raman probe. It also showed the main limitation of a coarse annular design: strong radial structure appears when the optimizer is forced to concentrate energy into a small hard-edged top-hat.
 
-This is not yet an experimental result. It is a design hypothesis that should be recalculated for the actual objective numerical aperture, beam diameter, microfluidic-channel geometry, particle-position distribution and confocal collection function.
+The updated target is therefore not a mathematically sharp top-hat. It is a **soft top-hat** with three simultaneous goals:
+
+1. a flat central excitation region;
+2. a smooth radial roll-off rather than a sharp edge that produces ringing;
+3. enough optical energy retained inside the useful Raman probe.
+
+For the present 785 nm concept I would target a flat core of about **4–4.5 µm diameter**, followed by a smooth roll-off so that the useful probe is about **5.5–6 µm diameter**. This is still small enough to match a hydrodynamically focused microfluidic stream, while giving the optimizer more freedom to suppress rings and sidelobes.
 
 ## What phase element would I fabricate now?
 
 For this application I would not begin with a classical random phase plate. A random plate is designed to redistribute coherent light over a broad field and naturally produces speckle and sidelobes. For a compact Raman interrogation volume, the better problem formulation is:
 
-> design the **LIMP-fabricable multilevel phase profile** that transforms the input beam into the required micro-scale intensity distribution while keeping sidelobes and sensitivity to fabrication errors low.
+> design the **LIMP-fabricable multilevel phase profile** that transforms the input Gaussian beam into a soft micro-flat-top while balancing flatness, edge smoothness, useful energy and fabrication tolerance.
 
 ### Recommended first-build geometry
 
-If I wanted to fabricate one plate from the present design study, I would start with **20 concentric annular zones and 8 discrete phase/depth levels**.
+The present first-build recommendation is:
 
-For the illustrative 5 mm illuminated pupil, 20 zones give a radial zone width of about **125 µm**. This is intentionally conservative relative to a LIMP lateral writing capability of a few micrometres: the optical design has enough independent degrees of freedom to reshape the focal field, while each annulus remains much wider than the minimum writable line and should therefore be comparatively easy to reproduce.
+- **785 nm** operation;
+- an expanded input beam of about **10–12 mm diameter**;
+- **64 concentric annular zones**;
+- **12 discrete phase/depth levels**;
+- a soft top-hat target with a **4–4.5 µm flat core** and **5.5–6 µm useful diameter**;
+- optimization that explicitly penalizes radial ripple and light in the first sidelobe region.
 
-I would also keep **8 depth levels** for the first fabrication rather than immediately increasing the number. At 785 nm, taking fused silica with refractive index about 1.453, the full 2π relief is approximately **1.73 µm**. Eight equally spaced phase states therefore correspond to a nominal relief increment of about **0.217 µm**. The usable depth levels are approximately:
+For a 12 mm illuminated diameter, 64 radial zones correspond to a nominal zone width of about **94 µm**, which I would round to **~100 µm** in the discussion. For a 10 mm beam the same 64-zone design gives about 78 µm per zone. Both are still far larger than the few-micrometre lateral feature size available to the LIMP process, so the geometry remains conservative from the fabrication side.
+
+At 785 nm, using fused silica with refractive index about 1.453, the full 2π relief is approximately **1.73 µm**. Twelve equally spaced phase states give a nominal depth increment of about **0.14 µm**, or **~140 nm**. This remains comfortably larger than the roughly 50 nm depth-control scale demonstrated in the earlier LIMP work, while giving substantially more phase freedom than the earlier eight-level design.
+
+I would therefore choose **64 zones / 12 levels** before moving to a still finer design. A 16-level element is possible in principle, but its depth spacing is only about 0.11 µm, leaving less margin for depth calibration, local roughness and drift. Likewise, using many more radial zones would increase the optimization freedom but is not obviously necessary while each ~100 µm annulus already remains easy to resolve by the LIMP process.
+
+### Why expand the beam to 10–12 mm?
+
+The larger illuminated diameter gives the phase plate more independent radial degrees of freedom without forcing very narrow fabricated structures. The objective can therefore redistribute phase more smoothly across the pupil instead of making large changes over a small number of broad zones.
+
+For this design, the beam expansion is not intended simply to increase spot size. It is used to give the phase plate a larger optical aperture over which to synthesize a smoother focal distribution.
+
+### What the optimizer should minimize
+
+The revised model no longer minimizes only the intensity variation inside a hard target disk. It balances four terms:
 
 \[
-0,\ 0.217,\ 0.433,\ 0.650,\ 0.866,\ 1.083,\ 1.300,\ 1.516\ \mu\mathrm{m}.
+F = w_1\,\mathrm{CV}_{\mathrm{core}}
+  + w_2\,(1-\eta_{\mathrm{useful}})
+  + w_3\,E_{\mathrm{sidelobe}}
+  + w_4\,P_{\mathrm{ripple}}.
 \]
 
-That spacing is several times larger than the roughly 50 nm depth-control scale demonstrated in the earlier LIMP work, leaving a useful fabrication margin. More levels are possible, but they reduce the separation between neighbouring depths and therefore become more sensitive to calibration drift, roughness and local depth errors.
+Here, \(\mathrm{CV}_{\mathrm{core}}\) measures the flatness of the central region, \(\eta_{\mathrm{useful}}\) is the fraction of optical energy retained in the useful probe, \(E_{\mathrm{sidelobe}}\) penalizes light just outside the target, and \(P_{\mathrm{ripple}}\) penalizes radial oscillation and an excessively sharp edge.
 
-The choice of **20 zones / 8 levels is therefore my present recommended first-build compromise**, not a claim of a universal mathematical optimum. Fewer zones reduce control over the focal profile; many more zones increase fabrication complexity without necessarily producing a meaningful improvement. Likewise, fewer than 8 phase levels noticeably coarsen the phase approximation, while 16 or more levels may be worth testing numerically only after the actual depth reproducibility of the current LIMP process is confirmed.
+The purpose is not to obtain the flattest possible mathematical profile at any cost. The useful Raman design is the one that gives a sufficiently uniform probe while retaining enough optical power and remaining tolerant to realistic LIMP depth errors.
 
-For these illustrative parameters the numerical optimizer produced a deterministic annular phase plate rather than a random square-cell pattern. The current solution uses a maximum relief of about **1.52 µm** and is designed for a ~5 µm quasi-flat-top probe at 785 nm.
+## If I wanted to fabricate it later
 
-### If I wanted to fabricate it later
+Before making the optic, I would rerun the optimizer with the real microscope parameters and compare a narrow design sweep around the present recommendation:
 
-Before making the optic, I would rerun the optimizer with the real microscope parameters and compare a small design sweep around the current recommendation:
-
-- **zones:** 12, 16, 20, 24 and 32;
-- **phase levels:** 4, 8 and 16;
-- actual incident beam diameter and Gaussian radius;
+- **beam diameter:** 10 and 12 mm;
+- **zones:** 48, 64 and 80;
+- **phase levels:** 8, 12 and 16;
+- actual incident Gaussian radius;
 - actual objective numerical aperture;
 - measured LIMP depth calibration and roughness;
-- required probe diameter in the microfluidic channel.
+- required flat-core and useful-probe diameters in the microfluidic channel.
 
-If those inputs remain close to the present illustrative case, **20 zones and 8 levels would be the starting design I would fabricate first**.
+The current default is **12 mm / 64 zones / 12 levels** because it gives a practical balance between optical freedom and fabrication margin. The exact optimum should still be recalculated for the real Raman microscope before fabrication.
 
 ## Reproducible simulations
 
 Two small scripts accompany this note:
 
 - [`compare_raman_flow.py`](../simulations/raman-flat-top/compare_raman_flow.py) — an application-level model showing why a Gaussian and a quasi-flat-top probe produce different trajectory-dependent Raman signals in microfluidic flow.
-- [`optimize_limp_phase_plate.py`](../simulations/raman-flat-top/optimize_limp_phase_plate.py) — a compact radial model that searches for an 8-level annular fused-silica phase plate under editable optical and fabrication constraints.
+- [`optimize_limp_phase_plate.py`](../simulations/raman-flat-top/optimize_limp_phase_plate.py) — a compact radial model that now defaults to a 12 mm beam, 64 annular zones, 12 phase/depth levels and a soft-top-hat target.
 
-The input parameters are grouped at the top of each script. The intention is that another reader can change the beam size, wavelength, target probe diameter, channel width, particle-stream width, numerical aperture, number of relief levels or fabrication uncertainty without rewriting the model.
+The input parameters are grouped at the top of each script. Another reader can change the beam size, wavelength, flat-core diameter, useful-probe diameter, channel width, particle-stream width, numerical aperture, number of relief levels or fabrication uncertainty without rewriting the model.
 
 ## What should be tested experimentally?
 
