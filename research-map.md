@@ -20,6 +20,9 @@ This page is a question-based guide to the archive. It is meant for readers who 
 | Why were the first microlenses not ideal for direct parallel laser processing? | [Note 02](notes/02-master-thesis-summary.md) — low numerical aperture, flat-topped profiles and a measured focal spot of about **90 ± 10 µm** |
 | What happened when random phase plates were tested with a more coherent beam? | [Note 02](notes/02-master-thesis-summary.md) — interference fringes became important, showing that coherence strongly affected homogenization |
 | Are fixed random phase plates still attractive now that programmable spatial light modulators are common? | [Note 02](notes/02-master-thesis-summary.md) — less flexible than programmable devices, but still relevant as passive optics in some high-power or fixed-function systems |
+| What would I do now with the multilevel phase-plate fabrication capability? | [Rethinking the results — microfluidic Raman probe](rethinking/01-raman-microfluidic-flat-top.md) |
+| Why could a shaped probe be useful for particles flowing through a Raman confocal volume? | [Rethinking the results](rethinking/01-raman-microfluidic-flat-top.md) and the [simple flow simulation](simulations/raman-flat-top/README.md) |
+| Can the phase-plate design be recalculated for another beam, wavelength or target spot? | [LIMP phase-plate optimizer](simulations/raman-flat-top/optimize_limp_phase_plate.py) — the optical and fabrication inputs are grouped at the top of the script |
 | What periods and depths were used for the thesis-stage diffraction gratings? | [Note 02](notes/02-master-thesis-summary.md) — periods about **55–400 µm**, relief about **0.2–1.3 µm** |
 | How was a fused-silica phase grating used as a real optical component? | [Note 03 — phase gratings and beam splitting](notes/03-phase-grating.md) |
 | What fabrication ranges were reported in the dedicated phase-grating study? | [Note 03](notes/03-phase-grating.md) — **1.064 µm** excitation, pulse durations about **4–200 ns**, repetition rates about **10–100 kHz**, relief roughly **0.5–2 µm** |
@@ -30,4 +33,4 @@ This page is a question-based guide to the archive. It is meant for readers who 
 
 If you prefer chronology rather than question-based navigation, start with [Note 00](notes/00-historical-context-2013-2014.md), continue to [Note 01](notes/01-porous-glass-to-surface-structuring.md), then [Note 02](notes/02-master-thesis-summary.md), and finish the current sequence with [Note 03](notes/03-phase-grating.md).
 
-The [README](README.md) contains the terminology guide and the focused publication trail for the full research line.
+The [README](README.md) contains the terminology guide and the focused publication trail for the full research line. Exploratory present-day ideas are collected separately under [Rethinking the results](rethinking/README.md).
