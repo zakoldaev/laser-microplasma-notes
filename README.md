@@ -25,7 +25,9 @@ Read the notes in order if you want the development as one story. If you arrive 
 
 ## Rethinking the results
 
-The original experiments gradually moved from surface modification to functional micro-optics. Years later, that leaves a different question: **what could the same fabrication platform be useful for now?**
+The original experiments gradually moved from surface modification to functional micro-optics. Years later, that leaves a different question:
+
+> **What could the same fabrication platform be useful for now?**
 
 The [**Rethinking the results**](rethinking/README.md) branch starts from demonstrated capabilities, then follows them into new problems using current numerical tools and application needs. The first example takes the old multilevel phase-plate idea and asks whether it could create a flatter Raman probe for particles moving through a microfluidic channel. The design can be explored directly in the reproducible [`raman-flat-top` simulations](simulations/raman-flat-top/README.md).
 
