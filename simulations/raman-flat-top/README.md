@@ -1,6 +1,6 @@
 # Raman flat-top simulations
 
-These scripts support [Rethinking note 03 — From beam correction to a Raman micro-probe](../../rethinking/03-raman-microfluidic-flat-top.md).
+These scripts support [Rethinking note 01 — From beam correction to a Raman micro-probe](../../rethinking/01-raman-microfluidic-flat-top.md).
 
 The purpose is not to reproduce a complete commercial Raman microscope. The goal is to make the beam-shaping problem transparent and reproducible: **propose the optical inputs, define the output we want, optimize a LIMP-fabricable phase plate, and inspect the actual result rather than only the ideal target.**
 
