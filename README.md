@@ -23,9 +23,9 @@ The repository has two connected branches: the historical notes follow what was 
 
 | Note | Topic |
 | --- | --- |
-| 00 | [Laser microplasma processing for transparent dielectrics — glass–carbon origin story](notes/00-historical-context-2013-2014.md) |
+| 00 | [Glass–carbon origin of laser microplasma processing](notes/00-historical-context-2013-2014.md) |
 | 01 | [Porous-glass sealing and passivation — stabilizing the surface by laser microplasma processing](notes/01-porous-glass-to-surface-structuring.md) |
-| 02 | [From controllable fused-silica relief to functional micro-optics — what the thesis actually showed](notes/02-master-thesis-summary.md) |
+| 02 | [From controllable fused-silica relief to functional micro-optics](notes/02-master-thesis-summary.md) |
 | 03 | [Fused-silica phase gratings — laser microplasma processing for beam splitting](notes/03-phase-grating.md) |
 | 04 | [Publication trail — how the work developed](notes/04-publication-trail.md) |
 
