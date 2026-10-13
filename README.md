@@ -26,7 +26,6 @@ The repository has two connected branches: the historical notes follow what was 
 | 00 | [Glass–carbon origin of laser microplasma processing](notes/00-historical-context-2013-2014.md) |
 | 01 | [Porous-glass sealing and passivation — stabilizing the surface by laser microplasma processing](notes/01-porous-glass-to-surface-structuring.md) |
 | 02 | [From controllable fused-silica relief to functional micro-optics](notes/02-master-thesis-summary.md) |
-| 03 | [Fused-silica phase gratings — laser microplasma processing for beam splitting](notes/03-phase-grating.md) |
 | 04 | [Publication trail — how the work developed](notes/04-publication-trail.md) |
 
 Read the historical notes in order if you want the development as one story. If you arrive with a specific question instead, use the [research map](research-map.md) to jump directly to the note that contains the answer.
