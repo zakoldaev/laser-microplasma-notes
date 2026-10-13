@@ -25,14 +25,11 @@ The treatment produced a functional near-surface modification while the deeper p
 The main findings were:
 
 - a modified near-surface region was observed after laser treatment;
-- the published cross-sectional images show a region extending roughly **30–35 µm** under the reported multipulse conditions, but this dimension should not automatically be interpreted as the true depth of laser-induced densification;
 - the internal porous structure remained below the modified surface region;
 - graphite contamination could be removed on the same laser system using a wet-cleaning step with distilled water;
 - optical stability during storage improved strongly compared with untreated porous glass [1].
 
-There is an important ambiguity in the interpretation of the cross sections. Porous glass itself is produced by chemical leaching, which creates a modified near-surface region, and at the magnification used in the published images it is difficult to separate that pre-existing region from the thinner zone affected directly by the laser-driven interaction. The actual plasma- and heat-induced structural change may therefore have been confined to a substantially thinner, micron-scale surface layer. For this reason, I treat the reported **30–35 µm** value as the extent of the visible cross-sectional region rather than as a precise measurement of the laser-modified depth.
-
-The optical result is clearer. The laser treatment caused an initial transmission decrease of less than about **5–10%** across the measured range. After that, the treated samples were stored in laboratory air at relative humidity above **70%** for **10 months**, with no significant further decrease in transmission reported over that period [1].
+The optical result is the most useful quantitative outcome. The laser treatment caused an initial transmission decrease of less than about **5–10%** across the measured range. After that, the treated samples were stored in laboratory air at relative humidity above **70%** for **10 months**, with no significant further decrease in transmission reported over that period [1].
 
 ## Cleaning was part of the method
 
@@ -51,7 +48,7 @@ This was the first stage at which the method was presented publicly as a broader
 
 [Note 02](02-master-thesis-summary.md) moves to fused silica and asks a different question: can the same target-assisted nanosecond process create controlled relief and working micro-optical elements?
 
-Previous: [Note 00 — glass–carbon origin story](00-historical-context-2013-2014.md) · [Research map](../research-map.md)
+Previous: [Note 00 — glass–carbon origin of laser microplasma processing](00-historical-context-2013-2014.md) · [Research map](../research-map.md)
 
 ## References
 
