@@ -65,13 +65,9 @@ periodic relief
 → spiral phase plate / vortex generation
 ```
 
-The phase-grating experiment was therefore an intermediate step between simple periodic structuring and more complex permanent phase optics.
+## What this experiment added
 
-## Current relevance
-
-A fixed grating is less flexible than a programmable spatial light modulator, but the two approaches address different requirements. A fused-silica grating is passive, compact and permanent, with no electronics or refresh cycle. These properties remain useful in systems where stable alignment, long-term operation or higher optical power handling are important.
-
-The fabrication problem also remains relevant. Producing controlled, low-defect relief directly in fused silica is still technically demanding. The main significance of this work is therefore both the optical function of the grating and the demonstration that a relatively simple target-assisted nanosecond process could produce a permanent phase element directly in a hard transparent optical material.
+The main result was the transition from a written surface pattern to a tested optical component: **0.5–2 µm** periodic relief was fabricated in fused silica, its diffraction was measured and compared with calculation, and the same element was used for beam splitting [1]. That established the basis for the later multilevel and spiral phase elements rather than only demonstrating another surface-modification regime [2,3,5].
 
 Previous: [Note 02 — fused-silica relief and micro-optics](02-master-thesis-summary.md) · [Research map](../research-map.md)
 
