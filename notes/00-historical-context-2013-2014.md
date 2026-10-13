@@ -1,4 +1,4 @@
-# Laser microplasma processing for transparent dielectrics: glass–carbon origin story
+# Glass–carbon origin of laser microplasma processing
 
 > **Summary:** This note explains how the research line began: first with a rough metal-target experiment, then with carbon absorbers that made it possible to modify transparent glass using the nanosecond laser equipment already available in the laboratory.
 
