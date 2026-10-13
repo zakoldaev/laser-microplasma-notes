@@ -1,4 +1,4 @@
-# From controllable fused-silica relief to functional micro-optics — what the thesis actually showed
+# From controllable fused-silica relief to functional micro-optics
 
 > **Summary:** This note follows the thesis-stage experiments on fused silica: finding a workable nanosecond-laser processing window, controlling relief from sub-micrometre to several-micrometre depth, and turning that control into microlenses, random phase plates and diffraction phase gratings that were tested optically.
 
@@ -36,7 +36,7 @@ The microlens experiments therefore identified both the optical function and the
 
 ## Random phase plates and beam homogenization
 
-A random phase plate is a binary phase element used to redistribute an inhomogeneous laser beam. Instead of blocking part of the beam, the plate divides its aperture into many small elements with two optical phase levels. In the simplest design, approximately half of the elements introduce no additional phase shift and the other half introduce a phase shift of **π radians**. After a collective lens, the elementary beams overlap in the focal plane and their diffraction patterns interfere, redistributing energy away from the original central peak [10,11].
+The random phase plates used in these experiments were binary phase elements designed to redistribute an inhomogeneous laser beam. Instead of blocking part of the beam, each plate divided its aperture into many small elements with two optical phase levels. In the simplest design, approximately half of the elements introduced no additional phase shift and the other half introduced a phase shift of **π radians**. After a collective lens, the elementary beams overlapped in the focal plane and their diffraction patterns interfered, redistributing energy away from the original central peak [10,11].
 
 For a plate made by forming relief in a transparent material, a π phase shift is obtained when the optical path difference between the two levels is half a wavelength. The required relief depth can therefore be estimated as
 
@@ -72,9 +72,9 @@ In the first optical tests, the beam was expanded to about **10 mm** and focused
 
 The same approach was then tested with a more coherent picosecond laser at **532 nm**. In this case, interference fringes became pronounced and the optimum element size shifted; the best result in that series was obtained with the **250 µm** plate. The comparison showed that geometric parameters alone are not sufficient to predict performance: the coherence of the input beam strongly affects the final intensity distribution.
 
-The measured power change through the phase-plate system was approximately **6.5–9.4%**, remaining below about **10%** in the tested cases. The structures were also tested directly in laser processing, where the phase plate changed the intensity distribution in the processed spot [1].
+The measured optical loss through the phase-plate system was approximately **6.5–9.4%**, remaining below about **10%** in the tested cases. The structures were also tested directly in laser processing, where the phase plate changed the intensity distribution in the processed spot [1].
 
-At the time, a fixed phase plate written directly into fused silica was an attractive passive solution for beam homogenization. Today, programmable spatial light modulators can reproduce many beam-shaping functions dynamically and can switch patterns without fabricating a new optic. This reduces the advantage of a simple fixed random plate in flexible laboratory systems. Passive phase optics, however, remain relevant where compactness, permanent alignment and higher optical power handling are important, because spatial light modulators still have thermal and power-handling limits [7,8].
+Programmable spatial light modulators now provide much greater flexibility for laboratory beam shaping, while fixed fused-silica phase plates remain relevant where a passive element, permanent alignment or higher optical power handling is required [7,8].
 
 ## Diffraction phase gratings and controlled beam splitting
 
@@ -86,13 +86,11 @@ The optical response was measured in the focal plane of a lens and compared with
 
 This branch continued after the thesis into multilevel phase plates for beam correction, where the same principle of controlled permanent surface relief was extended to more complex phase profiles [6].
 
-Diffractive optical elements remain widely used for beam splitting, shaping, imaging and free-space optical systems [7]. The available fabrication routes have expanded substantially, including programmable modulators, metasurfaces and advanced lithography, but permanent phase relief in fused silica remains relevant for passive optical systems.
+Diffractive optical elements remain widely used for beam splitting, shaping and imaging, although the available fabrication routes now also include programmable modulators, metasurfaces and advanced lithography [7].
 
-## Why fused silica remains relevant
+## Current relevance of the fabrication result
 
-Fused silica remains an important optical material when low absorption, thermal stability, ultraviolet transparency and high laser-damage resistance are required. At the same time, it is a hard and brittle material, and high-quality structuring without subsurface damage, redeposition, cracks or residual stress remains difficult. A recent review of fused-silica optical manufacturing still identifies high-accuracy, low-defect processing as a significant engineering challenge, particularly for high-power laser optics [9].
-
-The main relevance of the thesis today is therefore not competition with programmable beam shaping. The important result is that a relatively simple target-assisted nanosecond process produced **permanent, micrometre-scale optical relief directly in fused silica**, over centimetre-scale areas, within minutes. Some of the individual optical functions are now easier to realize by other methods, but efficient permanent structuring of fused silica remains non-trivial.
+The main result to carry forward is the demonstrated ability to produce **permanent, micrometre-scale optical relief directly in fused silica** over centimetre-scale areas within minutes. Fused silica remains important for low-absorption, ultraviolet and high-power optics, while high-accuracy structuring without cracks, redeposition, subsurface damage or residual stress remains technically demanding [9].
 
 ## Summary of the thesis-stage progression
 
