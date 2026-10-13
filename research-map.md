@@ -4,14 +4,13 @@ This page is a question-based guide to the archive. It is meant for readers who 
 
 | Question | Where to look |
 | --- | --- |
-| How did the glass–carbon idea begin? | [Note 00 — glass–carbon origin story](notes/00-historical-context-2013-2014.md) |
+| How did the glass–carbon idea begin? | [Note 00 — glass–carbon origin of laser microplasma processing](notes/00-historical-context-2013-2014.md) |
 | Why was an absorbing carbon or graphite target needed behind transparent glass? | [Note 00](notes/00-historical-context-2013-2014.md) |
 | What were the first absorber trials before compact graphite was used? | [Note 00](notes/00-historical-context-2013-2014.md) |
 | What do the historical terms laser-induced black-body heating and laser-induced microplasma refer to? | [README — terminology](README.md#terminology-used-in-this-archive) |
 | How was porous glass stabilized against environmental aging? | [Note 01 — porous-glass sealing and passivation](notes/01-porous-glass-to-surface-structuring.md) |
 | What laser conditions were reported for porous-glass passivation? | [Note 01](notes/01-porous-glass-to-surface-structuring.md) — about **1.06 µm**, **100 ns**, **30–50 kHz** |
 | Did the passivation treatment strongly reduce optical transmission? | [Note 01](notes/01-porous-glass-to-surface-structuring.md) — initial change below about **5–10%**, followed by no significant further decrease during **10 months** of storage |
-| Is the reported 30–35 µm cross-sectional region really the laser-modified depth? | [Note 01](notes/01-porous-glass-to-surface-structuring.md) — the note explains why this number should be interpreted cautiously |
 | What processing window worked for fused silica? | [Note 02 — fused-silica relief and micro-optics](notes/02-master-thesis-summary.md) — around **15 W** and **300 mm/s** in the thesis experiments |
 | What pulse durations and repetition rates were explored for fused-silica structuring? | [Note 02](notes/02-master-thesis-summary.md) — **50–200 ns**, **20–100 kHz** |
 | How deep could the fused-silica relief be controlled? | [Note 02](notes/02-master-thesis-summary.md) — roughly **0.2–5 µm** across the investigated thesis conditions |
