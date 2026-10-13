@@ -46,7 +46,7 @@ CV inside the flat core:               ~0.011
 min/max intensity in the flat core:    ~0.95
 ```
 
-The optimized output is not a mathematically perfect top-hat. Small ripple remains in the plateau and weak structure remains outside it. The useful result is that the central region becomes much flatter than the Gaussian focus while most of the modeled energy remains in the useful probe.
+The optimized output is not a mathematically perfect top-hat. Small ripple remains in the plateau and weak structure remains outside it. The modeled result is a central region that is much flatter than the Gaussian focus while most of the energy remains inside the useful probe.
 
 ![Gaussian focus compared with the optimized phase-shaped output](../images/rethinking-01-gaussian-vs-optimized-output.svg)
 
@@ -69,7 +69,7 @@ To recover the same **average** excitation density across the 6 µm region, the 
 
 This comparison is intentionally based on the average power density over the useful probe, not on the sharp on-axis peak of the Gaussian focus. The phase plate is meant to trade peak intensity for a broader, more uniform excitation region. Real experiments would also need to account for transmission and insertion losses of the fabricated plate and the rest of the optical train.
 
-## Why this is interesting
+## Experimental rationale
 
 A permanent fused-silica element has no moving parts, needs no active control and can sit directly in a fixed optical train. For a microfluidic Raman system, the practical question is whether this flatter probe reduces event-to-event variation enough to compensate for the lower peak intensity compared with a Gaussian focus.
 
@@ -83,8 +83,8 @@ for nominally identical particles under controlled flow.
 
 ## Next experiment
 
-The next step is straightforward: fabricate the optimized relief, measure the real surface profile, image the focal field, and compare Raman burst distributions from the same particle suspension with and without the phase plate.
+A direct next experiment is to fabricate the optimized relief, measure the real surface profile, image the focal field, and compare Raman burst distributions from the same particle suspension with and without the phase plate.
 
-The Python script is meant to be more than a record of this one example. It can serve as a small design tool: change the beam, numerical aperture, number of zones, number of depth levels or requested output profile, rerun it, and generate a new candidate plate before fabrication.
+The Python script is a parameterized design script rather than a record of this one example. Beam diameter, numerical aperture, number of zones, number of depth levels and the requested output profile can be changed to generate a new candidate plate before fabrication.
 
 Reproducible code and proposed input parameters are in [`simulations/raman-flat-top`](../simulations/raman-flat-top/README.md).
