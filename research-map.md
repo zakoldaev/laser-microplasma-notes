@@ -23,14 +23,11 @@ This page is a question-based guide to the archive. It is meant for readers who 
 | Why could a shaped probe be useful for particles flowing through a Raman confocal volume? | [Rethinking note 01](rethinking/01-raman-microfluidic-flat-top.md) and the [simple flow simulation](simulations/raman-flat-top/README.md) |
 | Can the phase-plate design be recalculated for another beam, wavelength or target spot? | [LIMP phase-plate optimizer](simulations/raman-flat-top/optimize_limp_phase_plate.py) — the optical and fabrication inputs are grouped at the top of the script |
 | What periods and depths were used for the thesis-stage diffraction gratings? | [Note 02](notes/02-master-thesis-summary.md) — periods about **55–400 µm**, relief about **0.2–1.3 µm** |
-| How was a fused-silica phase grating used as a real optical component? | [Note 03 — phase gratings and beam splitting](notes/03-phase-grating.md) |
-| What fabrication ranges were reported in the dedicated phase-grating study? | [Note 03](notes/03-phase-grating.md) — **1.064 µm** excitation, pulse durations about **4–200 ns**, repetition rates about **10–100 kHz**, relief roughly **0.5–2 µm** |
-| How did the work progress beyond simple gratings? | [Note 03](notes/03-phase-grating.md) — multilevel phase plates, beam correction and later spiral phase plates for vortex generation |
 | Where is the publication trail for the full research line? | [Note 04 — publication trail](notes/04-publication-trail.md) |
-| Why is fused silica still relevant to this research line? | [Note 02](notes/02-master-thesis-summary.md) and [Note 03](notes/03-phase-grating.md) — permanent, low-defect structuring of this hard transparent optical material remains a non-trivial fabrication problem |
+| Why is fused silica still relevant to this research line? | [Note 02](notes/02-master-thesis-summary.md) — permanent, low-defect structuring of this hard transparent optical material remains a non-trivial fabrication problem |
 
 ## Reading the archive as one story
 
-If you prefer chronology rather than question-based navigation, start with [Note 00](notes/00-historical-context-2013-2014.md), continue to [Note 01](notes/01-porous-glass-to-surface-structuring.md), then [Note 02](notes/02-master-thesis-summary.md) and [Note 03](notes/03-phase-grating.md), and finish with [Note 04 — the publication trail](notes/04-publication-trail.md).
+If you prefer chronology rather than question-based navigation, start with [Note 00](notes/00-historical-context-2013-2014.md), continue to [Note 01](notes/01-porous-glass-to-surface-structuring.md), then [Note 02](notes/02-master-thesis-summary.md), and finish with [Note 04 — the publication trail](notes/04-publication-trail.md).
 
 The [README](README.md) contains the terminology guide. Exploratory present-day ideas are collected separately under [Rethinking the results](rethinking/README.md).
