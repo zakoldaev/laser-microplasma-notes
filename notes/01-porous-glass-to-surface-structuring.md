@@ -20,16 +20,17 @@ The published passivation study reports a wavelength of about **1.06 µm**, a pu
 
 ## What the paper demonstrated
 
-The treatment produced a functional near-surface modification while the deeper porous structure remained.
+The evidence came from several different measurements, and it is useful to keep the observation and interpretation separate.
 
 The main findings were:
 
-- a modified near-surface region was observed after laser treatment;
-- the internal porous structure remained below the modified surface region;
-- graphite contamination could be removed on the same laser system using a wet-cleaning step with distilled water;
-- optical stability during storage improved strongly compared with untreated porous glass [1].
+- **Surface densification:** atomic-force microscopy of the treated surface showed collapse of the open porous morphology, consistent with local pore closure and densification at the surface [1].
+- **Porous bulk retained:** cross-sectional observations showed that the porous structure remained below the treated surface, so the process did not simply sinter the whole sample [1].
+- **Optical effect was limited:** immediately after treatment, transmission decreased by less than about **5–10%** across the measured spectral range [1].
+- **Storage stability improved:** after that initial change, treated samples stored in laboratory air at relative humidity above **70%** showed no significant further decrease in transmission over **10 months**, unlike untreated porous glass [1].
+- **Graphite could be removed:** contamination deposited during processing was removed on the same laser system by wet laser cleaning in distilled water, without a noticeable additional transmission loss [1].
 
-The optical result is the most useful quantitative outcome. The laser treatment caused an initial transmission decrease of less than about **5–10%** across the measured range. After that, the treated samples were stored in laboratory air at relative humidity above **70%** for **10 months**, with no significant further decrease in transmission reported over that period [1].
+Taken together, these measurements support a surface-passivation picture: the accessible pore structure was closed at the treated surface while the internal porous material remained, and the optical properties then became substantially more stable during storage.
 
 ## Cleaning was part of the method
 
