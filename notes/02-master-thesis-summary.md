@@ -38,33 +38,25 @@ The microlens experiments therefore identified both the optical function and the
 
 The random phase plates used in these experiments were binary phase elements designed to redistribute an inhomogeneous laser beam. Instead of blocking part of the beam, each plate divided its aperture into many small elements with two optical phase levels. In the simplest design, approximately half of the elements introduced no additional phase shift and the other half introduced a phase shift of **π radians**. After a collective lens, the elementary beams overlapped in the focal plane and their diffraction patterns interfered, redistributing energy away from the original central peak [10,11].
 
-For a plate made by forming relief in a transparent material, a π phase shift is obtained when the optical path difference between the two levels is half a wavelength. The required relief depth can therefore be estimated as
+For a plate made by forming relief in a transparent material, a π phase shift is obtained when the optical path difference between the two levels is half a wavelength. The required relief depth can therefore be estimated as:
 
-\[
-h_{\pi}=\frac{\lambda}{2(n-1)},
-\]
+`hπ = λ / [2(n − 1)]`
 
-where \(\lambda\) is the operating wavelength and \(n\) is the refractive index of the phase-plate material. This relation was used in the thesis to select the target depth of the fused-silica structures.
+where `λ` is the operating wavelength and `n` is the refractive index of the phase-plate material. This relation was used in the thesis to select the target depth of the fused-silica structures.
 
-The lateral size of each random element also determines the optical response. For an element size \(d_e\), a collective lens with focal length \(f\), and wavelength \(\lambda\), the approximate width of the diffraction envelope produced by one element is
+The lateral size of each random element also determines the optical response. For an element size `d_e`, a collective lens with focal length `f`, and wavelength `λ`, the approximate width of the diffraction envelope produced by one element is:
 
-\[
-d_p \approx \frac{2f\lambda}{d_e}.
-\]
+`d_p ≈ 2fλ / d_e`
 
-The characteristic speckle size in the focal plane depends mainly on the illuminated beam diameter \(D\):
+The characteristic speckle size in the focal plane depends mainly on the illuminated beam diameter `D`:
 
-\[
-d_{\mathrm{speckle}} \approx \frac{2f\lambda}{D}.
-\]
+`d_speckle ≈ 2fλ / D`
 
-The number of elementary contributions overlapping in the focal plane can be estimated from the number of phase elements illuminated by the beam. For beam dimensions \(D_x\) and \(D_y\), and phase-element dimensions \(d_x\) and \(d_y\),
+The number of elementary contributions overlapping in the focal plane can be estimated from the number of phase elements illuminated by the beam. For beam dimensions `D_x` and `D_y`, and phase-element dimensions `d_x` and `d_y`:
 
-\[
-N \approx \frac{D_xD_y}{d_xd_y}.
-\]
+`N ≈ (D_x D_y) / (d_x d_y)`
 
-For square elements and an approximately circular or square illuminated area, this gives the useful scaling \(N\sim(D/d_e)^2\). Smaller phase elements therefore increase the number of elementary beams contributing to the final distribution, although the final homogenization also depends strongly on the spatial coherence of the source [10,11].
+For square elements and an approximately circular or square illuminated area, this gives the useful scaling `N ~ (D / d_e)²`. Smaller phase elements therefore increase the number of elementary beams contributing to the final distribution, although the final homogenization also depends strongly on the spatial coherence of the source [10,11].
 
 The fabricated fused-silica plates used random square elements with lateral sizes between **250 and 680 µm**. The measured relief depths were about **0.685–0.700 µm** for operation near **635 nm**, and about **1.185–1.200 µm** for operation near **1.064 µm**. These values followed the π-phase-depth calculation above.
 
