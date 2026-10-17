@@ -36,13 +36,11 @@ The microlens experiments therefore identified both the optical function and the
 
 ## Random phase plates and beam homogenization
 
-The next step was to use the relief not as a lens, but as a phase pattern for redistributing an uneven laser beam. The plates were divided into random square cells with two phase levels: **0** and **π**. For fused silica, the required π-phase relief follows the simple relation `hπ = λ / [2(n − 1)]`.
+The next test was more demanding: instead of making a lens, could the written relief redistribute an uneven laser beam? We fabricated random square cells with two phase levels, **0** and **π**, with the required relief estimated from `hπ = λ / [2(n − 1)]`.
 
-The important question was not the equation itself, but whether the fabricated relief would actually homogenize a real beam. We tested cells between **250 and 680 µm**. The measured relief was about **0.685–0.700 µm** for operation near **635 nm** and **1.185–1.200 µm** near **1.064 µm**, close to the expected π-phase depths.
+The plates used cell sizes from **250 to 680 µm**. In the first test, with a **10 mm** beam and a **190 mm** collective lens, the **500 µm** plate gave the most uniform output. But when we repeated the concept with a more coherent **532 nm picosecond laser**, interference fringes became stronger and the best result shifted to the **250 µm** plate.
 
-With a beam expanded to about **10 mm** and a **190 mm** collective lens, the **500 µm** plate gave the most uniform distribution in the first series. When the same concept was tested with a more coherent **532 nm picosecond laser**, interference fringes became much stronger and the optimum shifted to the **250 µm** plate. That comparison was the useful result: **the phase pattern alone does not determine homogenization; the coherence of the incoming beam matters as well.**
-
-The measured optical loss through the phase-plate system remained about **6.5–9.4%** [1]. This established a direct link between controllable relief depth and passive beam shaping, and the same fabrication idea later developed into multilevel phase plates for beam correction [6].
+That change was the key result: **beam homogenization was controlled not only by the written phase pattern, but also by the coherence of the laser source.** Optical loss remained about **6.5–9.4%**, and the same fabrication concept later developed into multilevel phase plates for beam correction [1,6].
 
 ## Diffraction phase gratings and controlled beam splitting
 
