@@ -73,11 +73,9 @@ This comparison is intentionally based on the average power density over the use
 
 A permanent fused-silica element has no moving parts, needs no active control and can sit directly in a fixed optical train. For a microfluidic Raman system, the practical question is whether this flatter probe reduces event-to-event variation enough to compensate for the lower peak intensity compared with a Gaussian focus.
 
-The metric I would test is therefore not only Raman intensity, but
+The metric I would test is therefore not only Raman intensity, but the relative event-to-event variation:
 
-\[
-\frac{\sigma(S)}{\langle S\rangle},
-\]
+`CV(S) = σ(S) / ⟨S⟩`
 
 for nominally identical particles under controlled flow.
 
