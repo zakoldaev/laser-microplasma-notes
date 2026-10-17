@@ -13,12 +13,6 @@ The name of the process changed as the work developed. In the 2014–2016 confer
 
 ## Start here
 
-The repository has two connected branches: the historical notes follow what was actually done and published, while [**Rethinking the results**](rethinking/README.md) contains independent forward-looking notes that start from those demonstrated capabilities and ask what they could be useful for now.
-
-> **Rethinking the results → [open the branch](rethinking/README.md)**
->
-> New design questions, simulations and possible next experiments. Each note stands on its own and can develop in a different direction.
-
 ### Historical notes
 
 | Note | Topic |
@@ -28,17 +22,9 @@ The repository has two connected branches: the historical notes follow what was 
 | 02 | [From controllable fused-silica relief to functional micro-optics](notes/02-master-thesis-summary.md) |
 | 04 | [Publication trail — how the work developed](notes/04-publication-trail.md) |
 
-Read the historical notes in order if you want the development as one story. If you arrive with a specific question instead, use the [research map](research-map.md) to jump directly to the note that contains the answer.
+Read the notes in order if you want the development as one story. If you arrive with a specific question instead, use the [research map](research-map.md) to jump directly to the note that contains the answer.
 
-## Rethinking the results
-
-The original experiments gradually moved from surface modification to functional micro-optics. Years later, that leaves a different question:
-
-> **What could the same fabrication platform be useful for now?**
-
-The [**Rethinking the results**](rethinking/README.md) branch starts from demonstrated capabilities and follows them into new problems using current numerical tools and application needs. The aim is not to prescribe one application, but to show how the earlier fabrication ideas can be revisited, redesigned and tested in new contexts. Reproducible simulations are included where useful so other readers can change the assumptions and explore their own directions.
-
-These notes are deliberately forward-looking: they connect the earlier work to possible next experiments without changing the claims of the original papers.
+This repository is intentionally limited to the historical research record: experiments, numerical ranges, results, publications and clearly marked retrospective context.
 
 ## License
 
