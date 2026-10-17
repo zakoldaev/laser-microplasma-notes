@@ -20,6 +20,23 @@ The result was established through several complementary measurements rather tha
 
 Atomic-force microscopy showed collapse of the open porous morphology at the treated surface, consistent with local pore closure and surface densification. Cross-sectional observations, in contrast, showed that the porous structure remained below the treated surface. The process therefore changed the accessible surface without simply sintering the whole sample [1].
 
+### AFM: before and after passivation
+
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<strong>Before treatment</strong><br><br>
+<em>AFM image of untreated porous-glass surface — to be added</em>
+</td>
+<td width="50%" align="center" valign="top">
+<strong>After passivation</strong><br><br>
+<em>AFM image of laser-treated surface showing pore collapse — to be added</em>
+</td>
+</tr>
+</table>
+
+*Planned comparison: untreated porous-glass surface versus the laser-passivated surface under the same or directly comparable AFM scale.*
+
 The optical measurements then showed whether that structural change was useful. Immediately after treatment, transmission decreased by less than about **5–10%** across the measured spectral range. After this initial change, treated samples stored in laboratory air at relative humidity above **70%** showed no significant further decrease in transmission over **10 months**, while untreated porous glass continued to change [1].
 
 Graphite deposited during processing was removed by wet laser cleaning in distilled water on the same laser system, without a noticeable additional transmission loss [1]. A later study examined wet laser cleaning alongside thermal and chemical cleaning in more detail [3].
