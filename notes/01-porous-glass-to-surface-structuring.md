@@ -1,55 +1,41 @@
 # Porous-glass sealing and passivation — stabilizing the surface by laser microplasma processing
 
-> **Summary:** This note describes the first practical application of the glass–graphite process: modifying only the near-surface region of porous glass so that its optical properties remained stable during long-term storage while the internal porous structure was preserved.
+> **Summary:** This note describes the first practical application of the glass–graphite process: closing the accessible pore structure at the surface of porous glass while retaining the porous bulk, with the aim of improving optical stability during storage.
 
-The 2015 passivation paper described the result in terms of **thermal densification** using a graphite target [1]. In this repository, it is treated as the first application in the broader laser microplasma processing line because the same glass–graphite geometry later developed into laser-induced black-body heating and laser-induced microplasma studies and then into micro-optical fabrication [2].
+The 2015 passivation paper described the process as **thermal densification** using a graphite target [1]. In the broader research line, this became the first functional application of the same glass–graphite geometry that later developed into laser-induced black-body heating and laser-induced microplasma processing [2].
 
 ## The practical question
 
-Porous glass is useful because its connected nanoscale pore network can host liquids, molecules and functional materials. The same open structure also makes it vulnerable to environmental adsorption and gradual changes in optical properties.
+Porous glass is useful because its connected nanoscale pore network can host liquids, molecules and functional materials. The same open structure also interacts readily with the environment, which can gradually change its optical properties.
 
-The experimental question was therefore:
+The question was therefore simple:
 
-> Can the outer surface be densified enough to slow aging without sintering the porous structure throughout the whole sample?
+> Can we close the surface pores enough to slow this aging while keeping the porous structure inside the sample?
 
-The experiment used porous glass in tight contact with compacted graphite. A pulsed ytterbium-fiber laser passed through the glass and was absorbed by the graphite, producing a localized high-temperature interaction at the interface.
+The experiment used porous glass in tight contact with compacted graphite. A pulsed ytterbium-fiber laser passed through the glass and was absorbed by the graphite, creating a localized high-temperature interaction at the interface. The published study used a wavelength of about **1.06 µm**, a pulse duration of **100 ns** and a repetition rate of **30–50 kHz** [1].
 
-There is little photographic documentation from this early stage. At the time, most of the digital material around the project came later. If I recover photographs, scans or other material that clearly belongs to this experiment, I will add it here.
+## From surface modification to passivation
 
-The published passivation study reports a wavelength of about **1.06 µm**, a pulse duration of **100 ns** and a repetition rate of **30–50 kHz** for formation of the thermally modified surface region [1].
+The result was established through several complementary measurements rather than from one image alone.
 
-## What the paper demonstrated
+Atomic-force microscopy showed collapse of the open porous morphology at the treated surface, consistent with local pore closure and surface densification. Cross-sectional observations, in contrast, showed that the porous structure remained below the treated surface. The process therefore changed the accessible surface without simply sintering the whole sample [1].
 
-The evidence came from several different measurements, and it is useful to keep the observation and interpretation separate.
+The optical measurements then showed whether that structural change was useful. Immediately after treatment, transmission decreased by less than about **5–10%** across the measured spectral range. After this initial change, treated samples stored in laboratory air at relative humidity above **70%** showed no significant further decrease in transmission over **10 months**, while untreated porous glass continued to change [1].
 
-The main findings were:
+Graphite deposited during processing was removed by wet laser cleaning in distilled water on the same laser system, without a noticeable additional transmission loss [1]. A later study examined wet laser cleaning alongside thermal and chemical cleaning in more detail [3].
 
-- **Surface densification:** atomic-force microscopy of the treated surface showed collapse of the open porous morphology, consistent with local pore closure and densification at the surface [1].
-- **Porous bulk retained:** cross-sectional observations showed that the porous structure remained below the treated surface, so the process did not simply sinter the whole sample [1].
-- **Optical effect was limited:** immediately after treatment, transmission decreased by less than about **5–10%** across the measured spectral range [1].
-- **Storage stability improved:** after that initial change, treated samples stored in laboratory air at relative humidity above **70%** showed no significant further decrease in transmission over **10 months**, unlike untreated porous glass [1].
-- **Graphite could be removed:** contamination deposited during processing was removed on the same laser system by wet laser cleaning in distilled water, without a noticeable additional transmission loss [1].
+Together, these results support the intended passivation mechanism: **close the accessible pore structure at the surface, retain the porous material underneath, and reduce the subsequent optical changes caused by storage in humid air.**
 
-Taken together, these measurements support a surface-passivation picture: the accessible pore structure was closed at the treated surface while the internal porous material remained, and the optical properties then became substantially more stable during storage.
+## From experiment to a research direction
 
-## Cleaning was part of the method
+This work was also the point where the glass–graphite approach began to move beyond a single laboratory experiment. At the 15th International Symposium on Laser Precision Microfabrication in Vilnius in 2014, we presented both **laser densification of porous glass** and **laser-induced black-body heating as a method for surface stabilization and modification of porous glass** [4,5]. The journal papers followed in 2015.
 
-Graphite deposited during processing had to be removed. Wet laser cleaning in distilled water was used for this, and the cleaning step did not cause a noticeable additional loss of optical transmission [1]. A later study compared wet laser cleaning with thermal and chemical cleaning and examined the resulting spectral changes in quartz glass [3].
+The next question was no longer only whether the surface could be sealed. It was whether the same target-assisted nanosecond interaction could be controlled well enough to structure dense optical glass and fabricate functional micro-optical elements.
 
-## First public presentation of the technology
-
-The 15th International Symposium on Laser Precision Microfabrication in Vilnius in 2014 was the first conference where I presented this technology. The conference record already shows both parts of the idea: **laser densification of porous glass** and **laser-induced black-body heating as a method for surface stabilization and modification of porous glass** [4,5]. The journal papers followed in 2015.
-
-This was the first stage at which the method was presented publicly as a broader research direction rather than only as a laboratory experiment.
+Continue with [Note 02 — controllable fused-silica relief and functional micro-optics](02-master-thesis-summary.md), or return to the [research map](../research-map.md).
 
 > [!IMPORTANT]
-> **TODO:** Add the original 2014 conference presentation and a few photographs from the conference when I recover and prepare them for the repository.
-
-## Where the story goes next
-
-[Note 02](02-master-thesis-summary.md) moves to fused silica and asks a different question: can the same target-assisted nanosecond process create controlled relief and working micro-optical elements?
-
-Previous: [Note 00 — glass–carbon origin of laser microplasma processing](00-historical-context-2013-2014.md) · [Research map](../research-map.md)
+> **TODO:** Add the original 2014 conference presentation and selected photographs when they are recovered and prepared for the repository.
 
 ## References
 
