@@ -6,7 +6,8 @@ This repository is intentionally evolving. The items below are the next steps to
 - [ ] Complete the English overview of the master’s thesis and link it from Note 02 and the README.
 - [ ] Recover and add selected historical material where useful, especially the LPM 2014 presentation, conference photographs and original laboratory figures.
 - [ ] Check that every reused or third-party figure has a clear source and reuse statement, while original repository content remains covered by CC BY 4.0.
-- [ ] Make the repository public when the current core notes are ready for readers.
+- [ ] Before making the repository public, create a clean public-history version or rewrite the current Git history so earlier private `rethinking/` material and simulations are not exposed through old commits.
+- [ ] Make the repository public when the current core notes and public history are ready for readers.
 - [ ] Create the first GitHub release. A sensible first milestone could be `v0.1` for the initial public research archive; reserve `v1.0` for a more mature version, for example after the English thesis overview is included.
 - [ ] Connect the public GitHub repository to Zenodo and enable GitHub archiving.
 - [ ] Archive the chosen GitHub release in Zenodo to obtain a DOI for that version and a persistent concept DOI for the archive.
