@@ -52,11 +52,11 @@ The optical response was measured in the focal plane of a lens and compared with
 
 This branch continued after the thesis into multilevel phase plates for beam correction, where the same principle of controlled permanent surface relief was extended to more complex phase profiles [6].
 
-Diffractive optical elements remain widely used for beam splitting, shaping and imaging, although the available fabrication routes now also include programmable modulators, metasurfaces and advanced lithography [7].
+## What this stage established
 
-## Current relevance of the fabrication result
+By the end of this stage, the glass–graphite process had moved from surface modification to controlled optical fabrication. The experiments established that permanent micrometre-scale relief could be written directly in fused silica over centimetre-scale areas, with relief depth adjusted across roughly **0.2–5 µm** under the investigated conditions.
 
-The main result to carry forward is the demonstrated ability to produce **permanent, micrometre-scale optical relief directly in fused silica** over centimetre-scale areas within minutes. Fused silica remains important for low-absorption, ultraviolet and high-power optics, while high-accuracy structuring without cracks, redeposition, subsurface damage or residual stress remains technically demanding [9].
+That control was sufficient to fabricate and optically test three different classes of structures: microlenses, random phase plates and diffraction gratings. The measurements also exposed the main limitations of each approach — non-ideal microlens profiles, coherence-sensitive homogenization and the finite roughness of written grating structures — providing the basis for the later multilevel phase-plate work [1–6].
 
 ## Summary of the thesis-stage progression
 
@@ -77,6 +77,3 @@ Previous: [Note 01 — porous-glass sealing and passivation](01-porous-glass-to-
 4. **R. A. Zakoldaev**, G. K. Kostyuk, V. V. Koval, M. M. Sergeev, V. S. Rymkevich, E. B. Yakovlev, “Microlens array fabrication on fused silica by LIBBH technology with CO₂ laser smoothing,” *Journal of Instrument Engineering* 59 (2016), 400–406. https://doi.org/10.17586/0021-3454-2016-59-5-400-406
 5. G. K. Kostyuk, **R. A. Zakoldaev**, V. V. Koval, M. M. Sergeev, V. S. Rymkevich, “Laser microplasma as a tool to fabricate phase grating applied for laser beam splitting,” *Optics and Lasers in Engineering* 92 (2017), 63–69. https://doi.org/10.1016/j.optlaseng.2016.12.013
 6. **R. A. Zakoldaev**, G. K. Kostyuk, V. S. Rymkevich, V. V. Koval, M. M. Sergeev, V. P. Veiko, E. B. Yakovlev, A. N. Sivers, “Fast Fabrication of Multilevel Phase Plates Used for Laser Beam Correction,” *Journal of Laser Micro/Nanoengineering* 12 (2017), 281–285. https://doi.org/10.2961/jlmn.2017.03.0018
-7. S. N. Khonina, N. L. Kazanskiy, M. A. Butt, “Exploring Diffractive Optical Elements and Their Potential in Free Space Optics and Imaging — A Comprehensive Review,” *Laser & Photonics Reviews* 18 (2024), 2400377. https://doi.org/10.1002/lpor.202400377
-8. Y. Tang et al., “Extending the operational limit of a cooled spatial light modulator exposed to 200 W average power for holographic picosecond laser materials processing,” *Optics & Laser Technology* 181 (2025), 111589. https://doi.org/10.1016/j.optlastec.2024.111589
-9. J. Cheng et al., “Challenges of optical manufacturing techniques applied in improving the laser damage resistance of hard-brittle fused silica optics,” *Optics & Laser Technology* 192 (2025), 113475. https://doi.org/10.1016/j.optlastec.2025.113475
