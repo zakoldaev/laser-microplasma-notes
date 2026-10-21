@@ -5,7 +5,7 @@ Research notes on **laser microplasma processing of transparent dielectric mater
 This repository follows one experimental line from the first glass–carbon experiments and porous-glass passivation to controlled surface relief and functional micro-optics. It is a research-story archive: the peer-reviewed papers remain the authoritative source for published results, while the notes add chronology, experimental context and retrospective observations from the laboratory.
 
 > [!NOTE]
-> **Status:** This is an evolving research archive and also my first attempt to build and maintain a scientific story in GitHub. The core scientific results are tied to the cited publications, while historical context, photographs, presentations, figures and retrospective notes will continue to be added as I recover and review the material. The repository is therefore expected to change and improve over time.
+> **Status:** This is an evolving scientific archive. The core results are tied to the cited publications, while historical context, photographs, presentations, figures and clearly marked retrospective notes will be added as the original material is recovered and reviewed.
 
 ### Terminology used in this archive
 
