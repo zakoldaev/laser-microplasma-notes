@@ -67,7 +67,7 @@ The progression from process-window studies to optical testing was important bec
 > [!NOTE]
 > **Source:** this note is based on my Russian-language master’s thesis and the papers cited below. I am preparing a shorter English overview of the thesis; when that version is ready for public citation, I will link it here.
 
-Previous: [Note 01 — porous-glass sealing and passivation](01-porous-glass-to-surface-structuring.md) · [Publication trail](04-publication-trail.md) · [Research map](../research-map.md)
+Previous: [Note 01 — porous-glass sealing and passivation](01-porous-glass-to-surface-structuring.md) · [Publication trail](03-publication-trail.md) · [Research map](../research-map.md)
 
 ## References
 
