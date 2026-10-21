@@ -2,6 +2,8 @@
 
 Research notes on **laser microplasma processing of transparent dielectric materials**, with a focus on porous glass, fused silica, birefringent crystals, and the fabrication of micro-optical surface elements.
 
+**Key topics:** laser microplasma processing · porous-glass passivation · fused-silica surface relief · microlens arrays · random phase plates · diffraction gratings
+
 This repository follows one experimental line from the first glass–carbon experiments and porous-glass passivation to controlled surface relief and functional micro-optics. It is a research-story archive: the peer-reviewed papers remain the authoritative source for published results, while the notes add chronology, experimental context and retrospective observations from the laboratory.
 
 > [!NOTE]
