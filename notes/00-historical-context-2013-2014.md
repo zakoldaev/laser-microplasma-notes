@@ -4,11 +4,9 @@
 
 ## The starting question
 
-The initial question was practical:
+The problem was practical:
 
 > How can we create a localized energy source, using the pulsed laser equipment available in the laboratory, that can modify a transparent dielectric material?
-
-At that stage the immediate experimental goal was narrower: **could we induce useful changes in porous glass with the lasers already available in the laboratory?**
 
 I was working with nanosecond laser sources and galvanometric scanning systems. Transparent glasses such as fused silica transmit near-infrared light efficiently, so direct absorption is weak under ordinary nanosecond-processing conditions. Instead of forcing the glass itself to absorb the beam, we explored whether an absorbing material placed behind it could convert the laser energy into a localized thermal and plasma-mediated interaction. The glass–graphite geometry was later described in our early publication on laser-induced black-body heating [1].
 
@@ -22,7 +20,7 @@ My route into the topic began with porous glass during my bachelor-stage work. P
 
 <p align="center"><em>Figure 1. Porous glass as the first material in this research story. The photograph shows the macroscopic sample. The SEM inset is a representative porous-glass morphology adapted from Rysiakiewicz-Pasek et al. [4], distributed under CC BY 4.0; it is not presented as an SEM image of the exact sample shown in the photograph.</em></p>
 
-The first practical question was:
+That led to the first application question:
 
 > Can we densify or seal only the outer surface while preserving the porous structure inside?
 
