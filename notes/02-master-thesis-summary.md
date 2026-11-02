@@ -2,7 +2,7 @@
 
 > **Summary:** This note follows the thesis-stage experiments on fused silica: finding a workable nanosecond-laser processing window, controlling relief from sub-micrometre to several-micrometre depth, and turning that control into microlenses, random phase plates and diffraction phase gratings that were tested optically.
 
-This note starts where the porous-glass work ends. By the time I was writing my master’s thesis, the main question was no longer whether the glass–graphite interaction could modify a transparent material, but whether the same approach could produce controlled relief and functional micro-optical elements on fused silica.
+This note starts where the porous-glass work ends. The main question was no longer whether the glass–graphite interaction could modify a transparent material, but whether the same approach could produce controlled relief and functional micro-optical elements on fused silica.
 
 > Can a relatively simple nanosecond-laser setup create controlled surface relief in fused silica and turn that relief into working optical elements?
 
@@ -10,11 +10,11 @@ The experiments therefore progressed from identifying a usable processing window
 
 ## Finding a usable window on fused silica
 
-A polished fused-silica plate was placed in contact with pressed graphite. A ytterbium-fiber laser at about **1.064 µm** passed through the transparent glass and was focused at the glass–graphite interface. In the thesis experiments the pulse duration was varied from **50 to 200 ns**, with repetition rates between **20 and 100 kHz**. The beam was moved with a two-axis scanning system, and the focusing optics had a focal length of about **210 mm** [1,2].
+A polished fused-silica plate was placed in contact with pressed graphite. A ytterbium-fiber laser at about **1.064 µm** passed through the transparent glass and was focused at the glass–graphite interface. The pulse duration was varied from **50 to 200 ns**, with repetition rates between **20 and 100 kHz**. The beam was moved with a two-axis scanning system, and the focusing optics had a focal length of about **210 mm** [1,2].
 
 The process window depended strongly on the glass composition. For fused silica, smooth structures without obvious cracks or chips were obtained around **15 W average power** and a scan speed of about **300 mm/s**. Similar conditions on other glasses such as BK7 or US-1 often produced cracking or local destruction. This showed that the useful regime could not be defined only by laser parameters; the thermal and mechanical properties of the glass also had to be considered [2].
 
-Once a stable regime for fused silica was found, the next parameter was relief depth. In the thesis I varied average power, pulse duration (**50, 100 and 200 ns**) and the number of passes (**one or three**). Across the investigated conditions, the formed relief ranged from roughly **0.2 to 5 µm**, and the depth changed approximately linearly with laser power over the tested ranges [2].
+Once a stable regime for fused silica was found, the next parameter was relief depth. Average power, pulse duration (**50, 100 and 200 ns**) and the number of passes (**one or three**) were varied. Across the investigated conditions, the formed relief ranged from roughly **0.2 to 5 µm**, and the depth changed approximately linearly with laser power over the tested ranges [2].
 
 At this stage the process was no longer only a surface-modification experiment. The available depth range was sufficient to begin using the relief for optical phase control.
 
@@ -24,13 +24,13 @@ For larger patterns, fabrication was also relatively fast. A structured area of 
 
 Microlens arrays were used as the first test of whether the fabricated relief could perform a simple optical function.
 
-In the thesis, arrays were fabricated with lens diameters from about **50 to 500 µm** and periods from **10 to 1000 µm**. Profilometry showed typical lens heights of roughly **1–2 µm**. The written profiles were not ideal spherical caps; the central region tended to be comparatively flat [3].
+Arrays were fabricated with lens diameters from about **50 to 500 µm** and periods from **10 to 1000 µm**. Profilometry showed typical lens heights of roughly **1–2 µm**. The written profiles were not ideal spherical caps; the central region tended to be comparatively flat [3].
 
 For detailed optical testing, arrays with lens diameters of **150, 200 and 400 µm** were studied. Their measured focal lengths were about **30–35 mm**, with numerical apertures of **0.0025–0.0057**. The smallest measured focal spot was approximately **90 ± 10 µm**, larger than the simple theoretical estimate [3].
 
 These parameters were insufficient for direct parallel laser micromachining with the microlenses alone. The optical scheme was therefore modified by adding a microscope objective after the array. With this configuration, the spot size in the processing plane was reduced substantially, and arrays of holes of about **10 µm** were produced in a **60 nm titanium film**.
 
-The lens profile also indicated that an additional smoothing step could be useful. In the thesis I tested chemical smoothing in hydrofluoric acid for about **15–30 min**, which rounded the initially flat-topped profile. A later study explored carbon-dioxide-laser smoothing as another route to improve the lens shape [4].
+The lens profile also indicated that an additional smoothing step could be useful. Chemical smoothing in hydrofluoric acid for about **15–30 min** rounded the initially flat-topped profile. A later study explored carbon-dioxide-laser smoothing as another route to improve the lens shape [4].
 
 The microlens experiments therefore identified both the optical function and the main limitation of the initial surface profile, which directly motivated the next processing and optical modifications.
 
@@ -46,11 +46,11 @@ That change was the key result: **beam homogenization was controlled not only by
 
 The diffraction-grating experiments were aimed at a more deterministic function: periodic surface relief with predictable diffraction orders.
 
-The thesis reports gratings with periods from about **55 to 400 µm** and relief depths from about **0.2 to 1.3 µm**. One grating studied in detail had a period of **100 µm**, a modified-width-to-period ratio of about **0.5**, and a relief depth near **0.5 µm**. Profilometry showed an approximately smooth periodic profile rather than a sharp binary trench. The roughness in the region most affected by the plasma reached roughly **0.02–0.03 µm**, while the central part of the written line remained close to the roughness of the original fused-silica surface.
+Gratings were fabricated with periods from about **55 to 400 µm** and relief depths from about **0.2 to 1.3 µm**. One grating studied in detail had a period of **100 µm**, a modified-width-to-period ratio of about **0.5**, and a relief depth near **0.5 µm**. Profilometry showed an approximately smooth periodic profile rather than a sharp binary trench. The roughness in the region most affected by the plasma reached roughly **0.02–0.03 µm**, while the central part of the written line remained close to the roughness of the original fused-silica surface.
 
 The optical response was measured in the focal plane of a lens and compared with calculation. The agreement was sufficient to proceed to an application test, where the grating was used for simultaneous processing of a **20 nm titanium film**. Depending on the total patterned area, fabrication and cleaning of these diffraction elements took roughly **1–10 min** [5].
 
-This branch continued after the thesis into multilevel phase plates for beam correction, where the same principle of controlled permanent surface relief was extended to more complex phase profiles [6].
+This branch later continued into multilevel phase plates for beam correction, where the same principle of controlled permanent surface relief was extended to more complex phase profiles [6].
 
 ## What this stage established
 
