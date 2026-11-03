@@ -1,6 +1,6 @@
-# Research index
+# Research map
 
-Topic-based navigation for the repository.
+The notes are written as a connected chronological story, but this page gives a shorter route into the archive if you are looking for a particular material, process or result.
 
 ## Materials and processing
 
@@ -40,4 +40,4 @@ Topic-based navigation for the repository.
 
 The chronological publication list is in [Note 03 — publication trail](notes/03-publication-trail.md).
 
-For a chronological reading of the research development, follow Notes [00](notes/00-historical-context-2013-2014.md), [01](notes/01-porous-glass-to-surface-structuring.md), [02](notes/02-fused-silica-micro-optics.md) and [03](notes/03-publication-trail.md).
+To follow the development as one story, start with [Note 00](notes/00-historical-context-2013-2014.md), continue to [Note 01](notes/01-porous-glass-to-surface-structuring.md) and [Note 02](notes/02-fused-silica-micro-optics.md), then use [Note 03](notes/03-publication-trail.md) to see how the individual studies appeared in the literature.
