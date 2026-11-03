@@ -1,35 +1,35 @@
 # Laser microplasma notes
 
-Research notes on **laser microplasma processing of transparent dielectric materials**, with a focus on porous glass, fused silica, birefringent crystals, and the fabrication of micro-optical surface elements.
+Research notes on laser microplasma processing of transparent dielectric materials, with emphasis on porous glass, fused silica and micro-optical surface structures.
 
-**Key topics:** laser microplasma processing · porous-glass passivation · fused-silica surface relief · microlens arrays · random phase plates · diffraction gratings
+Key topics: laser microplasma processing · porous-glass passivation · fused-silica surface relief · microlens arrays · random phase plates · diffraction gratings
 
-This repository follows one experimental line from the first glass–carbon experiments and porous-glass passivation to controlled surface relief and functional micro-optics. It is a research-story archive: the peer-reviewed papers remain the authoritative source for published results, while the notes add chronology, experimental context and retrospective observations from the laboratory.
+The repository collects the development of one experimental line: from early glass–carbon processing and porous-glass passivation to controlled surface relief and functional micro-optics. Peer-reviewed papers remain the primary source for published results. The notes provide experimental context, chronology, selected figures and links between individual studies.
 
 > [!NOTE]
-> **Status:** This is an evolving scientific archive. The core results are tied to the cited publications, while historical context, photographs, presentations, figures and clearly marked retrospective notes will be added as the original material is recovered and reviewed.
+> This repository is still being completed. Missing historical figures, photographs and presentations are marked in the relevant notes or in [TODO.md](TODO.md).
 
-### Terminology used in this archive
+## Terminology
 
-The name of the process changed as the work developed. In the 2014–2016 conference abstracts and early papers we commonly used **laser-induced black-body heating (LIBBH)**, reflecting the thermal interpretation of the glass–graphite interaction. From 2017 onward, several papers used **laser-induced microplasma (LIMP)** and examined the plasma-mediated mechanism more directly. Throughout this repository I use **laser microplasma processing** as the common descriptive name for the full research line.
+The terminology changed during the development of the work. Early papers used **laser-induced black-body heating (LIBBH)** for the glass–graphite interaction. Later papers used **laser-induced microplasma (LIMP)** as the plasma-mediated mechanism was investigated in more detail. In this repository, **laser microplasma processing** is used as the general term for the research line.
 
-## Start here
-
-### Historical notes
+## Contents
 
 | Note | Topic |
 | --- | --- |
-| 00 | [Glass–carbon origin of laser microplasma processing](notes/00-historical-context-2013-2014.md) |
-| 01 | [Porous-glass sealing and passivation — stabilizing the surface by laser microplasma processing](notes/01-porous-glass-to-surface-structuring.md) |
-| 02 | [From controllable fused-silica relief to functional micro-optics](notes/02-master-thesis-summary.md) |
-| 03 | [Publication trail — how the work developed](notes/03-publication-trail.md) |
+| 00 | [Origin of the glass–carbon processing approach](notes/00-historical-context-2013-2014.md) |
+| 01 | [Porous-glass sealing and passivation](notes/01-porous-glass-to-surface-structuring.md) |
+| 02 | [Fused-silica surface relief and micro-optics](notes/02-fused-silica-micro-optics.md) |
+| 03 | [Publication trail](notes/03-publication-trail.md) |
 
-Read the notes in order if you want the development as one story. If you arrive with a specific question instead, use the [research map](research-map.md) to jump directly to the note that contains the answer.
+The [research index](research-map.md) provides topic-based navigation by material, process and result.
 
-This repository is intentionally limited to the historical research record: experiments, numerical ranges, results, publications and clearly marked retrospective context.
+## Scope
+
+The repository is intended as a compact technical archive of experiments, processing conditions, results, publications and clearly identified retrospective context. It is not a substitute for the cited papers.
 
 ## License
 
 Unless otherwise noted, the original text, diagrams, photographs and other original content in this repository are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE).
 
-Third-party material, publisher-owned figures and content carrying a separate source or license are **not** relicensed here; their original attribution and licensing terms continue to apply.
+Third-party material, publisher-owned figures and content carrying a separate source or license are not relicensed here; their original attribution and licensing terms continue to apply.
