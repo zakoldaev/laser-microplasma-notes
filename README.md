@@ -4,7 +4,9 @@ Research notes on laser microplasma processing of transparent dielectric materia
 
 Key topics: laser microplasma processing · porous-glass passivation · fused-silica surface relief · microlens arrays · random phase plates · diffraction gratings
 
-The repository collects the development of one experimental line: from early glass–carbon processing and porous-glass passivation to controlled surface relief and functional micro-optics. Peer-reviewed papers remain the primary source for published results. The notes provide experimental context, chronology, selected figures and links between individual studies.
+This repository follows one experimental line from its early glass–carbon experiments to porous-glass passivation, controlled surface relief and functional micro-optics. The notes are written as a connected research story rather than as a textbook: each one focuses on a stage of the work, what was tried, what was learned and what question naturally came next.
+
+The peer-reviewed papers remain the primary source for published results. These notes add chronology, experimental context, selected figures and links between studies that are harder to see when reading the papers separately.
 
 > [!NOTE]
 > This repository is still being completed. Missing historical figures, photographs and presentations are marked in the relevant notes or in [TODO.md](TODO.md).
@@ -13,7 +15,9 @@ The repository collects the development of one experimental line: from early gla
 
 The terminology changed during the development of the work. Early papers used **laser-induced black-body heating (LIBBH)** for the glass–graphite interaction. Later papers used **laser-induced microplasma (LIMP)** as the plasma-mediated mechanism was investigated in more detail. In this repository, **laser microplasma processing** is used as the general term for the research line.
 
-## Contents
+## Start here
+
+The notes are easiest to read in sequence:
 
 | Note | Topic |
 | --- | --- |
@@ -22,11 +26,11 @@ The terminology changed during the development of the work. Early papers used **
 | 02 | [Fused-silica surface relief and micro-optics](notes/02-fused-silica-micro-optics.md) |
 | 03 | [Publication trail](notes/03-publication-trail.md) |
 
-The [research index](research-map.md) provides topic-based navigation by material, process and result.
+If you are looking for a particular material, processing condition or optical structure rather than following the chronology, use the [research index](research-map.md).
 
 ## Scope
 
-The repository is intended as a compact technical archive of experiments, processing conditions, results, publications and clearly identified retrospective context. It is not a substitute for the cited papers.
+These are research notes, not a replacement for the cited papers. Numerical values and published conclusions are tied to the references, while retrospective observations are identified as such. The aim is to preserve the experimental path and make the development of the work easier to follow for readers coming from outside laser processing or micro-optics.
 
 ## License
 
