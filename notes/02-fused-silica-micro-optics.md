@@ -1,6 +1,6 @@
 # Fused-silica surface relief and micro-optics
 
-> **Summary:** This note summarizes the development of laser microplasma processing from controlled relief formation on fused silica to functional micro-optical elements.
+> Controlled fused-silica relief developed into microlenses, random phase plates and diffraction gratings.
 
 The work followed the porous-glass studies and focused on whether the same glass–graphite geometry could be used to produce reproducible surface relief on dense fused silica.
 
