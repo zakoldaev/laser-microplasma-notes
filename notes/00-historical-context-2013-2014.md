@@ -46,7 +46,7 @@ laser passes through the transparent optical material
 </table>
 
 > [!NOTE]
-> Early absorber trials included simple carbon materials such as activated charcoal before more compact absorbers, including carbon brushes and graphite, were used. This sequence is based on retrospective laboratory recollection and should be supported with original records or photographs if available.
+> Early absorber trials included simple carbon materials such as [activated charcoal](https://en.wikipedia.org/wiki/Activated_carbon) before more compact absorbers, including carbon brushes and graphite, were used. This sequence is based on retrospective laboratory recollection and should be supported with original records or photographs if available.
 
 The geometry was compatible with the existing nanosecond-laser hardware and did not require a deposited absorbing film, photomask or ultrashort-pulse source.
 
