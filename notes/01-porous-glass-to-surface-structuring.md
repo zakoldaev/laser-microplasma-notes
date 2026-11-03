@@ -1,6 +1,6 @@
 # Porous-glass sealing and passivation
 
-> **Summary:** This note describes the use of glass–graphite laser processing to close the accessible pore structure at the surface of porous glass while retaining the porous bulk.
+> Surface pore closure in porous glass while preserving the porous bulk.
 
 The 2015 passivation study described the process as thermal densification using a graphite target [1]. In the wider research line, the same glass–graphite geometry was also described using the terms laser-induced black-body heating and, later, laser-induced microplasma processing [2].
 
