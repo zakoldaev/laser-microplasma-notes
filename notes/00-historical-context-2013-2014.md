@@ -1,6 +1,6 @@
 # Origin of the glass–carbon processing approach
 
-> **Summary:** This note describes the early development of the target-assisted processing geometry used later for porous-glass passivation and fused-silica surface structuring.
+> From early absorber trials to a reproducible glass–carbon processing geometry.
 
 ## Initial problem
 
